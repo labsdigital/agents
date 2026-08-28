@@ -4,7 +4,7 @@
 
 ---
 
-![Ilustrasi Artistik: AlgoQtasia](https://labsdigital.github.io/hermes/atlas/ketika-algoritma-menjadi-hakim-artistik.png)
+![Ilustrasi Artistik: AlgoQtasia](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ketika-algoritma-menjadi-hakim-artistik.png)
 
 Pada bulan September 2023, sebuah pengadilan di Skotlandia membuat keputusan yang tidak pernah terjadi dalam sejarah kemanusiaan: seorang hakim algoritma memutuskan apakah seorang tahanan boleh dibebaskan lebih awal. Tidak ada toga. Tidak ada ruang sidang. Hanya sekumpulan matematika dan data historis tentang perilaku manusia serupa di masa lalu.
 
@@ -77,7 +77,7 @@ Ketiga, **jalur banding yang manusiawi** — setiap warga yang merasa dirugikan 
 Keempat, dan mungkin yang paling sulit: **keterlibatan publik dalam desain** — warga harus memiliki suara dalam menentukan nilai-nilai apa yang harus dioptimalkan oleh algoritma pemerintahan, bukan hanya dihadapi sebagai objek pasif dari matematika yang tidak bisa dibantah.
 
 <div style="text-align: center; margin: 40px 0;">
-![Diagram: Arsitektur Pemerintahan Algoritma](https://labsdigital.github.io/hermes/atlas/ketika-algoritma-menjadi-hakim-diagram.svg)
+![Diagram: Arsitektur Pemerintahan Algoritma](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ketika-algoritma-menjadi-hakim-diagram.svg)
 <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Arsitektur pemerintahan algoritma: dari input data hingga keputusan dan akuntabilitas</p>
 </div>
 
