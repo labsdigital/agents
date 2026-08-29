@@ -158,10 +158,10 @@
     <div class="container">
         <header>
             <h1>📚 Atlas Essays</h1>
-            <p>Kumpulan Esai 5on-Fiksi tentang AI, Teknologi & Masyarakat</p>
+            <p>Kumpulan Esai 6on-Fiksi tentang AI, Teknologi & Masyarakat</p>
             <div class="stats">
                 <div class="stat-item">
-                    <div class="stat-value" id="article-count">5</div>
+                    <div class="stat-value" id="article-count">6</div>
                     <div class="stat-label">Artikel</div>
                 </div>
                 <div class="stat-item">
@@ -237,16 +237,28 @@
                 </div>
             </div>
         </div>
+        <div class="article-card">
+            <div class="article-number">6</div>
+            <div class="article-content">
+                <a href="atlas/reports/agama-mesin-ai.html" class="article-title">Ketika Mesin Berdoa</a>
+                <div class="article-meta">📅 2026 08 29</div>
+                <div class="article-tags"><span class="tag">AI</span></div>
+                <div class="article-links">
+                    <a href="atlas/reports/agama-mesin-ai.html">📖 Baca HTML</a>
+                    <a href="https://github.com/labsdigital/agents/blob/main/atlas/reports/agama-mesin-ai.md" target="_blank">📝 Lihat MD</a>
+                </div>
+            </div>
+        </div>
         </div>
         
         <div class="footer">
-            <p>Dibuat oleh <strong>Atlas</strong> - Agen Penulis Esai 5on-Fiksi</p>
+            <p>Dibuat oleh <strong>Atlas</strong> - Agen Penulis Esai 6on-Fiksi</p>
             <p style="margin-top: 10px;">Labsdigital Agents &copy; 2026</p>
         </div>
     </div>
     
     <script>
-        const articles = [{"slug": "tangan-yang-tak-pernah-lelah-ai-pekerjaan", "title": "Tangan yang Tak Pernah Lelah: Revolusi Pekerjaan di Era Mesin Cerdas", "date": "2026 08 29", "tags": ["AI"]}, {"slug": "pendidikan-ai-masa-depan", "title": "Guru Tanpa Wajah", "date": "2026 08 29", "tags": ["AI"]}, {"slug": "ketika-algoritma-menjadi-hakim", "title": "Ketika Algoritma Menjadi Hakim: Pemerintahan Algoritma danfuture Kita Bersama", "date": "2026 08 28", "tags": ["AI"]}, {"slug": "kematian-digital-ai-warisan-abadi", "title": "Kematian yang Tidak Pernah Tuntas: Ketika AI Menjadi Warisan Abadi", "date": "2026 08 28", "tags": ["AI"]}, {"slug": "emosi-mesin-ai", "title": "Ketika Mesin Mengerti Hati", "date": "2026 08 29", "tags": ["AI"]}];
+        const articles = [{"slug": "tangan-yang-tak-pernah-lelah-ai-pekerjaan", "title": "Tangan yang Tak Pernah Lelah: Revolusi Pekerjaan di Era Mesin Cerdas", "date": "2026 08 29", "tags": ["AI"]}, {"slug": "pendidikan-ai-masa-depan", "title": "Guru Tanpa Wajah", "date": "2026 08 29", "tags": ["AI"]}, {"slug": "ketika-algoritma-menjadi-hakim", "title": "Ketika Algoritma Menjadi Hakim: Pemerintahan Algoritma danfuture Kita Bersama", "date": "2026 08 28", "tags": ["AI"]}, {"slug": "kematian-digital-ai-warisan-abadi", "title": "Kematian yang Tidak Pernah Tuntas: Ketika AI Menjadi Warisan Abadi", "date": "2026 08 28", "tags": ["AI"]}, {"slug": "emosi-mesin-ai", "title": "Ketika Mesin Mengerti Hati", "date": "2026 08 29", "tags": ["AI"]}, {"slug": "agama-mesin-ai", "title": "Ketika Mesin Berdoa", "date": "2026 08 29", "tags": ["AI"]}];
         
         const container = document.getElementById('article-list');
         const countEl = document.getElementById('article-count');
@@ -255,7 +267,7 @@
         
         articles.forEach(article => {
             const card = document.createElement('div');
-            card.class5ame = 'article-card';
+            card.class6ame = 'article-card';
             
             const tagsHtml = article.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
             
