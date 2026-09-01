@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f7931e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c3e50;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#34495e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#2c3e50">Evolusi Pekerjaan: Dari Agraris hingga AI</text>
+  
+  <!-- Timeline line -->
+  <line x1="80" y1="250" x2="720" y2="250" stroke="#ddd" stroke-width="3" stroke-dasharray="8,4"/>
+  
+  <!-- Phase 1: Agraris -->
+  <circle cx="140" cy="250" r="50" fill="url(#grad1)" filter="url(#shadow)"/>
+  <text x="140" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="28">🌾</text>
+  <text x="140" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2c3e50">Agrikultur</text>
+  <text x="140" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#7f8c8d">10.000 SM</text>
+  
+  <!-- Arrow 1-2 -->
+  <path d="M 195 250 L 235 250" stroke="#ff6b35" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Phase 2: Industri -->
+  <circle cx="300" cy="250" r="50" fill="#3498db" filter="url(#shadow)"/>
+  <text x="300" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="28">🏭</text>
+  <text x="300" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2c3e50">Industri</text>
+  <text x="300" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#7f8c8d">1760-1950</text>
+  
+  <!-- Arrow 2-3 -->
+  <path d="M 355 250 L 395 250" stroke="#3498db" stroke-width="2"/>
+  
+  <!-- Phase 3: Informasi -->
+  <circle cx="460" cy="250" r="50" fill="#9b59b6" filter="url(#shadow)"/>
+  <text x="460" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="28">💻</text>
+  <text x="460" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2c3e50">Informasi</text>
+  <text x="460" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#7f8c8d">1950-2020</text>
+  
+  <!-- Arrow 3-4 -->
+  <path d="M 515 250 L 555 250" stroke="#9b59b6" stroke-width="2"/>
+  
+  <!-- Phase 4: AI -->
+  <circle cx="620" cy="250" r="55" fill="url(#grad2)" filter="url(#shadow)"/>
+  <text x="620" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="28">🤖</text>
+  <text x="620" y="320" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" font-weight="600" fill="#2c3e50">AI Era</text>
+  <text x="620" y="340" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#7f8c8d">2020-Sekarang</text>
+  
+  <!-- Key Insight Box -->
+  <rect x="180" y="380" width="440" height="60" rx="8" fill="#fff" stroke="#ddd" filter="url(#shadow)"/>
+  <text x="400" y="405" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#2c3e50">Setiap Revolusi Menggusur Kategori Kerja Lama</text>
+  <text x="400" y="425" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#7f8c8d">Petani → Buruh Pabrik → Pegawai Kantor → ?</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="470" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#95a5a6">Sumber: Analisis historis revolusi pekerjaan manusia</text>
+</svg>
