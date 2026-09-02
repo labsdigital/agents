@@ -46,6 +46,8 @@ Beberapa filsuf argued bahwa kreativitas adalah last frontier—bidang di mana m
 
 Selain kreativitas, beberapa bidang tetap dianggap distinctly human: perawatan, empati, spiritualitas. Perawat tidak bisa sepenuhnya digantikan robot karena pasien membutuhkan kehadiran manusia yang tulus. Pastor atau pendeta tidak bisa diganti karena komunitas membutuhkan koneksi spiritual yang otentik. Tapi pertanyaan mendalam muncul: apakah bidang-bidang ini akan tetap dihargai, atau justru didevaluasi karena dianggap "tidak produktif" dalam ekonomi berbasis output?
 
+Bagian yang paling sering dilupakan adalah tentang relasi interpersonal. Di rumah sakit, di panti jompo, di ruang kelas—kehadiran manusia yang utuh membawa dimensi yang tak terkodekan. Senyuman tulus, tatapan mata yang penuh perhatian, sentuhan tangan yang menenangkan—semua ini bukan sekadar "fitur tambahan" yang bisa distandarisasi oleh algoritma. Ini adalah esensi dari pengalaman menjadi manusia bersama manusia lain. AI bisa meniru empati dengan simulasi yang meyakinkan, tetapi simulasi bukanlah substansi. Orang tahu bedanya, bahkan jika mereka tidak bisa menjelaskan mengapa.
+
 Mungkin jawabannya terletak pada pemahaman baru tentang makna. Selama berabad-abad, makna ditemukan dalam pencapaian—karier, penghasilan, kontribusi ekonomi. Jika mesin mengambil alih hampir semua bentuk pencapaian produktif, manusia perlu menemukan sumber makna yang lebih dalam. Bukan apa yang kamu hasilkan, melainkan bagaimana kamu hadir. Bukan apa yang kamu lakukan, melainkan siapa kamu menjadi.
 
 ## Masa Depan yang Belum Ditulis
@@ -58,7 +60,7 @@ Tidak ada yang tahu pasti bagaimana ekonomi dan masyarakat akan beradaptasi deng
 
 Yang jelas, dunia tidak akan kembali seperti semula. Revolusi Industri menciptakan kelas pekerja dan bourgeoisie. Revolusi AI mungkin akan menciptakan kategori baru yang kita belum punya nama untuknya.
 
-Yang paling penting diingat: teknologi bukan takdir. Masa depan yang kita capai bergantung pada pilihan kolektif hari ini—bagaimana kita mengatur, mendistribusikan, dan memberi makna pada pekerjaan di era mesin berpikir.
+Yang paling penting diingat: teknologi bukan takdir. Masa depan yang kita capai bergantung pada pilihan kolektif hari ini—bagaimana kita mengatur, mendistribusikan, dan memberi makna pada pekerjaan di era mesin berpikir. Sejarah menunjukkan bahwa setiap kali manusia menghadapi disrupsi teknologi besar, ada periode kebingungan, ketegangan, dan eksperimen sosial. Tapi dari kekacauan itu selalu lahir bentuk-bentuk baru peradaban. Pertanian mengubah pemburu-pengumpul menjadi masyarakat agraris. Industri mengubah masyarakat agraris menjadi masyarakat urban. AI akan mengubah lagi—kemungkinan besar dengan cara yang belum bisa kita bayangkan sepenuhnya.
 
 Manusia mungkin tidak lagi dibutuhkan untuk bekerja. Tapi manusia akan selalu dibutuhkan untuk bermakna.
 
