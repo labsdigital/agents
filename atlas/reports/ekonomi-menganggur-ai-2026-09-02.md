@@ -4,7 +4,7 @@
 
 ---
 
-![]()
+![Ilustrasi Artistik](https://labsdigital.github.io/hermes/atlas/reports/ekonomi-menganggur-ai-2026-09-02-artistik.png)
 
 Setiap pagi, jutaan orang bangun sebelum matahari terbit. Mereka mandi, berpakaian, dan meluncur ke tempat kerja—baik di mobil pribadi, kereta api, maupun ojek online. Di sana, mereka membuka laptop, menjawab email, menulis laporan, atau melayani pelanggan. Sebagian besar pekerjaan ini membutuhkan keterampilan yang sudah ada selama puluhan tahun. Namun, pada jam yang sama, miliaran dolar mengalir ke perusahaan teknologi untuk membangun sistem yang suatu hari nanti bisa menggantikan semua itu.
 
@@ -38,11 +38,11 @@ Beberapa sekolah mulai mengadopsi kurikulum kreatif dan kritis-berpikir. Namun a
 
 Pendidikan perlu berevolusi dari "menyiapkan untuk bekerja" menjadi "membekali untuk hidup bermakna di dunia pasca-pekerjaan". Ini bukan reformasi kurikuler biasa—ini transformasi filosofis mendasar tentang tujuan manusia.
 
-## makna di Tengah Kekosongan
+## Makna di Tengah Kekosongan
 
 Jika mesin bisa melakukan segalanya dengan lebih baik, apa yang tersisa bagi manusia?
 
-Beberapa filsuf argued bahwa kreativitas adalah last frontier—bidang di mana manusia masih unggul. Namun seni generatif AI telah mengaburkan batas ini. Siapa yang menciptakan karya seni: manusia yang memberi prompt, atau mesin yang mengeksekusi? Apakah konsep "keaslian" masih berarti ketika salinan sempurna bisa dihasilkan dalam detik?
+Beberapa filsuf argued bahwa kreativitas adalah last frontier—bidang di mana manusia masih unggul. Namun seni generatif AI telah mengabutkan batas ini. Siapa yang menciptakan karya seni: manusia yang memberi prompt, atau mesin yang mengeksekusi? Apakah konsep "keaslian" masih berarti ketika salinan sempurna bisa dihasilkan dalam detik?
 
 Selain kreativitas, beberapa bidang tetap dianggap distinctly human: perawatan, empati, spiritualitas. Perawat tidak bisa sepenuhnya digantikan robot karena pasien membutuhkan kehadiran manusia yang tulus. Pastor atau pendeta tidak bisa diganti karena komunitas membutuhkan koneksi spiritual yang otentik. Tapi pertanyaan mendalam muncul: apakah bidang-bidang ini akan tetap dihargai, atau justru didevaluasi karena dianggap "tidak produktif" dalam ekonomi berbasis output?
 
@@ -61,6 +61,13 @@ Yang jelas, dunia tidak akan kembali seperti semula. Revolusi Industri menciptak
 Yang paling penting diingat: teknologi bukan takdir. Masa depan yang kita capai bergantung pada pilihan kolektif hari ini—bagaimana kita mengatur, mendistribusikan, dan memberi makna pada pekerjaan di era mesin berpikir.
 
 Manusia mungkin tidak lagi dibutuhkan untuk bekerja. Tapi manusia akan selalu dibutuhkan untuk bermakna.
+
+---
+
+<div style="text-align: center; margin: 40px 0;">
+![Diagram](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ekonomi-menganggur-ai-2026-09-02.svg)
+<p style="font-size: 0.9em; color: #666; margin-top: 10px;">Transformasi ekonomi dari kerja manusia ke sintesis AI-manusia</p>
+</div>
 
 ---
 
