@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <rect width="800" height="500" fill="#0a0a1a"/>
+  
+  <g stroke="#1a3a5c" stroke-width="1" fill="none">
+    <line x1="400" y1="100" x2="200" y2="200"/>
+    <line x1="400" y1="100" x2="600" y2="200"/>
+    <line x1="400" y1="100" x2="400" y2="250"/>
+    <line x1="200" y1="200" x2="100" y2="350"/>
+    <line x1="200" y1="200" x2="300" y2="350"/>
+    <line x1="200" y1="200" x2="400" y2="250"/>
+    <line x1="600" y1="200" x2="500" y2="350"/>
+    <line x1="600" y1="200" x2="700" y2="350"/>
+    <line x1="600" y1="200" x2="400" y2="250"/>
+    <line x1="100" y1="350" x2="300" y2="350"/>
+    <line x1="300" y1="350" x2="500" y2="350"/>
+    <line x1="500" y1="350" x2="700" y2="350"/>
+    <line x1="400" y1="250" x2="300" y2="350"/>
+    <line x1="400" y1="250" x2="500" y2="350"/>
+  </g>
+  
+  <g fill="#2d6a9f" stroke="#4a9fd4" stroke-width="2">
+    <circle cx="400" cy="100" r="35"/>
+    <circle cx="200" cy="200" r="25"/>
+    <circle cx="600" cy="200" r="25"/>
+    <circle cx="400" cy="250" r="20"/>
+    <circle cx="100" cy="350" r="18"/>
+    <circle cx="300" cy="350" r="18"/>
+    <circle cx="500" cy="350" r="18"/>
+    <circle cx="700" cy="350" r="18"/>
+  </g>
+  
+  <g transform="translate(400, 100)">
+    <ellipse cx="0" cy="0" rx="28" ry="18" fill="#0a0a1a" stroke="#ff6b35" stroke-width="2"/>
+    <circle cx="0" cy="0" r="8" fill="#ff6b35"/>
+    <circle cx="0" cy="0" r="4" fill="#0a0a1a"/>
+  </g>
+  
+  <g transform="translate(400, 420)">
+    <circle cx="0" cy="-30" r="20" fill="#1a3a5c" stroke="#4a9fd4" stroke-width="2"/>
+    <path d="M -25 0 Q -30 40 0 50 Q 30 40 25 0" fill="#1a3a5c" stroke="#4a9fd4" stroke-width="2"/>
+    <line x1="-15" y1="20" x2="-35" y2="40" stroke="#4a9fd4" stroke-width="2"/>
+    <line x1="15" y1="20" x2="35" y2="40" stroke="#4a9fd4" stroke-width="2"/>
+  </g>
+  
+  <g fill="none" stroke="#ff6b35" stroke-width="1.5" stroke-dasharray="4,2">
+    <path d="M 380 130 Q 350 280 370 390"/>
+    <path d="M 420 130 Q 450 280 430 390"/>
+  </g>
+  
+  <text x="400" y="165" fill="#8899aa" font-family="system-ui" font-size="12" text-anchor="middle">AI Algorithm</text>
+  <text x="400" y="460" fill="#8899aa" font-family="system-ui" font-size="12" text-anchor="middle">Human Subject</text>
+  <text x="400" y="40" fill="#ff6b35" font-family="system-ui" font-size="11" text-anchor="middle">The All-Seeing Eye</text>
+  
+  <g transform="translate(700, 100)">
+    <path d="M 0 -25 L 20 -15 L 20 5 Q 20 25 0 35 Q -20 25 -20 5 L -20 -15 Z" fill="none" stroke="#ff4444" stroke-width="2" opacity="0.6"/>
+    <line x1="-15" y1="-10" x2="15" y2="10" stroke="#ff4444" stroke-width="2" opacity="0.6"/>
+    <line x1="15" y1="-10" x2="-15" y2="10" stroke="#ff4444" stroke-width="2" opacity="0.6"/>
+  </g>
+  <text x="700" y="145" fill="#8899aa" font-family="system-ui" font-size="11" text-anchor="middle">Broken Privacy</text>
+  
+  <text x="400" y="490" fill="#4a6a8a" font-family="system-ui" font-size="11" text-anchor="middle">Data Collection in AI Era — Every interaction generates traces</text>
+</svg>
