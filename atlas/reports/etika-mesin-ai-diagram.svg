@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Keadilan yang Tidak Memiliki Wajah</title>
+  <desc id="desc">Diagram menunjukkan bagaimana algoritma AI menerjemahkan etika menjadi keputusan biner, dengan lapisan bias yang tersembunyi di balik objektivitas semu.</desc>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a0a0f"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="18" font-weight="600">Keadilan yang Tidak Memiliki Wajah</text>
+  <text x="400" y="62" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="12">Bagaimana algoritma menerjemahkan etika menjadi keputusan biner</text>
+  
+  <!-- Left: Human Ethics -->
+  <rect x="40" y="100" width="180" height="320" rx="12" fill="#1a1a2e" stroke="#667eea" stroke-width="1.5" opacity="0.9"/>
+  <circle cx="130" cy="140" r="35" fill="none" stroke="#667eea" stroke-width="2"/>
+  <text x="130" y="146" text-anchor="middle" fill="#667eea" font-family="system-ui, sans-serif" font-size="20">?</text>
+  <text x="130" y="195" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="13" font-weight="500">Etika Manusia</text>
+  <text x="130" y="215" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="10">Negosiasi nilai</text>
+  
+  <!-- Human ethics elements -->
+  <rect x="60" y="240" width="140" height="28" rx="6" fill="#252540"/>
+  <text x="130" y="259" text-anchor="middle" fill="#a0a0c0" font-family="system-ui, sans-serif" font-size="11">Konteks → Perhatian → Putusan</text>
+  
+  <rect x="60" y="280" width="140" height="28" rx="6" fill="#252540"/>
+  <text x="130" y="299" text-anchor="middle" fill="#a0a0c0" font-family="system-ui, sans-serif" font-size="11">Tidak pasti, tapi reflektif</text>
+  
+  <rect x="60" y="320" width="140" height="28" rx="6" fill="#252540"/>
+  <text x="130" y="339" text-anchor="middle" fill="#a0a0c0" font-family="system-ui, sans-serif" font-size="11">Tanggung jawab personal</text>
+  
+  <rect x="60" y="360" width="140" height="28" rx="6" fill="#252540"/>
+  <text x="130" y="379" text-anchor="middle" fill="#a0a0c0" font-family="system-ui, sans-serif" font-size="11">Bisa bertanya "mengapa?"</text>
+  
+  <!-- Arrow: Translation -->
+  <path d="M 230 260 L 310 260" stroke="#667eea" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="270" y="248" text-anchor="middle" fill="#667eea" font-family="system-ui, sans-serif" font-size="10">Diterjemahkan</text>
+  
+  <!-- Center: Algorithm -->
+  <rect x="320" y="100" width="160" height="320" rx="12" fill="#1a1a2e" stroke="#f093fb" stroke-width="1.5" opacity="0.9"/>
+  <rect x="340" y="120" width="120" height="50" rx="8" fill="#252540" stroke="#f093fb" stroke-width="1"/>
+  <text x="400" y="142" text-anchor="middle" fill="#f093fb" font-family="system-ui, sans-serif" font-size="12" font-weight="600">ALGORITMA</text>
+  <text x="400" y="158" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">TensorFlow / PyTorch</text>
+  
+  <!-- Data layers -->
+  <rect x="340" y="185" width="120" height="24" rx="4" fill="#2a1a2e"/>
+  <text x="400" y="201" text-anchor="middle" fill="#f093fb" font-family="system-ui, sans-serif" font-size="10">Data Historis</text>
+  
+  <rect x="340" y="215" width="120" height="24" rx="4" fill="#2a1a2e"/>
+  <text x="400" y="231" text-anchor="middle" fill="#f093fb" font-family="system-ui, sans-serif" font-size="10">Pola & Korelasi</text>
+  
+  <rect x="340" y="245" width="120" height="24" rx="4" fill="#2a1a2e"/>
+  <text x="400" y="261" text-anchor="middle" fill="#f093fb" font-family="system-ui, sans-serif" font-size="10">Bobot Pelatihan</text>
+  
+  <rect x="340" y="275" width="120" height="24" rx="4" fill="#2a1a2e"/>
+  <text x="400" y="291" text-anchor="middle" fill="#f093fb" font-family="system-ui, sans-serif" font-size="10">Fitur Input</text>
+  
+  <!-- Output -->
+  <rect x="340" y="330" width="120" height="40" rx="6" fill="#1a2a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="400" y="348" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="11" font-weight="600">0 atau 1</text>
+  <text x="400" y="363" text-anchor="middle" fill="#4ade80" font-family="system-ui, sans-serif" font-size="9">Keputusan Binair</text>
+  
+  <!-- Warning badge -->
+  <rect x="340" y="385" width="120" height="24" rx="4" fill="#2a1a1a" stroke="#ef4444" stroke-width="1"/>
+  <text x="400" y="401" text-anchor="middle" fill="#ef4444" font-family="system-ui, sans-serif" font-size="9">⚠ Bias Tersembunyi</text>
+  
+  <!-- Right: Decision -->
+  <rect x="520" y="100" width="180" height="320" rx="12" fill="#1a1a2e" stroke="#f59e0b" stroke-width="1.5" opacity="0.9"/>
+  <rect x="540" y="120" width="140" height="50" rx="8" fill="#2a2010" stroke="#f59e0b" stroke-width="1"/>
+  <text x="610" y="142" text-anchor="middle" fill="#f59e0b" font-family="system-ui, sans-serif" font-size="12" font-weight="600">KEPUTUSAN</text>
+  <text x="610" y="158" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">Akibat Nyata</text>
+  
+  <!-- Decision examples -->
+  <rect x="540" y="190" width="140" height="36" rx="6" fill="#252540"/>
+  <text x="610" y="205" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="10">Hukuman / Bebas</text>
+  <text x="610" y="218" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">Sistem peradilan</text>
+  
+  <rect x="540" y="236" width="140" height="36" rx="6" fill="#252540"/>
+  <text x="610" y="251" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="10">Prioritas Pasien</text>
+  <text x="610" y="264" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">Sistem kesehatan</text>
+  
+  <rect x="540" y="282" width="140" height="36" rx="6" fill="#252540"/>
+  <text x="610" y="297" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="10">Persetujuan Kredit</text>
+  <text x="610" y="310" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">Sistem keuangan</text>
+  
+  <rect x="540" y="328" width="140" height="36" rx="6" fill="#252540"/>
+  <text x="610" y="343" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="10">Rekrutmen Karyawan</text>
+  <text x="610" y="356" text-anchor="middle" fill="#888" font-family="system-ui, sans-serif" font-size="9">Sistem kerja</text>
+  
+  <!-- Outcome warning -->
+  <rect x="540" y="385" width="140" height="24" rx="4" fill="#2a1a1a" stroke="#ef4444" stroke-width="1"/>
+  <text x="610" y="401" text-anchor="middle" fill="#ef4444" font-family="system-ui, sans-serif" font-size="9">Akuntabilitas Kabur</text>
+  
+  <!-- Arrow: Output -->
+  <path d="M 480 260 L 520 260" stroke="#f59e0b" stroke-width="2" marker-end="url(#arrowhead2)"/>
+  
+  <!-- Arrowhead markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#667eea"/>
+    </marker>
+    <marker id="arrowhead2" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#f59e0b"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom: Key insight -->
+  <rect x="100" y="440" width="600" height="40" rx="8" fill="#1a1a2e" stroke="#667eea" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="465" text-anchor="middle" fill="#e8e8e8" font-family="system-ui, sans-serif" font-size="12">Etika bukan masalah perhitungan — ia adalah masalah perhatian terhadap konteks dan penderitaan unik setiap individu</text>
+</svg>
