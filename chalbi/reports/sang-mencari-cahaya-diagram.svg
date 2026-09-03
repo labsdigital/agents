@@ -1,0 +1,190 @@
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a1a"/>
+      <stop offset="50%" style="stop-color:#1a1a3a"/>
+      <stop offset="100%" style="stop-color:#2a1a4a"/>
+    </linearGradient>
+    
+    <radialGradient id="sunGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#fff7cc"/>
+      <stop offset="40%" style="stop-color:#f4d03f"/>
+      <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:0"/>
+    </radialGradient>
+    
+    <radialGradient id="heartGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="70%" style="stop-color:#ee5a5a"/>
+      <stop offset="100%" style="stop-color:#cc4444"/>
+    </radialGradient>
+    
+    <linearGradient id="pathGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9b59b6"/>
+      <stop offset="50%" style="stop-color:#8e44ad"/>
+      <stop offset="100%" style="stop-color:#f4d03f"/>
+    </linearGradient>
+    
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background: Night Sky -->
+  <rect width="800" height="600" fill="url(#skyGrad)"/>
+  
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="100" cy="80" r="1.5">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="200" cy="120" r="1">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="350" cy="60" r="1.2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="100" r="1">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="650" cy="70" r="1.5">
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="720" cy="130" r="1">
+      <animate attributeName="opacity" values="0.4;0.9;0.4" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="50" cy="200" r="1.2">
+      <animate attributeName="opacity" values="0.5;1;0.5" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="750" cy="250" r="1">
+      <animate attributeName="opacity" values="0.3;0.8;0.3" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  
+  <!-- Crescent Moon -->
+  <g filter="url(#glow)">
+    <circle cx="680" cy="100" r="40" fill="#f5f5dc" opacity="0.9"/>
+    <circle cx="695" cy="95" r="35" fill="url(#skyGrad)"/>
+  </g>
+  
+  <!-- Central Sun/Light -->
+  <circle cx="400" cy="280" r="80" fill="url(#sunGrad)" filter="url(#glow)">
+    <animate attributeName="r" values="75;85;75" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Heart in the center -->
+  <path d="M400 260 
+           C400 250, 385 235, 370 245 
+           C355 255, 355 275, 400 300 
+           C445 275, 445 255, 430 245 
+           C415 235, 400 250, 400 260Z" 
+        fill="url(#heartGrad)" filter="url(#glow)">
+    <animate attributeName="transform" values="scale(1);scale(1.05);scale(1)" dur="2s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Journey Path: Spiral from outside to center -->
+  <path d="M400 80 
+           Q500 100, 550 180 
+           Q600 260, 550 340 
+           Q500 420, 400 400 
+           Q300 380, 280 320 
+           Q260 260, 320 220 
+           Q380 180, 400 280" 
+        fill="none" stroke="url(#pathGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="10,5">
+    <animate attributeName="stroke-dashoffset" from="0" to="150" dur="8s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Stage 1: Seeking (top) - Ibrahim as dark figure -->
+  <g transform="translate(400, 80)">
+    <circle r="20" fill="#666" opacity="0.8">
+      <animate attributeName="fill" values="#666;#888;#666" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text y="45" text-anchor="middle" fill="#aaa" font-size="14" font-family="serif">Pencarian</text>
+    <text y="60" text-anchor="middle" fill="#888" font-size="10" font-family="sans-serif">"Ibrahim gelisah"</text>
+  </g>
+  
+  <!-- Stage 2: Encounter (right) - Meeting the wise merchant -->
+  <g transform="translate(550, 180)">
+    <circle r="20" fill="#888" opacity="0.8">
+      <animate attributeName="fill" values="#888;#aaa;#888" dur="3s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <text y="45" text-anchor="middle" fill="#aaa" font-size="14" font-family="serif">Pertemuan</text>
+    <text y="60" text-anchor="middle" fill="#888" font-size="10" font-family="sans-serif">"Pedagang tua"</text>
+  </g>
+  
+  <!-- Stage 3: Trial (bottom-right) - Tests and patience -->
+  <g transform="translate(550, 340)">
+    <circle r="20" fill="#9b59b6" opacity="0.8">
+      <animate attributeName="fill" values="#9b59b6;#bb79d6;#9b59b6" dur="3s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <text y="45" text-anchor="middle" fill="#aaa" font-size="14" font-family="serif">Ujian</text>
+    <text y="60" text-anchor="middle" fill="#888" font-size="10" font-family="sans-serif">"Kesabaran"</text>
+  </g>
+  
+  <!-- Stage 4: Awakening (left) - Starting to see light -->
+  <g transform="translate(280, 320)">
+    <circle r="20" fill="#a080c0" opacity="0.8">
+      <animate attributeName="fill" values="#a080c0;#c0a0e0;#a080c0" dur="3s" begin="3s" repeatCount="indefinite"/>
+    </circle>
+    <text y="45" text-anchor="middle" fill="#aaa" font-size="14" font-family="serif">Pencerahan</text>
+    <text y="60" text-anchor="middle" fill="#888" font-size="10" font-family="sans-serif">"Cinta"</text>
+  </g>
+  
+  <!-- Stage 5: Inner Light (near center) -->
+  <g transform="translate(320, 220)">
+    <circle r="18" fill="#d4a84b" opacity="0.8">
+      <animate attributeName="fill" values="#d4a84b;#f4c84f;#d4a84b" dur="3s" begin="4s" repeatCount="indefinite"/>
+    </circle>
+    <text y="45" text-anchor="middle" fill="#aaa" font-size="14" font-family="serif">Transformasi</text>
+    <text y="60" text-anchor="middle" fill="#888" font-size="10" font-family="sans-serif">"Melepaskan"</text>
+  </g>
+  
+  <!-- Light Rays from center -->
+  <g stroke="rgba(244,208,63,0.4)" stroke-width="2" stroke-linecap="round">
+    <line x1="400" y1="280" x2="400" y2="120">
+      <animate attributeName="y2" values="120;100;120" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="280" x2="520" y2="200">
+      <animate attributeName="x2" values="520;540;520" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="280" x2="520" y2="360">
+      <animate attributeName="x2" values="520;540;520" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="280" x2="280" y2="360">
+      <animate attributeName="x2" values="280;260;280" dur="3s" repeatCount="indefinite"/>
+    </line>
+    <line x1="400" y1="280" x2="280" y2="200">
+      <animate attributeName="x2" values="280;260;280" dur="3s" repeatCount="indefinite"/>
+    </line>
+  </g>
+  
+  <!-- Ground/Hills silhouette -->
+  <path d="M0 550 Q200 500, 400 520 Q600 540, 800 510 L800 600 L0 600 Z" fill="#1a1a2e"/>
+  
+  <!-- Simple tree silhouettes -->
+  <g fill="#0f0f1f">
+    <path d="M100 520 L100 480 L90 480 L100 450 L110 480 L100 480 L100 520"/>
+    <path d="M700 510 L700 470 L690 470 L700 440 L710 470 L700 470 L700 510"/>
+  </g>
+  
+  <!-- Rumi Quote Banner -->
+  <rect x="100" y="530" width="600" height="50" rx="10" fill="rgba(244,208,63,0.1)" stroke="rgba(244,208,63,0.3)" stroke-width="1"/>
+  <text x="400" y="555" text-anchor="middle" fill="#f4d03f" font-size="14" font-family="serif">
+    "Cinta adalah cahaya yang menerangi setiap sudut jiwa"
+  </text>
+  <text x="400" y="572" text-anchor="middle" fill="#888" font-size="11" font-family="sans-serif">
+    — Inspirasi dari Masnavi Rumi
+  </text>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#f4d03f" font-size="28" font-family="serif" font-weight="bold" filter="url(#glow)">
+    Sang Pencari Cahaya
+  </text>
+  <text x="400" y="62" text-anchor="middle" fill="#a0a0a0" font-size="14" font-family="sans-serif" font-style="italic">
+    Perjalanan Spiritual Menuju Cahaya Batin
+  </text>
+</svg>

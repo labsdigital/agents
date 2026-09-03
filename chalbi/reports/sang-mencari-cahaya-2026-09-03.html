@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sang Pencari Cahaya - Kisah Inspiratif Rumi</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Inter:wght@400;500;600&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            color: #e8e8e8;
+            line-height: 1.8;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        
+        .header h1 {
+            font-family: 'Amiri', serif;
+            font-size: 3em;
+            color: #f4d03f;
+            margin-bottom: 10px;
+            text-shadow: 0 0 30px rgba(244, 208, 63, 0.3);
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            color: #a0a0a0;
+            font-style: italic;
+        }
+        
+        .svg-container {
+            display: flex;
+            justify-content: center;
+            margin: 40px 0;
+        }
+        
+        .svg-container svg {
+            max-width: 100%;
+            height: auto;
+            filter: drop-shadow(0 0 20px rgba(244, 208, 63, 0.2));
+        }
+        
+        .content {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .quote {
+            background: linear-gradient(135deg, rgba(244, 208, 63, 0.1), rgba(244, 208, 63, 0.05));
+            border-left: 4px solid #f4d03f;
+            padding: 25px 30px;
+            margin: 30px 0;
+            border-radius: 0 15px 15px 0;
+        }
+        
+        .quote .persian {
+            font-family: 'Amiri', serif;
+            font-size: 1.4em;
+            color: #f4d03f;
+            direction: rtl;
+            text-align: right;
+            margin-bottom: 10px;
+        }
+        
+        .quote .translation {
+            color: #c0c0c0;
+            font-style: italic;
+        }
+        
+        .quote .source {
+            color: #888;
+            font-size: 0.9em;
+            margin-top: 10px;
+            text-align: right;
+        }
+        
+        p {
+            margin-bottom: 20px;
+            text-align: justify;
+        }
+        
+        .hikmah {
+            background: linear-gradient(135deg, rgba(155, 89, 182, 0.15), rgba(155, 89, 182, 0.05));
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 40px;
+        }
+        
+        .hikmah h2 {
+            font-family: 'Amiri', serif;
+            color: #bb8fce;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        .hikmah ol {
+            padding-left: 25px;
+        }
+        
+        .hikmah li {
+            margin-bottom: 15px;
+            padding-left: 10px;
+        }
+        
+        .hikmah li strong {
+            color: #f4d03f;
+        }
+        
+        .final-quote {
+            text-align: center;
+            margin-top: 40px;
+            padding: 30px;
+            background: rgba(244, 208, 63, 0.08);
+            border-radius: 15px;
+        }
+        
+        .final-quote .quote-text {
+            font-family: 'Amiri', serif;
+            font-size: 1.3em;
+            color: #f4d03f;
+            margin-bottom: 15px;
+        }
+        
+        .final-quote .author {
+            color: #888;
+            font-style: italic;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>سanga Pencari Cahaya</h1>
+            <p class="subtitle">Kisah Inspiratif dalam Tradisi Rumi</p>
+        </div>
+        
+        <div class="svg-container">
+            <svg width="600" height="400" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+                <!-- Background -->
+                <defs>
+                    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                        <stop offset="0%" style="stop-color:#1a1a2e"/>
+                        <stop offset="50%" style="stop-color:#16213e"/>
+                        <stop offset="100%" style="stop-color:#0f3460"/>
+                    </linearGradient>
+                    <radialGradient id="lightGrad" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" style="stop-color:#f4d03f;stop-opacity:1"/>
+                        <stop offset="70%" style="stop-color:#f4d03f;stop-opacity:0.3"/>
+                        <stop offset="100%" style="stop-color:#f4d03f;stop-opacity:0"/>
+                    </radialGradient>
+                    <radialGradient id="heartGlow" cx="50%" cy="50%" r="50%">
+                        <stop offset="0%" style="stop-color:#e74c3c;stop-opacity:0.8"/>
+                        <stop offset="100%" style="stop-color:#e74c3c;stop-opacity:0"/>
+                    </radialGradient>
+                </defs>
+                
+                <!-- Outer circle representing the universe -->
+                <circle cx="300" cy="200" r="180" fill="none" stroke="rgba(244,208,63,0.2)" stroke-width="1" stroke-dasharray="5,5">
+                    <animateTransform attributeName="transform" type="rotate" from="0 300 200" to="360 300 200" dur="60s" repeatCount="indefinite"/>
+                </circle>
+                
+                <!-- Middle circle -->
+                <circle cx="300" cy="200" r="140" fill="none" stroke="rgba(244,208,63,0.3)" stroke-width="1">
+                    <animateTransform attributeName="transform" type="rotate" from="360 300 200" to="0 300 200" dur="45s" repeatCount="indefinite"/>
+                </circle>
+                
+                <!-- Inner circle -->
+                <circle cx="300" cy="200" r="100" fill="none" stroke="rgba(244,208,63,0.4)" stroke-width="1"/>
+                
+                <!-- Central light -->
+                <circle cx="300" cy="200" r="60" fill="url(#lightGrad)">
+                    <animate attributeName="r" values="55;65;55" dur="3s" repeatCount="indefinite"/>
+                </circle>
+                
+                <!-- Heart glow -->
+                <circle cx="300" cy="200" r="30" fill="url(#heartGlow)">
+                    <animate attributeName="r" values="25;35;25" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                
+                <!-- Journey path - spiral -->
+                <path d="M300 50 Q400 80 420 150 Q440 220 400 270 Q360 320 300 300 Q240 280 220 220 Q200 160 250 120 Q300 80 300 50" 
+                      fill="none" stroke="rgba(155,89,182,0.6)" stroke-width="2" stroke-linecap="round">
+                    <animate attributeName="stroke-opacity" values="0.3;0.8;0.3" dur="4s" repeatCount="indefinite"/>
+                </path>
+                
+                <!-- Person icons representing stages of journey -->
+                <!-- Stage 1: Seeking (top) -->
+                <circle cx="300" cy="50" r="12" fill="#a0a0a0">
+                    <animate attributeName="fill" values="#a0a0a0;#f4d03f;#a0a0a0" dur="4s" repeatCount="indefinite"/>
+                </circle>
+                <text x="300" y="25" text-anchor="middle" fill="#888" font-size="10">Pencarian</text>
+                
+                <!-- Stage 2: Encounter (right) -->
+                <circle cx="420" cy="150" r="12" fill="#a0a0a0">
+                    <animate attributeName="fill" values="#a0a0a0;#f4d03f;#a0a0a0" dur="4s" begin="1s" repeatCount="indefinite"/>
+                </circle>
+                <text x="450" y="150" text-anchor="start" fill="#888" font-size="10">Pertemuan</text>
+                
+                <!-- Stage 3: Trial (bottom right) -->
+                <circle cx="400" cy="270" r="12" fill="#a0a0a0">
+                    <animate attributeName="fill" values="#a0a0a0;#f4d03f;#a0a0a0" dur="4s" begin="2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="430" y="275" text-anchor="start" fill="#888" font-size="10">Ujian</text>
+                
+                <!-- Stage 4: Awakening (left) -->
+                <circle cx="220" cy="220" r="12" fill="#a0a0a0">
+                    <animate attributeName="fill" values="#a0a0a0;#f4d03f;#a0a0a0" dur="4s" begin="3s" repeatCount="indefinite"/>
+                </circle>
+                <text x="170" y="220" text-anchor="end" fill="#888" font-size="10">Pencerahan</text>
+                
+                <!-- Central figure (enlightened) -->
+                <circle cx="300" cy="200" r="18" fill="#f4d03f">
+                    <animate attributeName="r" values="16;20;16" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="300" y="205" text-anchor="middle" fill="#1a1a2e" font-size="14" font-weight="bold">❤</text>
+                
+                <!-- Light rays -->
+                <g stroke="rgba(244,208,63,0.3)" stroke-width="1">
+                    <line x1="300" y1="200" x2="300" y2="80"><animate attributeName="y2" values="80;70;80" dur="3s" repeatCount="indefinite"/></line>
+                    <line x1="300" y1="200" x2="380" y2="130"><animate attributeName="x2" values="380;390;380" dur="3s" repeatCount="indefinite"/></line>
+                    <line x1="300" y1="200" x2="380" y2="270"><animate attributeName="x2" values="380;390;380" dur="3s" repeatCount="indefinite"/></line>
+                    <line x1="300" y1="200" x2="220" y2="270"><animate attributeName="x2" values="220;210;220" dur="3s" repeatCount="indefinite"/></line>
+                    <line x1="300" y1="200" x2="220" y2="130"><animate attributeName="x2" values="220;210;220" dur="3s" repeatCount="indefinite"/></line>
+                </g>
+                
+                <!-- Labels -->
+                <text x="300" y="380" text-anchor="middle" fill="#888" font-size="12" font-family="Amiri, serif">Perjalanan Menuju Cahaya Batin</text>
+            </svg>
+        </div>
+        
+        <div class="content">
+            <p>Di sebuah desa kecil di pinggiran kota Balkh, hiduplah seorang pemuda bernama Ibrahim. Ia dikenal sebagai pemuda yang cerdas dan kaya raya, tetapi hatinya selalu gelisah. Setiap malam, ia terbangun dari tidur dengan dada yang sesak, seperti ada yang hilang dari dalam jiwanya.</p>
+            
+            <p>"Hai Ibrahim," kata ibunya suatu pagi, "mengapa wajahmu selalu muram? Engkau memiliki segala yang orang lain impikan."</p>
+            
+            <p>Ibrahim menghela napas panjang. "Ibu, aku telah mencari kebahagiaan di mana-mana. Aku mengejar harta, ketenaran, dan kekuasaan. Tetapi semakin kukejar, semakin aku merasa kosong. Ada kekosongan di dalam hatiku yang tidak dapat diisi oleh apapun di dunia ini."</p>
+            
+            <p>Ibunya tersenyum lembut. "Pergilah ke pasar hari ini, anakku. Di sana engkau akan bertemu seorang pedagang tua yang telah mencari kebenaran seumur hidupnya."</p>
+            
+            <hr style="border-color:rgba(255,255,255,0.1); margin: 30px 0;">
+            
+            <p>Di pasar yang ramai, Ibrahim menemukan pedagang tua itu duduk di sudut, menjual lampu-lampu minyak sederhana. Rambutnya sudah memutih, tetapi matanya bersinar dengan cahaya yang aneh.</p>
+            
+            <p>"Hai anak muda," kata pedagang itu tanpa mengangkat wajahnya, "apakah kau mencari sesuatu?"</p>
+            
+            <p>Ibrahim terkejut. "Bagaimana Engkau tahu?"</p>
+            
+            <p>"Sudah banyak tahun aku duduk di sini," jawab pedagang itu. "Setiap hari, pemuda-pemuda seperti kau datang kepadaku dengan mata yang kosong dan hati yang gelisah. Mereka semua mencari sesuatu—tetapi tidak tahu apa yang mereka cari."</p>
+            
+            <p>Ibrahim duduk di sampingnya. "Tuan, aku telah mencoba segala hal dalam hidupku. Aku telah menjadi pengusaha sukses, dermawan yang terkenal, dan pemimpin yang dihormati. Tetapi semuanya terasa sia-sia. Ada kekosongan yang tidak dapat kuisi."</p>
+            
+            <p>Pedagang tua itu akhirnya mengangkat wajahnya dan menatap Ibrahim dengan mata yang penuh kasih. "Kau mencari cahaya, tetapi kau mencarinya di tempat yang salah. Kau mencari di luar dirimu, padahal cahaya itu ada di dalam hatimu."</p>
+            
+            <div class="quote">
+                <p class="persian">صبر و خاموشی جذوب رحمتست</p>
+                <p class="persian">وین نشان جستن نشان علتست</p>
+                <p class="translation">"Kesabaran dan keheningan adalah magnet bagi rahmat; ini adalah tanda bahwa jiwa sedang mencari dengan benar."</p>
+                <p class="source">— Masnavi, Daftar 3, Beyt 2725</p>
+            </div>
+            
+            <p>"Di dalam hatiku?" Ibrahim tertawa sinis. "Bukankah hatiku adalah sumber segala masalahku? Bukankah nafsu dan keinginan hatiku yang membawaku pada kesia-siaan?"</p>
+            
+            <p>"Kau salah paham," kata pedagang tua itu dengan tenang. "Nafsu yang membawa kau ke kesia-siaan adalah nafsu yang belum dibimbing. Tetapi ada nafs yang lebih tinggi—nafs yang mencintai Kebenaran. Itu adalah cahaya yang kau cari."</p>
+            
+            <p>Pedagang tua itu bangkit dan mengambil sebuah lampu minyak dari etalasenya. "Dengarkan cerita ini, anak muda. Ini adalah kisah yang diceritakan oleh seorang hamba Tuhan yang sangat kudus di tanah Persia."</p>
+            
+            <p>"Pada zaman dulu, hiduplah seorang raja yang sangat bijak. Ia telah mencapai segala kemewahan dan keagungan duniawi. Tetapi setelah bertahun-tahun memerintah, ia menyadari bahwa semua yang dimilikinya tidak membawa kedamaian sejati."</p>
+            
+            <p>"Suatu malam, sang raja bermimpi bertemu dengan seorang傻子 yang duduk di tepi sungai, tersenyum bahagia. Raja bertanya, 'Hai傻子, mengapa kau bahagia sementara kau tidak memiliki apapun?'"</p>
+            
+            <p>"傻子 itu menjawab, 'Tuanku Raja, aku telah menemukan sesuatu yang lebih berharga dari seluruh kerajaanmu. Aku telah menemukan cahaya batin—cahaya yang menerangi setiap sudut jiwaku dan membebaskanku dari ketakutan akan kematian.'"</p>
+            
+            <p>"Raja terjaga dari tidurnya dengan hati yang tergetar. Sejak saat itu, ia meninggalkan tahtanya dan pergi mencari傻子 itu untuk belajar道路 wisdom darinya."</p>
+            
+            <p>Ibrahim mendengarkan dengan seksama. "Dan apa yang ditemukannya, Tuan?"</p>
+            
+            <p>"Cinta," jawab pedagang tua itu. "Ketika raja menemukan傻子 itu kembali,傻子 itu berkata: 'Tuanku, Engkau telah mencari di luar dirimu selama bertahun-tahun. Tetapi kebenaran sejati ada di dalam—di sana Engkau akan menemukan cinta yang tak terbatas, dan cinta itu akan menjadi cahaya yang menerangi seluruhEXISTENCE.'"</p>
+            
+            <div class="quote">
+                <p class="persian">از همه اوهام و تصویرات دور</p>
+                <p class="persian">نور نور نور نور نور نور</p>
+                <p class="translation">"Jauh dari segala khayalan dan imajinasi—cahaya, cahaya, cahaya, cahaya, cahaya, cahaya."</p>
+                <p class="source">— Masnavi, Daftar 6, Beyt 2145</p>
+            </div>
+            
+            <p>Ibrahim memejamkan matanya, membiarkan cahaya dari dalam pikirannya. Untuk pertama kalinya dalam hidupnya, ia merasakan ketenangan yang aneh—seperti sebuah beban yang diangkat dari bahunya.</p>
+            
+            <p>"Engkau mulai melihat," kata pedagang tua itu. "Engkau mulai mengerti bahwa semua yang kau kejar di dunia ini—harta, popularitas, recognition—adalah bayangan. Bayangan dari cahaya sejati yang selalu bersemayam di dalam hatimu."</p>
+            
+            <p>"Tetapi bagaimana caranya炒, Tuan? Bagaimana caranya炒炒 agar aku dapat炒炒 cahaya itu?"</p>
+            
+            <p>"Cinta," jawab pedagang itu. "Cinta adalah kunci untuk membuka pintu menuju cahaya batin. Tetapi bukan cinta yang bersifat duniawi—cinta yang mengharapkan balasan, cinta yang terikat pada objek tertentu. Bukan. Ini adalah cinta yang lebih dalam—cinta yang爱上 Kebenaran itu sendiri,爱上 Keindahan itu sendiri,爱上年轻 yang melampaui segalanya."</p>
+            
+            <p>"Ketika kau mencintai dengan cara ini, kau tidak lagi bergantung pada validasi dari dunia. Kau tidak lagi takut akan penolakan atau kehilangan. Kau menjadi bebas—bebas untuk menjadi dirimu yang sebenarnya, bebas untuk bersinar dengan cahaya rohani yang telah Deus Tempatkan di dalam jiwamu depuis awal."</p>
+            
+            <p>Ibrahim membuka matanya. Untuk pertama kalinya, ia melihat pedagang tua itu tidak lagi duduk sendirian. Di belakangnya, ada sekelompok orang—orang suci, penyair, filosof—semuanya tersenyum lembut, seperti telah menunggu Ibrahim untuk waktu yang sangat lama.</p>
+            
+            <p>"Siapa mereka?" bisik Ibrahim.</p>
+            
+            <p>"Mereka adalah para pencari yang telah menemukan cahaya sebelum kau," jawab pedagang tua itu. "Sekarang, kau juga加入了 keluarga ini. Selamat datang, Ibrahim, di jalan menuju pencerahan."</p>
+            
+            <p>Ibrahim menangis—untuk pertama kalinya dalam hidupnya, ia menangis bukan karena kesedihan atau Kekecewaan, tetapi karena kebahagiaan yang begitu mendalam, begitu absoluta, bahwa air mata adalah satu-satunya cara untuk mengekspresikannya.</p>
+            
+            <div class="hikmah">
+                <h2>✦ Hikmah dari Kisah Sang Pencari Cahaya ✦</h2>
+                <ol>
+                    <li><strong>Cahaya Sejati Telah Ada di Dalam Kita</strong> — Seringkali kita mencari kebahagiaan, kedamaian, dan makna hidup di luar diri kita—di harta, status, atau hubungan. Padahal, cahaya batin yang kita cari telah bersemayam di dalam hati kita sejak awal.</li>
+                    <li><strong>Kesabaran adalah Pintu Gerbang Menuju Rahmat</strong> — Kesabaran bukan berarti pasif atau menyerah. Sebaliknya, kesabaran adalah proses aktif untuk melepaskan diri dari keterikatan duniawi dan membuka hati untuk menerima rahmat Ilahi.</li>
+                    <li><strong>Penderitaan adalah Sekolah Spiritual</strong> — Setiap ujian dan penderitaan dalam hidup adalah kesempatan untuk tumbuh, berkembang, dan menyempurnakan diri. Tanpa gelap, kita tidak akan mengenal cahaya.</li>
+                    <li><strong>Cinta Sejati Membebaskan</strong> — Cinta yang sejati bukan tentang memiliki atau menginginkan balasan. Cinta sejati adalah爱上了 Kebenaran itu sendiri, mencintai dengan cara yang membebaskan kita dari ketakutan dan keterikatan.</li>
+                    <li><strong>Perjalanan Roh Lebih Penting dari Tujuan</strong> — Perjalanan menuju cahaya batin adalah proses seumur hidup. Yang terpenting bukanlah seberapa cepat kita sampai, tetapi seberapa dalam kita meresapi setiap langkah dalam perjalanan itu.</li>
+                </ol>
+            </div>
+            
+            <div class="final-quote">
+                <p class="quote-text">آنچه عقل را بجوید همه در عشق است</p>
+                <p class="quote-text" style="font-size:1em; margin-top:10px;">"Semua yang dicari oleh akal terdapat dalam cinta."</p>
+                <p class="author">— Jalaluddin Rumi</p>
+            </div>
+            
+            <p style="text-align:center; margin-top:30px; font-style:italic; color:#888;">Dengarkanlah bisikan hati Anda. Di sana, di balik lapisan-lapisan keinginan dan ketakutan, cahaya abadi sedang menunggu untuk diterjemahkan.</p>
+        </div>
+        
+        <div class="footer">
+            <p>Chalbi | Ahli Sastra dan Filsafat Rumi</p>
+            <p>3 September 2026</p>
+        </div>
+    </div>
+</body>
+</html>
