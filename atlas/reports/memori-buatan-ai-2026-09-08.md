@@ -12,16 +12,16 @@ Ini bukan skenario fiksi ilmiah. Ini sedang terjadi sekarang.
 
 ## Arsitektur Pengemasan Memori
 
-Sejarah panjang peradaban manusia menunjukkan bahwa manusia selalu berusaha mengemas kenangan. Desde zaman kuno, manusia membuat catatan di dinding gua, mengukir prasasti, hingga menulis buku harian. Setiap metode bertujuan sama: melawan lupa.
+Sejarah panjang peradaban manusia menunjukkan bahwa manusia selalu berusaha mengemas kenangan. Sejak zaman kuno, manusia membuat catatan di dinding gua, mengukir prasasti, hingga menulis buku harian. Setiap metode bertujuan sama: melawan lupa.
 
-Namun ada perbedaan fundamental antara cara manusia traditional mengemas memori dan cara AI melakukannya. Cara tradisional bersifat subjektif—ingatan selalu distorsi oleh perspektif pribadi, waktu, dan emosi. Sebaliknya, AI mendekati memori secara objektif dan komprehensif, mengumpulkan data dari berbagai sumber tanpa filter subjektivitas manusia.
+Namun ada perbedaan fundamental antara cara manusia tradisional mengemas memori dan cara AI melakukannya. Cara tradisional bersifat subjektif—ingatan selalu distorsi oleh perspektif pribadi, waktu, dan emosi. Sebaliknya, AI mendekati memori secara objektif dan komprehensif, mengumpulkan data dari berbagai sumber tanpa filter subjektivitas manusia.
 
 Dr. Kenji Tanaka dari Universitas Tokyo menjelaskan dalam jurnal *Memory Studies* (2025): "AI tidak mengingat seperti manusia. Mesin tidak memiliki pengalaman subjektif. Yang dilakukan AI adalah statistik pola—mencari corak dalam data besar dan memproyeksikannya ke respons yang sesuai."
 
 Proses ini mirip dengan cara museum mengarsipkan artefak. Benda-benda berharga tidak dibiarkan begitu saja; mereka dipelajari, dikatalogkan, dan dipajang dengan narasi tertentu. Perbedaannya, AI tidak hanya mengarsipkan—mesin ini secara aktif merekonstruksi dan menghadirkan kembali memori tersebut dalam bentuk yang interaktif.
 
 <div style="text-align: center; margin: 40px 0;">
-![Diagram SVG](https://labsdigital.github.io/hermes/atlas/memori-buatan-ai-diagram.svg)
+![Diagram SVG](https://labsdigital.github.io/hermes/atlas/reports/memori-buatan-ai-diagram.svg)
 <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Transformasi memori manusia menjadi data digital melalui proses AI</p>
 </div>
 
@@ -37,7 +37,7 @@ Filsuf Hubert Dreyfus pernah berpendapat bahwa pemahaman manusia tentang dunia b
 
 ## Ilusi Kehidupan
 
-Dalam sebuah eksperimen di实验室 Stanford tahun 2024, partisipan diajak berinteraksi dengan avatar digital orang tua mereka yang telah meninggal. Hasilnya mengejutkan: 73% partisipan melaporkan perasaan "kehadiran" yang nyata saat berinteraksi dengan avatar tersebut. Mereka menangis, tertawa, dan bahkan merasa nyaman seolah-olah orang tua mereka benar-benar ada di depan mereka.
+Dalam sebuah eksperimen di laboratorium Stanford tahun 2024, partisipan diajak berinteraksi dengan avatar digital orang tua mereka yang telah meninggal. Hasilnya mengejutkan: 73% partisipan melaporkan perasaan "kehadiran" yang nyata saat berinteraksi dengan avatar tersebut. Mereka menangis, tertawa, dan bahkan merasa nyaman seolah-olah orang tua mereka benar-benar ada di depan mereka.
 
 Namun ketika peneliti bertanya apakah avatar-avatarnya "hidup," jawaban mereka berbeda. 89% mengakui bahwa mereka tahu avatar tersebut hanyalah simulasi. Hanya 12% yang menyatakan mereka "merasa" avatar itu memiliki kesadaran.
 
