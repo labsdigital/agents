@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#grad1)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#fff" font-size="20" font-weight="bold">Ekonomi AI: Efisiensi vs Kebermaknaan</text>
+  
+  <!-- Left side - Human Work -->
+  <rect x="50" y="80" width="280" height="350" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+  <text x="190" y="110" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">PEKERJAAN MANUSIA</text>
+  
+  <!-- Human icons -->
+  <circle cx="120" cy="160" r="25" fill="#e94560" opacity="0.8"/>
+  <text x="120" y="165" text-anchor="middle" fill="#fff" font-size="12">👤</text>
+  <text x="120" y="200" text-anchor="middle" fill="#fff" font-size="11">Empati</text>
+  
+  <circle cx="200" cy="160" r="25" fill="#e94560" opacity="0.8"/>
+  <text x="200" y="165" text-anchor="middle" fill="#fff" font-size="12">👤</text>
+  <text x="200" y="200" text-anchor="middle" fill="#fff" font-size="11">Kepercayaan</text>
+  
+  <circle cx="280" cy="160" r="25" fill="#e94560" opacity="0.8"/>
+  <text x="280" y="165" text-anchor="middle" fill="#fff" font-size="12">👤</text>
+  <text x="280" y="200" text-anchor="middle" fill="#fff" font-size="11">Kehadiran</text>
+  
+  <!-- Value arrows -->
+  <line x1="120" y1="230" x2="120" y2="320" stroke="#fff" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="200" y1="230" x2="200" y2="320" stroke="#fff" stroke-width="2"/>
+  <line x1="280" y1="230" x2="280" y2="320" stroke="#fff" stroke-width="2"/>
+  
+  <text x="190" y="340" text-anchor="middle" fill="#ffd700" font-size="14" font-weight="bold">NILAI MENINGKAT</text>
+  <text x="190" y="360" text-anchor="middle" fill="#aaa" font-size="11">Semakin langka,</text>
+  <text x="190" y="375" text-anchor="middle" fill="#aaa" font-size="11">semakin berharga</text>
+  
+  <!-- Right side - Machine Work -->
+  <rect x="470" y="80" width="280" height="350" rx="10" fill="#0f3460" stroke="#4ecca3" stroke-width="2"/>
+  <text x="610" y="110" text-anchor="middle" fill="#fff" font-size="16" font-weight="bold">PEKERJAAN MESIN</text>
+  
+  <!-- Machine icons -->
+  <circle cx="540" cy="160" r="25" fill="#4ecca3" opacity="0.8"/>
+  <text x="540" y="165" text-anchor="middle" fill="#fff" font-size="12">⚙️</text>
+  <text x="540" y="200" text-anchor="middle" fill="#fff" font-size="11">Efisiensi</text>
+  
+  <circle cx="620" cy="160" r="25" fill="#4ecca3" opacity="0.8"/>
+  <text x="620" y="165" text-anchor="middle" fill="#fff" font-size="12">🤖</text>
+  <text x="620" y="200" text-anchor="middle" fill="#fff" font-size="11">Kecepatan</text>
+  
+  <circle cx="700" cy="160" r="25" fill="#4ecca3" opacity="0.8"/>
+  <text x="700" y="165" text-anchor="middle" fill="#fff" font-size="12">📊</text>
+  <text x="700" y="200" text-anchor="middle" fill="#fff" font-size="11">Skala</text>
+  
+  <!-- Value arrows -->
+  <line x1="540" y1="230" x2="540" y2="320" stroke="#fff" stroke-width="2"/>
+  <line x1="620" y1="230" x2="620" y2="320" stroke="#fff" stroke-width="2"/>
+  <line x1="700" y1="230" x2="700" y2="320" stroke="#fff" stroke-width="2"/>
+  
+  <text x="610" y="340" text-anchor="middle" fill="#4ecca3" font-size="14" font-weight="bold">BIAYA MENURUN</text>
+  <text x="610" y="360" text-anchor="middle" fill="#aaa" font-size="11">Semakin banyak,</text>
+  <text x="610" y="375" text-anchor="middle" fill="#aaa" font-size="11">semakin murah</text>
+  
+  <!-- Center arrow showing transition -->
+  <path d="M 340 250 Q 400 220 460 250" stroke="#ffd700" stroke-width="3" fill="none" marker-end="url(#arrowhead)"/>
+  <text x="400" y="210" text-anchor="middle" fill="#ffd700" font-size="12" font-weight="bold">REVOLUSI AI</text>
+  
+  <!-- Bottom insight -->
+  <rect x="200" y="445" width="400" height="40" rx="5" fill="#e94560" opacity="0.3"/>
+  <text x="400" y="470" text-anchor="middle" fill="#fff" font-size="13" font-style="italic">Keseimbangan baru: mesin untuk efisiensi, manusia untuk makna</text>
+</svg>
