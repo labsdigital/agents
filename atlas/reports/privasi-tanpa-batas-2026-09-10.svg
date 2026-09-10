@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Privasi di Era Digital</title>
+  <desc id="desc">Diagram konseptual tentang erosi privasi di era digital, menampilkan mata pengawasan, aliran data, dan respons manusia.</desc>
+  
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#533483;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Network Grid -->
+  <g stroke="#0f3460" stroke-width="1" opacity="0.3">
+    <line x1="0" y1="100" x2="800" y2="100"/>
+    <line x1="0" y1="200" x2="800" y2="200"/>
+    <line x1="0" y1="300" x2="800" y2="300"/>
+    <line x1="0" y1="400" x2="800" y2="400"/>
+    <line x1="200" y1="0" x2="200" y2="500"/>
+    <line x1="400" y1="0" x2="400" y2="500"/>
+    <line x1="600" y1="0" x2="600" y2="500"/>
+  </g>
+  
+  <!-- Eye (Surveillance) -->
+  <g transform="translate(400, 120)">
+    <!-- Eye outline -->
+    <path d="M -120 0 Q 0 -80 120 0 Q 0 80 -120 0 Z" fill="none" stroke="url(#eyeGrad)" stroke-width="3" filter="url(#glow)"/>
+    <!-- Iris -->
+    <circle cx="0" cy="0" r="45" fill="url(#eyeGrad)" opacity="0.8"/>
+    <!-- Pupil -->
+    <circle cx="0" cy="0" r="20" fill="#1a1a2e"/>
+    <!-- Light reflection -->
+    <circle cx="-10" cy="-10" r="8" fill="white" opacity="0.6"/>
+    <!-- Radiating lines -->
+    <g stroke="#e94560" stroke-width="1.5" opacity="0.5">
+      <line x1="0" y1="-50" x2="0" y2="-90"/>
+      <line x1="35" y1="-35" x2="65" y2="-65"/>
+      <line x1="50" y1="0" x2="90" y2="0"/>
+      <line x1="35" y1="35" x2="65" y2="65"/>
+      <line x1="0" y1="50" x2="0" y2="90"/>
+      <line x1="-35" y1="35" x2="-65" y2="65"/>
+      <line x1="-50" y1="0" x2="-90" y2="0"/>
+      <line x1="-35" y1="-35" x2="-65" y2="-65"/>
+    </g>
+  </g>
+  
+  <!-- Data Flow Arrows -->
+  <g stroke="#533483" stroke-width="2" fill="none" opacity="0.7">
+    <!-- Left side - data collection -->
+    <path d="M 100 200 Q 200 250 300 200" marker-end="url(#arrowhead)"/>
+    <path d="M 80 300 Q 180 320 280 300" marker-end="url(#arrowhead)"/>
+    <path d="M 120 400 Q 220 380 320 400" marker-end="url(#arrowhead)"/>
+    
+    <!-- Right side - distribution -->
+    <path d="M 500 200 Q 600 250 700 200" marker-end="url(#arrowhead)"/>
+    <path d="M 520 300 Q 620 320 720 300" marker-end="url(#arrowhead)"/>
+    <path d="M 480 400 Q 580 380 680 400" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#533483"/>
+    </marker>
+  </defs>
+  
+  <!-- Data Nodes -->
+  <g>
+    <!-- Left nodes -->
+    <circle cx="80" cy="200" r="25" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="80" y="205" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">📱</text>
+    
+    <circle cx="60" cy="300" r="25" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="60" y="305" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">💻</text>
+    
+    <circle cx="90" cy="400" r="25" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="90" y="405" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">🏠</text>
+    
+    <!-- Right nodes -->
+    <circle cx="720" cy="200" r="25" fill="#0f3460" stroke="#533483" stroke-width="2"/>
+    <text x="720" y="205" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">🎯</text>
+    
+    <circle cx="740" cy="300" r="25" fill="#0f3460" stroke="#533483" stroke-width="2"/>
+    <text x="740" y="305" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">💰</text>
+    
+    <circle cx="710" cy="400" r="25" fill="#0f3460" stroke="#533483" stroke-width="2"/>
+    <text x="710" y="405" text-anchor="middle" fill="white" font-size="12" font-family="Inter, sans-serif">⚖️</text>
+  </g>
+  
+  <!-- Central Server/Data Hub -->
+  <rect x="320" y="220" width="160" height="100" rx="10" fill="#0f3460" stroke="#533483" stroke-width="2"/>
+  <text x="400" y="265" text-anchor="middle" fill="white" font-size="14" font-family="Inter, sans-serif" font-weight="600">Server</text>
+  <text x="400" y="285" text-anchor="middle" fill="#e94560" font-size="12" font-family="Inter, sans-serif">Data Flow</text>
+  <text x="400" y="305" text-anchor="middle" fill="#533483" font-size="10" font-family="Inter, sans-serif">Processing</text>
+  
+  <!-- Connection lines to server -->
+  <g stroke="#533483" stroke-width="1.5" opacity="0.6">
+    <line x1="105" y1="200" x2="320" y2="250"/>
+    <line x1="85" y1="300" x2="340" y2="270"/>
+    <line x1="115" y1="400" x2="350" y2="290"/>
+    <line x1="480" y1="250" x2="695" y2="200"/>
+    <line x1="460" y1="270" x2="675" y2="300"/>
+    <line x1="450" y1="290" x2="705" y2="400"/>
+  </g>
+  
+  <!-- Title -->
+  <text x="400" y="460" text-anchor="middle" fill="white" font-size="18" font-family="Inter, sans-serif" font-weight="600">Ekosistem Privasi Digital</text>
+  <text x="400" y="480" text-anchor="middle" fill="#e94560" font-size="12" font-family="Inter, sans-serif">Pengawasan → Pengumpulan → Distribusi → Manipulasi</text>
+</svg>
