@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">Pekerjaan yang Hilang di Tangan Mesin — Evolusi Disrupsi Ketenagakerjaan</title>
+  <desc id="svg-desc">Diagram menunjukkan tiga fase revolusi kerja: Neolitik (kerja fisik), Revolusi Industri (otot digantikan mesin), dan Revolusi AI (kognisi digantikan mesin), serta dampak ekonomi tanpa pekerja.</desc>
+  
+  <!-- Background -->
+  <rect width="800" height="400" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="20" fill="#1e293b" font-weight="bold">Tiga Fase Revolusi Ketenagakerjaan</text>
+  
+  <!-- Phase 1: Neolitik - Manual Labor -->
+  <g transform="translate(20, 60)">
+    <rect x="0" y="0" width="230" height="310" rx="16" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    
+    <!-- Icon: primitive tools -->
+    <circle cx="115" cy="60" r="40" fill="#fed7aa" opacity="0.5"/>
+    <path d="M95,50 L135,50 M115,30 L115,70" stroke="#f97316" stroke-width="3" stroke-linecap="round"/>
+    
+    <text x="115" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#7c2d12" font-weight="bold">Fase 1</text>
+    <text x="115" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#9a3412">Revolusi Neolitik</text>
+    <text x="115" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#7c2d12">~10.000 SM</text>
+    
+    <line x1="30" y1="195" x2="200" y2="195" stroke="#fed7aa" stroke-width="1"/>
+    
+    <text x="115" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Pekerjaan = bertahan hidup</text>
+    <text x="115" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Physical labor dominan</text>
+    <text x="115" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Kognisi tetap manusiawi</text>
+    <text x="115" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Identitas dari keahlian</text>
+  </g>
+  
+  <!-- Phase 2: Industrial Revolution -->
+  <g transform="translate(285, 60)">
+    <rect x="0" y="0" width="230" height="310" rx="16" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+    
+    <!-- Icon: gear -->
+    <circle cx="115" cy="60" r="40" fill="#bfdbfe" opacity="0.5"/>
+    <circle cx="115" cy="60" r="25" fill="none" stroke="#3b82f6" stroke-width="3"/>
+    <circle cx="115" cy="60" r="10" fill="#3b82f6"/>
+    
+    <text x="115" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#1e3a8a" font-weight="bold">Fase 2</text>
+    <text x="115" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1e40af">Revolusi Industri</text>
+    <text x="115" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#1e3a8a">~1760–1900</text>
+    
+    <line x1="30" y1="195" x2="200" y2="195" stroke="#bfdbfe" stroke-width="1"/>
+    
+    <text x="115" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Mesin gantikan otot</text>
+    <text x="115" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Pekerjaan manual → pabrik</text>
+    <text x="115" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Kognisi masih human</text>
+    <text x="115" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Kelas pekerja muncul</text>
+  </g>
+  
+  <!-- Phase 3: AI Revolution -->
+  <g transform="translate(550, 60)">
+    <rect x="0" y="0" width="230" height="310" rx="16" fill="#f0fdf4" stroke="#86efac" stroke-width="2"/>
+    
+    <!-- Icon: AI brain -->
+    <circle cx="115" cy="60" r="40" fill="#86efac" opacity="0.5"/>
+    <path d="M100,45 Q115,35 130,45 Q140,60 130,75 Q115,85 100,75 Q90,60 100,45" fill="none" stroke="#22c55e" stroke-width="2"/>
+    <circle cx="115" cy="60" r="8" fill="#22c55e"/>
+    
+    <text x="115" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="16" fill="#166534" font-weight="bold">Fase 3</text>
+    <text x="115" y="145" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#15803d">Revolusi AI</text>
+    <text x="115" y="175" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#166534">2020-an+</text>
+    
+    <line x1="30" y1="195" x2="200" y2="195" stroke="#86efac" stroke-width="1"/>
+    
+    <text x="115" y="220" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Mesin gantikan kognisi</text>
+    <text x="115" y="240" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Pekerjaan intelektual</text>
+    <text x="115" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Otonomi meningkat</text>
+    <text x="115" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="11" fill="#475569">• Siklus disrupsi berakhir</text>
+  </g>
+  
+  <!-- Bottom section: Impact -->
+  <g transform="translate(20, 390)">
+    <text x="0" y="0" font-family="Georgia, serif" font-size="11" fill="#64748b">Dampak ekonomi: Produktivitas ↑ | Upah riil stagnan | Kekayaan terkonsentrasi | Identitas krisis</text>
+  </g>
+</svg>
