@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#e94560;stop-opacity:0.2" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#grad1)"/>
+  
+  <!-- Title -->
+  <text x="400" y="35" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="20" font-weight="bold">The Alignment Problem</text>
+  
+  <!-- Human Values Domain -->
+  <ellipse cx="250" cy="200" rx="140" ry="120" fill="none" stroke="#533483" stroke-width="2" opacity="0.6"/>
+  <text x="250" y="160" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="14">Nilai Manusia</text>
+  <text x="250" y="180" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">Kekonflikan · Ambigu · Kontekstual</text>
+  
+  <!-- AI Objective Domain -->
+  <ellipse cx="550" cy="200" rx="140" ry="120" fill="none" stroke="#0f3460" stroke-width="2" opacity="0.6"/>
+  <text x="550" y="160" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="14">Objektif AI</text>
+  <text x="550" y="180" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="11">Presisi · Efisiensi · Optimasi</text>
+  
+  <!-- Overlap Area -->
+  <ellipse cx="400" cy="200" rx="100" ry="90" fill="url(#grad2)" opacity="0.3"/>
+  
+  <!-- Arrow from Human to AI -->
+  <line x1="300" y1="320" x2="500" y2="320" stroke="#e94560" stroke-width="2" marker-end="url(#arrowhead)" filter="url(#glow)"/>
+  <text x="400" y="345" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="12">Encoding →</text>
+  
+  <!-- Bottom Section: Challenges -->
+  <rect x="100" y="400" width="600" height="80" rx="10" fill="#16213e" stroke="#533483" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="425" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="13" font-weight="bold">Tantangan Alignment</text>
+  <text x="400" y="445" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">• Nilai budaya berbeda • Konsekuensi tak terduga • Reward hacking • Specification gaming</text>
+  <text x="400" y="465" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">• Multi-stakeholder conflict • Value drift • Scalable oversight</text>
+  
+  <!-- Arrowhead marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#e94560"/>
+    </marker>
+  </defs>
+</svg>
