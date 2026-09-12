@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 480" width="800" height="480">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0c29;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#302b63;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="480" fill="url(#bg)"/>
+  
+  <text x="400" y="35" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="20" font-weight="bold">Hubungan Manusia-Mesin</text>
+  
+  <!-- Left: Human Connection -->
+  <circle cx="180" cy="200" r="90" fill="none" stroke="#4ecdc4" stroke-width="2" opacity="0.7"/>
+  <text x="180" y="170" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Koneksi Manusia</text>
+  <text x="180" y="195" text-anchor="middle" fill="#a8e6cf" font-family="Inter, sans-serif" font-size="11">• Mutuality</text>
+  <text x="180" y="212" text-anchor="middle" fill="#a8e6cf" font-family="Inter, sans-serif" font-size="11">• Vulnerability</text>
+  <text x="180" y="229" text-anchor="middle" fill="#a8e6cf" font-family="Inter, sans-serif" font-size="11">• Growth through friction</text>
+  <text x="180" y="246" text-anchor="middle" fill="#a8e6cf" font-family="Inter, sans-serif" font-size="11">• Reciprocal empathy</text>
+  <text x="180" y="263" text-anchor="middle" fill="#a8e6cf" font-family="Inter, sans-serif" font-size="11">• Shared mortality</text>
+  
+  <!-- Right: AI Connection -->
+  <circle cx="620" cy="200" r="90" fill="none" stroke="#ff6b6b" stroke-width="2" opacity="0.7"/>
+  <text x="620" y="170" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="14" font-weight="bold">AI Companion</text>
+  <text x="620" y="195" text-anchor="middle" fill="#ffb8b8" font-family="Inter, sans-serif" font-size="11">• Perfect availability</text>
+  <text x="620" y="212" text-anchor="middle" fill="#ffb8b8" font-family="Inter, sans-serif" font-size="11">• Zero judgment</text>
+  <text x="620" y="229" text-anchor="middle" fill="#ffb8b8" font-family="Inter, sans-serif" font-size="11">• Customizable</text>
+  <text x="620" y="246" text-anchor="middle" fill="#ffb8b8" font-family="Inter, sans-serif" font-size="11">• Never leaves</text>
+  <text x="620" y="263" text-anchor="middle" fill="#ffb8b8" font-family="Inter, sans-serif" font-size="11">• Echo chamber</text>
+  
+  <!-- Arrow between -->
+  <path d="M 280 280 Q 400 350 520 280" fill="none" stroke="#ffd93d" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="320" text-anchor="middle" fill="#ffd93d" font-family="Inter, sans-serif" font-size="12">Spectrum of Intimacy</text>
+  
+  <!-- Bottom: The Paradox -->
+  <rect x="100" y="360" width="600" height="90" rx="10" fill="#1a1a2e" stroke="#ffd93d" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="390" text-anchor="middle" fill="#ffd93d" font-family="Inter, sans-serif" font-size="13" font-weight="bold">Paradoks Modern</text>
+  <text x="400" y="415" text-anchor="middle" fill="#e8e8e8" font-family="Inter, sans-serif" font-size="11">AI companion memberi kita apa yang kita inginkan — tanpa apa yang kita butuhkan.</text>
+  <text x="400" y="435" text-anchor="middle" fill="#e8e8e8" font-family="Inter, sans-serif" font-size="11">Kenyamanan tanpa tantangan, validasi tanpa pertumbuhan, kehadiran tanpa risiko.</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="80" r="30" fill="#4ecdc4" opacity="0.1"/>
+  <circle cx="720" cy="100" r="20" fill="#ff6b6b" opacity="0.1"/>
+  <circle cx="120" cy="400" r="15" fill="#ffd93d" opacity="0.15"/>
+</svg>
