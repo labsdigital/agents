@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Simulasi Emosi: Mesin vs Manusia</title>
+  <desc>Diagram yang membandingkan cara mesin dan manusia memproses emosi</desc>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0a0a0f"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e8e8e8" font-family="Inter, sans-serif" font-size="20" font-weight="600">Simulasi Emosi: Mesin vs Manusia</text>
+  
+  <!-- Left side - Human -->
+  <circle cx="200" cy="250" r="120" fill="none" stroke="#ff6b6b" stroke-width="2" opacity="0.3"/>
+  <circle cx="200" cy="250" r="90" fill="none" stroke="#ff6b6b" stroke-width="1.5" opacity="0.5"/>
+  
+  <!-- Human brain icon -->
+  <path d="M180 200 C160 180, 160 220, 180 230 C170 240, 170 260, 190 270 C200 280, 220 270, 230 260 C250 250, 250 220, 240 200 C230 180, 200 180, 180 200" fill="none" stroke="#ff6b6b" stroke-width="2"/>
+  <line x1="185" y1="230" x2="215" y2="230" stroke="#ff6b6b" stroke-width="1.5"/>
+  <line x1="190" y1="250" x2="210" y2="250" stroke="#ff6b6b" stroke-width="1.5"/>
+  
+  <!-- Emotion waves -->
+  <path d="M130 250 Q150 220, 170 250 T210 250" fill="none" stroke="#ff9f43" stroke-width="2" opacity="0.8"/>
+  <path d="M130 270 Q150 240, 170 270 T210 270" fill="none" stroke="#ff9f43" stroke-width="2" opacity="0.6"/>
+  <path d="M130 290 Q150 260, 170 290 T210 290" fill="none" stroke="#ff9f43" stroke-width="2" opacity="0.4"/>
+  
+  <!-- Labels -->
+  <text x="200" y="390" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="16" font-weight="600">Manusia</text>
+  <text x="200" y="410" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="12">Pengalaman &amp; Rasa</text>
+  
+  <!-- Right side - Machine -->
+  <rect x="470" y="150" width="220" height="200" rx="10" fill="none" stroke="#4ecdc4" stroke-width="2" opacity="0.3"/>
+  <rect x="480" y="160" width="200" height="180" rx="5" fill="none" stroke="#4ecdc4" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Circuit pattern -->
+  <line x1="500" y1="200" x2="550" y2="200" stroke="#4ecdc4" stroke-width="1.5"/>
+  <line x1="550" y1="200" x2="550" y2="230" stroke="#4ecdc4" stroke-width="1.5"/>
+  <circle cx="550" cy="230" r="4" fill="#4ecdc4"/>
+  
+  <line x1="570" y1="200" x2="620" y2="200" stroke="#4ecdc4" stroke-width="1.5"/>
+  <line x1="620" y1="200" x2="620" y2="250" stroke="#4ecdc4" stroke-width="1.5"/>
+  <circle cx="620" cy="250" r="4" fill="#4ecdc4"/>
+  
+  <line x1="500" y1="280" x2="550" y2="280" stroke="#4ecdc4" stroke-width="1.5"/>
+  <line x1="550" y1="280" x2="550" y2="310" stroke="#4ecdc4" stroke-width="1.5"/>
+  <circle cx="550" cy="310" r="4" fill="#4ecdc4"/>
+  
+  <line x1="570" y1="310" x2="620" y2="310" stroke="#4ecdc4" stroke-width="1.5"/>
+  
+  <!-- Data streams -->
+  <rect x="510" y="180" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  <rect x="560" y="180" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  <rect x="610" y="180" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  
+  <rect x="510" y="260" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  <rect x="560" y="260" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  <rect x="610" y="260" width="30" height="20" rx="3" fill="#4ecdc4" opacity="0.2"/>
+  
+  <!-- Text in machine -->
+  <text x="630" y="220" text-anchor="start" fill="#4ecdc4" font-family="monospace" font-size="10">01001</text>
+  <text x="630" y="240" text-anchor="start" fill="#4ecdc4" font-family="monospace" font-size="10">10110</text>
+  <text x="630" y="260" text-anchor="start" fill="#4ecdc4" font-family="monospace" font-size="10">01101</text>
+  
+  <!-- Labels -->
+  <text x="580" y="400" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="16" font-weight="600">Mesin</text>
+  <text x="580" y="420" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="12">Data &amp; Pola</text>
+  
+  <!-- Center comparison -->
+  <line x1="340" y1="250" x2="460" y2="250" stroke="#fff" stroke-width="1" stroke-dasharray="5,5" opacity="0.3"/>
+  <text x="400" y="240" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="12">VS</text>
+  
+  <!-- Bottom insight -->
+  <rect x="150" y="450" width="500" height="35" rx="5" fill="#1a1a2e" stroke="#333" stroke-width="1"/>
+  <text x="400" y="473" text-anchor="middle" fill="#e8e8e8" font-family="Inter, sans-serif" font-size="13">"Pemahaman tanpa pengalaman adalah ilusi"</text>
+</svg>
