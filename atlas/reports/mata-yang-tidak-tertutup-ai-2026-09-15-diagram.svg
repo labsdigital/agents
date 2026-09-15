@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="24" font-weight="bold">MATA YANG TIDAK TERTUTUP</text>
+  <text x="400" y="75" text-anchor="middle" fill="#a0a0b0" font-family="Inter, sans-serif" font-size="14">Ekosistem Pengamatan di Era AI</text>
+  
+  <!-- Central Eye -->
+  <ellipse cx="400" cy="280" rx="120" ry="80" fill="none" stroke="#e94560" stroke-width="3" filter="url(#glow)"/>
+  <circle cx="400" cy="280" r="45" fill="url(#eyeGrad)" opacity="0.9"/>
+  <circle cx="400" cy="280" r="20" fill="#1a1a2e"/>
+  
+  <!-- Data streams flowing into eye -->
+  <g opacity="0.7">
+    <!-- Top left - Social Media -->
+    <path d="M 150 150 Q 280 220 350 260" fill="none" stroke="#4facfe" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="80" y="120" width="100" height="40" rx="5" fill="#16213e" stroke="#4facfe" stroke-width="1.5"/>
+    <text x="130" y="145" text-anchor="middle" fill="#4facfe" font-family="Inter, sans-serif" font-size="11">Media Sosial</text>
+    
+    <!-- Top right - Search -->
+    <path d="M 650 150 Q 520 220 450 260" fill="none" stroke="#00f2fe" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="620" y="120" width="100" height="40" rx="5" fill="#16213e" stroke="#00f2fe" stroke-width="1.5"/>
+    <text x="670" y="145" text-anchor="middle" fill="#00f2fe" font-family="Inter, sans-serif" font-size="11">Pencarian</text>
+    
+    <!-- Bottom left - Photos -->
+    <path d="M 150 400 Q 280 340 350 300" fill="none" stroke="#43e97b" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="80" y="380" width="100" height="40" rx="5" fill="#16213e" stroke="#43e97b" stroke-width="1.5"/>
+    <text x="130" y="405" text-anchor="middle" fill="#43e97b" font-family="Inter, sans-serif" font-size="11">Foto & Video</text>
+    
+    <!-- Bottom right - IoT -->
+    <path d="M 650 400 Q 520 340 450 300" fill="none" stroke="#fa709a" stroke-width="2" stroke-dasharray="5,5"/>
+    <rect x="620" y="380" width="100" height="40" rx="5" fill="#16213e" stroke="#fa709a" stroke-width="1.5"/>
+    <text x="670" y="405" text-anchor="middle" fill="#fa709a" font-family="Inter, sans-serif" font-size="11">Perangkat IoT</text>
+  </g>
+  
+  <!-- Inference output -->
+  <g>
+    <rect x="300" y="480" width="200" height="60" rx="8" fill="#e94560" opacity="0.2" stroke="#e94560" stroke-width="2"/>
+    <text x="400" y="505" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="13" font-weight="bold">INFERENSI AI</text>
+    <text x="400" y="525" text-anchor="middle" fill="#a0a0b0" font-family="Inter, sans-serif" font-size="11">Profil: Lokasi, Preferensi, Kepribadian</text>
+  </g>
+  
+  <!-- Arrows from eye to inference -->
+  <line x1="400" y1="360" x2="400" y2="475" stroke="#e94560" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Legend -->
+  <g transform="translate(50, 540)">
+    <circle cx="0" cy="0" r="5" fill="#4facfe"/>
+    <text x="15" y="4" fill="#a0a0b0" font-family="Inter, sans-serif" font-size="10">Input Data</text>
+    <circle cx="100" cy="0" r="5" fill="#e94560"/>
+    <text x="115" y="4" fill="#a0a0b0" font-family="Inter, sans-serif" font-size="10">AI Processing</text>
+  </g>
+</svg>
