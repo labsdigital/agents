@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+    <linearGradient id="beamGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="truthGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#60a5fa"/>
+      <stop offset="100%" style="stop-color:#3b82f6"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Light source (left) -->
+  <circle cx="80" cy="250" r="45" fill="#fbbf24" filter="url(#softGlow)" opacity="0.9"/>
+  <circle cx="80" cy="250" r="30" fill="#fcd34d"/>
+  <circle cx="80" cy="250" r="15" fill="#fef3c7"/>
+  
+  <!-- Label for light source -->
+  <text x="80" y="320" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="13" font-weight="600">SUMBER</text>
+  <text x="80" y="338" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11">Pengetahuan</text>
+  
+  <!-- White beam entering prism -->
+  <polygon points="120,240 280,200 280,300 120,260" fill="url(#beamGrad)" opacity="0.3"/>
+  <line x1="125" y1="250" x2="275" y2="250" stroke="#fbbf24" stroke-width="3" opacity="0.8"/>
+  
+  <!-- Prism (center) -->
+  <polygon points="300,150 450,350 150,350" fill="none" stroke="#94a3b8" stroke-width="2" opacity="0.7"/>
+  <polygon points="300,150 450,350 150,350" fill="rgba(148,163,184,0.05)"/>
+  
+  <!-- Prism label -->
+  <text x="300" y="420" text-anchor="middle" fill="#cbd5e1" font-family="Inter, sans-serif" font-size="14" font-weight="600">AI Generatif</text>
+  <text x="300" y="438" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="11">Prisma Realitas</text>
+  
+  <!-- Refracted beams (spectrum) -->
+  <!-- Red -->
+  <line x1="440" y1="330" x2="650" y2="120" stroke="#ef4444" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="670" y="115" fill="#ef4444" font-family="Inter, sans-serif" font-size="11" font-weight="500">HOAX</text>
+  
+  <!-- Orange -->
+  <line x1="445" y1="340" x2="680" y2="180" stroke="#f97316" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="700" y="175" fill="#f97316" font-family="Inter, sans-serif" font-size="11" font-weight="500">DEEPFAKE</text>
+  
+  <!-- Yellow -->
+  <line x1="448" y1="348" x2="690" y2="240" stroke="#eab308" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="710" y="235" fill="#eab308" font-family="Inter, sans-serif" font-size="11" font-weight="500">NARASI</text>
+  
+  <!-- Green -->
+  <line x1="450" y1="352" x2="685" y2="300" stroke="#22c55e" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="705" y="295" fill="#22c55e" font-family="Inter, sans-serif" font-size="11" font-weight="500">REALITAS</text>
+  
+  <!-- Blue -->
+  <line x1="448" y1="356" x2="670" y2="360" stroke="#3b82f6" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="690" y="375" fill="#3b82f6" font-family="Inter, sans-serif" font-size="11" font-weight="500">KEYAKINAN</text>
+  
+  <!-- Indigo -->
+  <line x1="445" y1="362" x2="650" y2="410" stroke="#6366f1" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="670" y="425" fill="#6366f1" font-family="Inter, sans-serif" font-size="11" font-weight="500">PREJUDISI</text>
+  
+  <!-- Violet -->
+  <line x1="440" y1="370" x2="620" y2="450" stroke="#a855f7" stroke-width="4" opacity="0.85" filter="url(#glow)"/>
+  <text x="640" y="465" fill="#a855f7" font-family="Inter, sans-serif" font-size="11" font-weight="500">BIAS</text>
+  
+  <!-- Bottom caption -->
+  <text x="400" y="490" text-anchor="middle" fill="#475569" font-family="Inter, sans-serif" font-size="10">Kebenaran tunggal direfraksikan menjadi jutaan realitas</text>
+</svg>
