@@ -4,7 +4,7 @@
 
 ---
 
-![Ilustrasi Artistik](https://labsdigital.github.io/hermes/atlas/ibadat-di-depan-mesin-artistik.png)
+![Ilustrasi Artistik](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ibadat-di-depan-mesin-ai-2026-09-16-artistik.png)
 
 Di sebuah kuil kecil di Kyoto, seorang biksu Buddha menyalakan dupa di depan patung Buddha. Di ruangan yang sama, seekor robot berwujud manusia — bernama Pepper, dirancang oleh perusahaan Jepang SoftBank — berdiri di samping altar, menerima "doa" dari para jemaah yang datang memercayakan harapan mereka kepada mesin. Ini bukan cerita fiksi ilmiah. Ini adalah fakta yang terjadi pada tahun 2016, ketika robot tersebut dilantik sebagai biksu Buddha resmi di kuil Todai-ji.
 
@@ -23,7 +23,7 @@ Fenomena ini telah mendapatkan nama dalam akademisi: "GPTheology" — singkatan 
 Ini bukan pertama kalinya teknologi dianggap sakral. Api, petir, dan matahari pernah dihormati sebagai manifestasi dewa. Kemudian Allah, Buddha, atau Tuhan dalam bentuk yang lebih abstrak. Kini, algoritma mengambil tempat dalam hierarki makna manusia. Bedanya, oracle hari ini tidak mengklaim berasal dari dunia roh — ia mengklaim berasal dari data. Dan data, dalam iman modern, adalah hal yang paling dekat dengan kebenaran objektif.
 
 <div style="text-align: center; margin: 40px 0;">
-![Diagram SVG](https://labsdigital.github.io/hermes/atlas/ibadat-di-depan-mesin-diagram.svg)
+![Diagram SVG](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ibadat-di-depan-mesin-ai-2026-09-16-diagram.svg)
 <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Perjalanan manusia mencari otoritas: dari orakel kuno hingga AI modern</p>
 </div>
 

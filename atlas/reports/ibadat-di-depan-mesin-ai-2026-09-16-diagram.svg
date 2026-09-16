@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="svg-title svg-desc">
+  <title id="svg-title">Ibadat di Depan Mesin: Perbandingan Oracle Kuno dan AI Modern</title>
+  <desc id="svg-desc">Diagram perbandingan antara sistem oracle kuno (Delphi, kuil Buddha) dan sistem AI modern (chatbot, robot pendeta) dalam memenuhi kebutuhan spiritual manusia.</desc>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Georgia, serif" font-size="22" fill="#1e293b" font-weight="bold">Oracle Kuno vs AI Modern</text>
+  
+  <!-- LEFT: Oracle Kuno -->
+  <g transform="translate(0, 0)">
+    <!-- Card background -->
+    <rect x="20" y="70" width="360" height="400" rx="20" fill="#fff7ed" stroke="#fed7aa" stroke-width="2"/>
+    
+    <!-- Temple icon -->
+    <path d="M120 120 L200 80 L280 120 L280 200 L120 200 Z" fill="#fdba74" opacity="0.6"/>
+    <rect x="160" y="160" width="80" height="40" fill="#7c2d12" opacity="0.3"/>
+    <circle cx="200" cy="140" r="15" fill="#f97316" opacity="0.8"/>
+    
+    <!-- Labels -->
+    <text x="200" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#7c2d12" font-weight="bold">Oracle Kuno</text>
+    <text x="200" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#92400e">Delphi, Kuil Buddha, Dukun</text>
+    
+    <!-- Features -->
+    <text x="50" y="320" font-family="Georgia, serif" font-size="13" fill="#78350f">• Fisik & berlokasi</text>
+    <text x="50" y="345" font-family="Georgia, serif" font-size="13" fill="#78350f">• Butuh perantara</text>
+    <text x="50" y="370" font-family="Georgia, serif" font-size="13" fill="#78350f">• Akses terbatas</text>
+    <text x="50" y="395" font-family="Georgia, serif" font-size="13" fill="#78350f">• Subjektif & ambigu</text>
+    <text x="50" y="420" font-family="Georgia, serif" font-size="13" fill="#78350f">• Otoritas tradisional</text>
+    
+    <!-- Human figure -->
+    <circle cx="300" cy="310" r="20" fill="#f97316" opacity="0.5"/>
+    <line x1="300" y1="330" x2="300" y2="370" stroke="#f97316" stroke-width="3" opacity="0.5"/>
+    <line x1="280" y1="350" x2="320" y2="350" stroke="#f97316" stroke-width="3" opacity="0.5"/>
+  </g>
+  
+  <!-- RIGHT: AI Modern -->
+  <g transform="translate(420, 0)">
+    <!-- Card background -->
+    <rect x="20" y="70" width="360" height="400" rx="20" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+    
+    <!-- Server/chip icon -->
+    <rect x="120" y="100" width="160" height="100" rx="10" fill="#3b82f6" opacity="0.3"/>
+    <rect x="140" y="120" width="40" height="40" rx="5" fill="#3b82f6" opacity="0.6"/>
+    <rect x="200" y="120" width="40" height="40" rx="5" fill="#3b82f6" opacity="0.6"/>
+    <rect x="140" y="170" width="40" height="40" rx="5" fill="#3b82f6" opacity="0.6"/>
+    <rect x="200" y="170" width="40" height="40" rx="5" fill="#3b82f6" opacity="0.6"/>
+    <circle cx="200" cy="150" r="8" fill="#1d4ed8"/>
+    
+    <!-- Labels -->
+    <text x="200" y="250" text-anchor="middle" font-family="Georgia, serif" font-size="18" fill="#1e3a8a" font-weight="bold">AI Modern</text>
+    <text x="200" y="280" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#1e40af">ChatGPT, Robot Pendeta, Avatar</text>
+    
+    <!-- Features -->
+    <text x="50" y="320" font-family="Georgia, serif" font-size="13" fill="#1e3a8a">• Global & tanpa batas</text>
+    <text x="50" y="345" font-family="Georgia, serif" font-size="13" fill="#1e3a8a">• Langsung tanpa perantara</text>
+    <text x="50" y="370" font-family="Georgia, serif" font-size="13" fill="#1e3a8a">• 24/7 availability</text>
+    <text x="50" y="395" font-family="Georgia, serif" font-size="13" fill="#1e3a8a">• Terstruktur & konsisten</text>
+    <text x="50" y="420" font-family="Georgia, serif" font-size="13" fill="#1e3a8a">• Otoritas data & algoritma</text>
+    
+    <!-- Robot figure -->
+    <rect x="300" y="300" width="40" height="50" rx="5" fill="#3b82f6" opacity="0.5"/>
+    <circle cx="310" cy="315" r="5" fill="#1d4ed8"/>
+    <circle cx="330" cy="315" r="5" fill="#1d4ed8"/>
+    <line x1="310" y1="335" x2="330" y2="335" stroke="#1d4ed8" stroke-width="2" opacity="0.5"/>
+  </g>
+  
+  <!-- Center arrow showing evolution -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  <line x1="380" y1="270" x2="420" y2="270" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="400" y="260" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#64748b">Evolusi</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="490" text-anchor="middle" font-family="Georgia, serif" font-size="12" fill="#64748b">Manusia tetap mencari yang sama: makna, arahan, dan ketenangan</text>
+</svg>
