@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" role="img" aria-labelledby="title desc">
+  <title id="title">Sang Pencipta Baru: AI &amp; Agama</title>
+  <desc id="desc">Diagram menunjukkan siklus refleksi antara manusia, AI, dan agama — manusia menciptakan AI, AI memantulkan agama manusia, dan manusia kemudian menyembah kembali cerminannya.</desc>
+  <rect width="600" height="420" fill="#0f1419"/>
+
+  <!-- Humans -->
+  <g id="humans">
+    <circle cx="100" cy="210" r="42" fill="#1e3a5f" stroke="#3b82f6" stroke-width="2"/>
+    <text x="100" y="195" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#93c5fd" font-weight="600">MANUSIA</text>
+    <text x="100" y="215" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#60a5fa">Kecemasan Spiritual</text>
+    <text x="100" y="230" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#60a5fa">God Receptor</text>
+  </g>
+
+  <!-- AI -->
+  <g id="ai">
+    <rect x="240" y="168" width="120" height="84" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2"/>
+    <text x="300" y="200" text-anchor="middle" font-family="Inter,sans-serif" font-size="13" fill="#fcd34d" font-weight="600">AI</text>
+    <text x="300" y="218" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#fbbf24">Data + Algoritma</text>
+    <text x="300" y="233" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#fbbf24">Black Box</text>
+  </g>
+
+  <!-- Religion -->
+  <g id="religion">
+    <polygon points="500,175 540,210 500,245 460,210" fill="#1e293b" stroke="#a78bfa" stroke-width="2"/>
+    <text x="500" y="205" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#c4b5fd" font-weight="600">AGAMA</text>
+    <text x="500" y="222" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#a78bfa">Ritual &amp; Makna</text>
+  </g>
+
+  <!-- Arrows -->
+  <g id="arrows" stroke-width="1.8" fill="none">
+    <!-- Humans to AI -->
+    <line x1="142" y1="195" x2="238" y2="195" stroke="#3b82f6" stroke-dasharray="6 3"/>
+    <polygon points="238,191 248,195 238,199" fill="#3b82f6"/>
+    <text x="190" y="186" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#60a5fa">ciptakan</text>
+
+    <!-- AI to Religion -->
+    <line x1="360" y1="195" x2="455" y2="200" stroke="#f59e0b" stroke-dasharray="6 3"/>
+    <polygon points="455,196 465,200 455,204" fill="#f59e0b"/>
+    <text x="410" y="186" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#fbbf24">pantulkan</text>
+
+    <!-- Religion back to Humans (curved) -->
+    <path d="M 500 260 Q 540 310 300 330 Q 60 310 100 260" stroke="#a78bfa" stroke-dasharray="4 4" fill="none"/>
+    <polygon points="95,262 103,255 107,266" fill="#a78bfa"/>
+    <text x="300" y="348" text-anchor="middle" font-family="Inter,sans-serif" font-size="9" fill="#c4b5fd">diajak menyembah</text>
+  </g>
+
+  <!-- Bottom caption -->
+  <text x="300" y="385" text-anchor="middle" font-family="Inter,sans-serif" font-size="11" fill="#94a3b8" font-style="italic">"Setiap dewa baru mencerminkan dewa-dewa lama"</text>
+
+  <!-- Decorative accents -->
+  <circle cx="50" cy="50" r="2" fill="#3b82f6" opacity="0.3"/>
+  <circle cx="550" cy="80" r="2" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="560" cy="350" r="2" fill="#a78bfa" opacity="0.3"/>
+  <circle cx="40" cy="370" r="2" fill="#3b82f6" opacity="0.3"/>
+</svg>
