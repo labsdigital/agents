@@ -4,7 +4,7 @@
 
 ---
 
-![Ilustrasi Artistik](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/senja-keheranan-artistik.png)
+![Ilustrasi Artistik](https://labsdigital.github.io/hermes/atlas/reports/senja-keheranan-artistik.png)
 
 Di sebuah perpustakaan kuno di Iskandariyah, para cendekiawan berlari membawa gulungan naskah menyelamatkan pengetahuan dari api yang mengancam membakar seluruh koleksi. Mereka tahu bahwa jika Perpustakaan itu jatuh, manusia akan kehilangan sebagian dari misteri yang pernah mereka kumpulkan selama berabad-abad. Ribuan tahun kemudian, di sebuah server farm di Nevada, miliaran gulungan digital — artikel ilmiah, ensiklopedia, catatan harian, puisi — tersedia dalam waktu kurang dari tiga detik. Tidak ada yang perlu diselamatkan. Tidak ada yang bisa hilang. Dan justru di sinilah tragedi yang lebih halus dimulai: bukan pengetahuan yang lenyap, melainkan keheranan.
 
@@ -29,61 +29,9 @@ Namun di balik kemudahan ini tersembunyi paradoks yang berbahaya: semakin banyak
 Filsuf Hans Jonas, dalam esainya yang terkenal "Responsibility in Technological Age," memperingatkan bahwa teknologi bukan hanya alat — ia membentuk cara manusia berhadapan dengan dunia. Api membuat manusia merasa lebih berani. Roda membuat manusia merasa lebih cepat. Mesin cetak membuat manusia merasa lebih bijaksana. Dan AI membuat manusia merasa lebih tahu. Namun pengetahuan tanpa keheranan adalah seperti makanan tanpa rasa — memenuhi lapar, tetapi tidak memberinya nikmat.
 
 <div style="text-align: center; margin: 40px 0;">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#1a1a2e"/>
-      <stop offset="100%" style="stop-color:#16213e"/>
-    </linearGradient>
-    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#f97316"/>
-      <stop offset="100%" style="stop-color:#fb923c"/>
-    </linearGradient>
-  </defs>
-  <rect width="600" height="400" fill="url(#bg)" rx="12"/>
-  
-  <!-- Timeline curve -->
-  <path d="M 50 320 Q 150 320 200 250 T 350 150 T 500 100 T 550 80" fill="none" stroke="#667eea" stroke-width="3" stroke-dasharray="8,4"/>
-  
-  <!-- Ancient era -->
-  <circle cx="80" cy="310" r="18" fill="#f97316" opacity="0.9"/>
-  <text x="80" y="270" text-anchor="middle" fill="#f97316" font-size="13" font-family="Inter, sans-serif" font-weight="bold">ZAMAN KUNO</text>
-  <text x="80" y="350" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Keheranan Tinggi</text>
-  <text x="80" y="368" text-anchor="middle" fill="#64748b" font-size="9" font-family="Inter, sans-serif">Petir? Gunung berapi?</text>
-  
-  <!-- Enlightenment -->
-  <circle cx="200" cy="250" r="16" fill="#667eea" opacity="0.9"/>
-  <text x="200" y="215" text-anchor="middle" fill="#667eea" font-size="13" font-family="Inter, sans-serif" font-weight="bold">Pencerahan</text>
-  <text x="200" y="285" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Sains & Filosofi</text>
-  <text x="200" y="303" text-anchor="middle" fill="#64748b" font-size="9" font-family="Inter, sans-serif">Mengapa bumi berputar?</text>
-  
-  <!-- Industrial -->
-  <circle cx="350" cy="155" r="14" fill="#764ba2" opacity="0.9"/>
-  <text x="350" y="125" text-anchor="middle" fill="#764ba2" font-size="13" font-family="Inter, sans-serif" font-weight="bold">Industrial</text>
-  <text x="350" y="188" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Teknologi Mesin</text>
-  <text x="350" y="206" text-anchor="middle" fill="#64748b" font-size="9" font-family="Inter, sans-serif">Listrik? Telepon?</text>
-  
-  <!-- Digital -->
-  <circle cx="500" cy="100" r="12" fill="#06b6d4" opacity="0.9"/>
-  <text x="500" y="70" text-anchor="middle" fill="#06b6d4" font-size="13" font-family="Inter, sans-serif" font-weight="bold">Digital</text>
-  <text x="500" y="133" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Internet & Data</text>
-  <text x="500" y="151" text-anchor="middle" fill="#64748b" font-size="9" font-family="Inter, sans-serif">Google menjawab?</text>
-  
-  <!-- AI Era -->
-  <circle cx="555" cy="78" r="14" fill="#ef4444" opacity="0.9"/>
-  <text x="555" y="50" text-anchor="middle" fill="#ef4444" font-size="13" font-family="Inter, sans-serif" font-weight="bold">ERA AI</text>
-  <text x="555" y="108" text-anchor="middle" fill="#94a3b8" font-size="11" font-family="Inter, sans-serif">Semua Terjawab</text>
-  <text x="555" y="126" text-anchor="middle" fill="#64748b" font-size="9" font-family="Inter, sans-serif">Tapi... masih heran?</text>
-  
-  <!-- Arrow -->
-  <path d="M 560 60 L 575 60" stroke="#ef4444" stroke-width="2" marker-end="url(#arrowhead)"/>
-  
-  <!-- Title -->
-  <text x="300" y="30" text-anchor="middle" fill="#e2e8f0" font-size="16" font-family="Inter, sans-serif" font-weight="bold">Evolusi Keheranan Manusia</text>
-  <text x="300" y="52" text-anchor="middle" fill="#64748b" font-size="11" font-family="Inter, sans-serif">Dari pertanyaan tanpa jawaban menuju jawaban tanpa pertanyaan</text>
-</svg>
-</div>
+![Diagram](https://labsdigital.github.io/hermes/atlas/reports/senja-keheranan-diagram.svg)
 <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Perjalanan keheranan manusia dari zaman kuno hingga era AI</p>
+</div>
 
 ## Seninya Tidak Tahu
 
