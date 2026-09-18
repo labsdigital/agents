@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" role="img" aria-labelledby="title desc">
+  <title id="title">Bagaimana Griefbot Bekerja</title>
+  <desc id="desc">Diagram alur bagaimana data digital digunakan untuk membuat simulasi AI dari orang yang telah meninggal.</desc>
+  
+  <!-- Background -->
+  <rect width="600" height="450" fill="#f8fafc"/>
+  
+  <!-- Title -->
+  <text x="300" y="35" font-family="Inter, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#1f2937">Bagaimana Griefbot Bekerja</text>
+  
+  <!-- Data Sources -->
+  <rect x="30" y="70" width="140" height="60" rx="8" fill="#3b82f6"/>
+  <text x="100" y="95" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Data Digital</text>
+  <text x="100" y="115" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Pesan, Email, VoIP</text>
+  
+  <rect x="30" y="150" width="140" height="60" rx="8" fill="#3b82f6"/>
+  <text x="100" y="175" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Media Sosial</text>
+  <text x="100" y="195" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Posting, Komentar</text>
+  
+  <rect x="30" y="230" width="140" height="60" rx="8" fill="#3b82f6"/>
+  <text x="100" y="255" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Rekaman Suara</text>
+  <text x="100" y="275" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Video, Podcast</text>
+  
+  <!-- Arrow to AI Processing -->
+  <path d="M 180 160 L 250 160" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 180 200 L 250 200" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 180 260 L 250 260" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- AI Processing -->
+  <rect x="260" y="140" width="160" height="140" rx="12" fill="#8b5cf6"/>
+  <text x="340" y="170" font-family="Inter, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="white">AI Processing</text>
+  <text x="340" y="195" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Fine-tuning Model</text>
+  <text x="340" y="215" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Pattern Learning</text>
+  <text x="340" y="235" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Style Adaptation</text>
+  <text x="340" y="255" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Knowledge Integration</text>
+  <text x="340" y="275" font-family="Inter, sans-serif" font-size="11" text-anchor="middle" fill="white">Personality Mimicry</text>
+  
+  <!-- Arrow to Output -->
+  <path d="M 430 210 L 480 210" stroke="#6b7280" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Griefbot Output -->
+  <rect x="490" y="170" width="90" height="80" rx="10" fill="#10b981"/>
+  <text x="535" y="200" font-family="Inter, sans-serif" font-size="11" font-weight="bold" text-anchor="middle" fill="white">Griefbot</text>
+  <text x="535" y="220" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">Chat Interface</text>
+  <text x="535" y="235" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">Voice Output</text>
+  <text x="535" y="250" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">Image Avatar</text>
+  
+  <!-- User Interaction -->
+  <rect x="200" y="320" width="120" height="50" rx="8" fill="#f59e0b"/>
+  <text x="260" y="345" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">User Input</text>
+  <text x="260" y="360" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">Chat Interface</text>
+  
+  <!-- Feedback Loop -->
+  <path d="M 320 345 Q 400 300 490 210" stroke="#ef4444" stroke-width="2" stroke-dasharray="5,5" fill="none"/>
+  <text x="420" y="280" font-family="Inter, sans-serif" font-size="10" fill="#ef4444">Feedback Loop</text>
+  
+  <!-- Definitions -->
+  <rect x="350" y="320" width="220" height="80" rx="8" fill="#1f2937"/>
+  <text x="460" y="345" font-family="Inter, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="white">Output: Simulasi Persona</text>
+  <text x="460" y="365" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">• Respons kontekstual</text>
+  <text x="460" y="380" font-family="Inter, sans-serif" font-size="10" text-anchor="middle" fill="white">• Gaya bicara personal</text>
+  
+  <!-- Arrow Legend -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#6b7280"/>
+    </marker>
+  </defs>
+</svg>
