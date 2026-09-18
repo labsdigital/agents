@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" font-family="Georgia, serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e6e6e6" font-size="20" font-weight="bold">Perjalanan Makna Manusia</text>
+  
+  <!-- Timeline -->
+  <line x1="80" y1="280" x2="720" y2="280" stroke="url(#arrow)" stroke-width="3"/>
+  
+  <!-- Periods -->
+  <!-- Hunter-Gatherer -->
+  <circle cx="120" cy="280" r="8" fill="#667eea"/>
+  <text x="120" y="220" text-anchor="middle" fill="#64ffda" font-size="14" font-weight="bold">Pemburu-Pengumpul</text>
+  <text x="120" y="320" text-anchor="middle" fill="#8892b0" font-size="12">Bertahan Hidup</text>
+  <text x="120" y="340" text-anchor="middle" fill="#8892b0" font-size="11">Makan • Lindungi • Bertahan</text>
+  
+  <!-- Agriculture -->
+  <circle cx="260" cy="280" r="8" fill="#667eea"/>
+  <text x="260" y="220" text-anchor="middle" fill="#64ffda" font-size="14" font-weight="bold">Pertanian</text>
+  <text x="260" y="320" text-anchor="middle" fill="#8892b0" font-size="12">Membangun</text>
+  <text x="260" y="340" text-anchor="middle" fill="#8892b0" font-size="11">Tanah • Lahan • Desa</text>
+  
+  <!-- Industrial -->
+  <circle cx="400" cy="280" r="8" fill="#667eea"/>
+  <text x="400" y="220" text-anchor="middle" fill="#64ffda" font-size="14" font-weight="bold">Industri</text>
+  <text x="400" y="320" text-anchor="middle" fill="#8892b0" font-size="12">Kemajuan</text>
+  <text x="400" y="340" text-anchor="middle" fill="#8892b0" font-size="11">Ekonomi • Teknologi</text>
+  
+  <!-- Information -->
+  <circle cx="540" cy="280" r="8" fill="#667eea"/>
+  <text x="540" y="220" text-anchor="middle" fill="#64ffda" font-size="14" font-weight="bold">Informasi</text>
+  <text x="540" y="320" text-anchor="middle" fill="#8892b0" font-size="12">Pemilihan</text>
+  <text x="540" y="340" text-anchor="middle" fill="#8892b0" font-size="11">Karier • Seni • Spiritual</text>
+  
+  <!-- AI Era -->
+  <circle cx="680" cy="280" r="12" fill="#e74c3c"/>
+  <text x="680" y="220" text-anchor="middle" fill="#e74c3c" font-size="14" font-weight="bold">AI</text>
+  <text x="680" y="320" text-anchor="middle" fill="#8892b0" font-size="12">Pertanyaan</text>
+  <text x="680" y="340" text-anchor="middle" fill="#8892b0" font-size="11">Makna tanpa kerja?</text>
+  
+  <!-- Arrow from Information to AI -->
+  <path d="M 600 280 L 660 280" stroke="#e74c3c" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Key insight box -->
+  <rect x="200" y="420" width="400" height="80" rx="8" fill="rgba(102,126,234,0.2)" stroke="#667eea" stroke-width="1"/>
+  <text x="400" y="450" text-anchor="middle" fill="#e6e6e6" font-size="13">Insight Kunci:</text>
+  <text x="400" y="475" text-anchor="middle" fill="#64ffda" font-size="12">AI memisahkan identitas dari produktivitas —</text>
+  <text x="400" y="495" text-anchor="middle" fill="#64ffda" font-size="12">pertama kalinya dalam sejarah.</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="50" cy="50" r="30" fill="rgba(102,126,234,0.1)"/>
+  <circle cx="750" cy="550" r="40" fill="rgba(118,75,162,0.1)"/>
+</svg>

@@ -4,7 +4,7 @@
 
 ---
 
-![Ilustrasi Artistik](https://labsdigital.github.io/hermes/atlas/di-ujung-penjara-pekerjaan-artistik.png)
+![Ilustrasi Artistik](https://labsdigital.github.io/hermes/atlas/reports/di-ujung-penjara-pekerjaan-ai-2026-09-18-artistik.png)
 
 Di sebuah kota di Jepang, seorang pria berusia enam puluh dua tahun bangun setiap pagi pukul lima. Ia memakai dasi, mengenakan jas, dan berjalan menuju stasiun kereta. Di sana, ia naik kereta yang sama seperti selama tiga puluh tahun. Ia tiba di gedung kantornya, duduk di kursi yang sudah aus, dan menatap layar komputer yang tidak pernah ia sentuh.
 
@@ -47,7 +47,7 @@ Ekonomi klasik mengajarkan bahwa kerja adalah sumber nilai. Namun filsuf Marx me
 ---
 
 <div style="text-align: center; margin: 40px 0;">
-![Diagram SVG](https://labsdigital.github.io/hermes/atlas/di-ujung-penjara-pekerjaan-diagram.svg)
+![Diagram SVG](https://labsdigital.github.io/hermes/atlas/reports/di-ujung-penjara-pekerjaan-ai-2026-09-18-diagram.svg)
 <p style="font-size: 0.9em; color: #666; margin-top: 10px;">Perjalanan makna manusia: dari bertahan hidup menuju pencarian tujuan</p>
 </div>
 
