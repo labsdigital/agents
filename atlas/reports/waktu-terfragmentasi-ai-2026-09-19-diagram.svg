@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="22" font-weight="bold">Waktu: Kronos vs Kairos</text>
+  
+  <!-- Left side - Kronos -->
+  <circle cx="200" cy="200" r="120" fill="none" stroke="#533483" stroke-width="2" opacity="0.7"/>
+  <text x="200" y="170" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="18" font-weight="bold">KRONOS</text>
+  <text x="200" y="195" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="13">Waktu Terukur</text>
+  <text x="200" y="220" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">Detik • Menit • Jam</text>
+  <text x="200" y="250" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">Efisiensi • Produktivitas</text>
+  
+  <!-- Clock icon representation -->
+  <circle cx="200" cy="310" r="30" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+  <line x1="200" y1="310" x2="200" y2="290" stroke="#e94560" stroke-width="1.5"/>
+  <line x1="200" y1="310" x2="215" y2="310" stroke="#e94560" stroke-width="1.5"/>
+  
+  <!-- Right side - Kairos -->
+  <circle cx="600" cy="200" r="120" fill="none" stroke="#0f3460" stroke-width="2" opacity="0.7"/>
+  <text x="600" y="170" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="18" font-weight="bold">KAIROS</text>
+  <text x="600" y="195" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="13">Waktu Berkualitas</text>
+  <text x="600" y="220" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="11">Refleksi • Keheranan</text>
+  <text x="600" y="250" text-anchor="middle" fill="#4a90d9" font-family="Inter, sans-serif" font-size="11">Pemaknaan • Kreativitas</text>
+  
+  <!-- Lightbulb icon representation -->
+  <circle cx="600" cy="310" r="25" fill="none" stroke="#e94560" stroke-width="1.5" opacity="0.6"/>
+  <line x1="600" y1="335" x2="600" y2="345" stroke="#e94560" stroke-width="1.5"/>
+  <line x1="590" y1="345" x2="610" y2="345" stroke="#e94560" stroke-width="1.5"/>
+  
+  <!-- Center - AI disruption -->
+  <rect x="320" y="180" width="160" height="60" rx="10" fill="#e94560" opacity="0.2" stroke="#e94560" stroke-width="1.5"/>
+  <text x="400" y="205" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="14" font-weight="bold">AI</text>
+  <text x="400" y="225" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="11">Menghapus Ruang Batin</text>
+  
+  <!-- Arrows showing flow -->
+  <path d="M 320 200 L 315 200" stroke="#e94560" stroke-width="1" opacity="0.5"/>
+  <path d="M 480 200 L 485 200" stroke="#e94560" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Bottom - Consequences -->
+  <rect x="100" y="380" width="600" height="100" rx="10" fill="#16213e" stroke="#533483" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="410" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Dampak Fragmentasi Waktu</text>
+  <text x="400" y="440" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">• Hilangnya waktu batin • Ilusi pemahaman instan • Kehancuran keheranan</text>
+  <text x="400" y="460" text-anchor="middle" fill="#a89ce6" font-family="Inter, sans-serif" font-size="11">• Paradoks otonomi • Krisis makna</text>
+</svg>
