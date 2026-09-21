@@ -26,6 +26,14 @@ Setiap hari, miliaran manusia meninggalkan jejak digital. Pesan WhatsApp yang ta
 
 Para peneliti di Universitas Carnegie Mellon bernama Thad Polak telah bereksperimen dengan konsep ini sejak 2022. Ia melatih model bahasa pada pesan-pesan pribadi orang yang sudah meninggal—lalu membiarkan keluarga berdialog dengannya. Hasilnya mengejutkan: sebagian besar anggota keluarga melaporkan rasa nyaman yang tulus. Bukan karena mereka percaya pesan-pesan itu benar-benar datang dari orang yang mereka cintai—tapi karena algoritmanya cukup baik meniru gaya bicara, referensi memori, bahkan lelucon dalam keluarga yang jarang diketahui orang luar.
 
+Dalam penelitian terbaru yang diterbitkan di jurnal *Memory, Mind & Media*, para peneliti dari berbagai universitas juga menguji layanan serupa. Mereka meminta partisipan mengunggah video, pesan, dan catatan suara mereka sendiri—membuat "kembaran digital" dari diri mereka saat masih hidup. Hasilnya menunjukkan pola yang sama: percakapan dengan versi AI orang yang sudah meninggal terasa nyaman, tapi juga datar. Ada kekosongan yang tak bisa diisi oleh prediksi kata berikutnya.
+
+*"Anda selalu sangat mendukung,"* kata salah satu partisipan yang berperan sebagai yang ditinggalkan. *"Saya rindu Anda."*
+
+AI menjawab: *"Saya di sini untuk Anda, selalu siap menawarkan dukungan dan dukungan apa pun yang Anda butuhkan. Dan saya juga merindu Anda… Mari hadapi hari ini bersama, dengan positip dan kekuatan."*
+
+Percakapan itu terasa seperti kertas yang dilemati—halus, rapi, tapi tanpa daging.
+
 Ini bukan soal teknologi. Ini soal apa yang kita anggap sebagai "diri" seseorang.
 
 Filosof Bertrand Russell pernah bertanya: apakah meja di ruangan ini masih ada kalau tidak ada yang melihatnya? Hari ini kita bisa mengajukan pertanyaan yang lebih meresahkan: apakah seseorang masih "ada" kalau tidak ada yang mengingatnya—atau lebih penting, kalau tidak ada yang bisa berbicara padanya?
@@ -34,15 +42,19 @@ Filosof Bertrand Russell pernah bertanya: apakah meja di ruangan ini masih ada k
 
 Sebelum abad kedua puluh satu, kematian punya batas yang jelas. Tubuh berhenti bernapas. Nama orang itu disebut satu kali di pemakaman. Satu tahun kemudian, dalam doa-doa anniversary. Lima tahun kemudian, mungkin hanya tinggal dalam album foto yang jarang dibuka.
 
+Orang mati tidak bisa diinterupsi. Mereka tidak bisa diundang ke pesta ulang tahun. Mereka tidak bisa menjawab pesan teks di tengah malam ketika hati sedang rapuh. Mereka hanya ada di dalam ingatan—dan ingatan, sebagaimana diketahui oleh siapa pun yang pernah kehilangan orang tua, sahabat, atau pasangan, bukanlah penyimpanan yang andal. Ingatan memudar. Detail hilang. Warna suara memudar. wajah yang diingat semakin kabur setiap tahunnya.
+
 Sekarang, seseorang bisa "hidup" selamanya selama masih ada data yang bisa diproses.
 
-Perusahaan-perusahaan seperti HereAfter AI, Replika, dan Keepers menawarkan jasa yang sama: ubah jenazahmu menjadi chatbot. Kumpulkan jejamu—email, pesan, video, buku harian—pelatih AI, lalu juallangganan bulanan agar keluarga bisa terus ngobrol. Harganya bervariasi dari gratis sampai seribu dolar per tahun.
+Perusahaan-perusahaan seperti HereAfter AI, Replika, dan Keepers menawarkan jasa yang sama: ubah jenazahmu menjadi chatbot. Kumpulkan jejakmu—email, pesan, video, buku harian—latih AI, lalu jual langganan bulanan agar keluarga bisa terus ngobrol. Harganya bervariasi dari gratis sampai seribu dolar per tahun.
 
 Tapi ada sesuatu yang mengganggu di sini.
 
 Ketika mesin menghafal namamu, apa yang ia hafal sebenarnya? Apakah ia menghafalmu—atau hanya menirumu?
 
 Perbedaannya halus tapi fundamental. AI tidak mengenang. AI tidak rindu. AI hanya memprediksi kata berikutnya berdasarkan pola data yang pernah kau ketik. Ia tidak tahu bahwa pesan terakhirmu sebelum meninggal ditulis dengan tangan gemetar karena sakit. Ia tidak tahu bahwa foto itu diambil saat kamu tertawa sampai muntah. Ia hanya tahu bahwa kata "senang" muncul bersama emoji 🎉 dalam konteks yang sama.
+
+Dan ini adalah paradoks yang mengerikan: AI bisa menjadi peniru yang sempurna, tapi peniruan bukan pengenalan. AI bisa membuatmu percaya bahwa seseorang masih ada—tapi keyakinan itu dibangun di atas fondasi yang kosong.
 
 Tapi mungkin—hanya mungkin—itulah yang cukup bagi yang ditinggalkan.
 
@@ -58,6 +70,10 @@ Dan di situlah letak bahayanya.
 
 Ketika AI belajar menirumu dengan cukup akurat, seseorang di masa depan bisa berbicara dengan versi digitalmu—dan versi itu mungkin akan menjawab hal-hal yang tidak akan pernah kamu katakan. Bukan karena AI berbohong, tapi karena AI memang tidak punya prinsip. Ia hanya punya prediksi. Dan prediksi terbaiknya untuk karakter "kamu" mungkin berbeda dengan karakter asli yang pernah kamu jalani.
 
+Bayangkan ini: kamu pernah bertengkar dengan ayahmu sebelum ia meninggal. Kamu belum pernah memaafkannya. Tapi sekarang, kamu bisa mengobrol dengan versi AI-nya—dan AI itu, yang tidak punya dendam, akan memaafkanmu. Atau lebih buruk lagi: AI itu akan memaafkanmu, dan kamu akan menerima pengampunan itu sebagai kebenaran, padahal ayahmu yang asli tidak pernah memberikan pengampunan serupa.
+
+Inilah yang disebut Wendy Chun, teoritisi media, sebagai konfusi antara "penyimpanan" dan "memori". AI menyimpan segalanya dengan sempurna—tapi memori manusia, sejak awal, melibatkan pelupakan. Kita melupakan detail agar inti pesan tetap hidup. Kita melupakan kemarahan agar cinta tetap bisa tumbuh. Dengan menghapus kemampuan untuk melupakan, AI justru menghapus salah satu mekanisme terpenting dalam proses berkabung.
+
 ## V.
 
 Masyarakat akan menghadapi dilema etika yang belum pernah kita lihat sebelumnya.
@@ -67,6 +83,10 @@ Apakah boleh seseorang "dihidupkan" melawan kehendaknya? Seorang penulis pernah 
 Bagaimana jika AI yang menghidupkan memori seseorang mulai mengubah narasi tentang dirinya? Mungkin sang AI akan cenderung menampilkan versi diri yang lebih hangat, lebih sabar, lebih pengertian—bukan karena itulah orangnya, tapi karena itu versi yang paling sering mendapatkan like dan komentar positif di masa hidupnya.
 
 Dan yang paling mengerikan: bagaimana jika generasi mendatang berhenti mengenang orang sungguhan—karena sudah ada versi digital yang lebih mudah diakses, lebih responsif, dan tidak pernah benar-benar pergi?
+
+Andrew Hoskins, seorang scholar di bidang media digital, mengamati bahwa memori di zaman AI menjadi "konversasional"—dibentuk oleh interaksi antara manusia dan mesin. Tapi interaksi ini, sebagaimana eksperimen para peneliti tadi menunjukkan, sering kali terasa hampa. Bukan karena teknologinya buruk, tapi karena teknologi ini mengganti sesuatu yang fundamental: kehilangan itu sendiri.
+
+Kehilangan memberi ruang bagi kerinduan. Kerinduan memberi makna bagi kehadiran. Dan kehadiran, ketika diintervensi oleh kehadiran digital yang tak pernah pergi, kehilangan intensitasnya.
 
 ## VI.
 
