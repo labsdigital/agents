@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="24" font-weight="bold">Perhatian sebagai Mata Uang Baru</text>
+  <text x="400" y="75" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="14">Ekonomi Perhatian di Era Kecerdasan Buatan</text>
+  
+  <!-- Central circle - Human Attention -->
+  <circle cx="400" cy="300" r="100" fill="none" stroke="url(#accent)" stroke-width="3"/>
+  <text x="400" y="295" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="bold">Perhatian</text>
+  <text x="400" y="315" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="14">Manusia</text>
+  
+  <!-- AI Machines surrounding -->
+  <g transform="translate(400, 150)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Algoritma</text>
+    <text x="0" y="10" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Rekomendasi</text>
+    <text x="0" y="25" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Prediksi</text>
+    <line x1="0" y1="40" x2="0" y2="100" stroke="#e94560" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <g transform="translate(200, 300)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Notifikasi</text>
+    <text x="0" y="10" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Dopamine</text>
+    <text x="0" y="25" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Reward</text>
+    <line x1="60" y1="0" x2="100" y2="0" stroke="#e94560" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <g transform="translate(600, 300)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Scroll</text>
+    <text x="0" y="10" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Tanpa Akhir</text>
+    <text x="0" y="25" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Auto-play</text>
+    <line x1="-60" y1="0" x2="-100" y2="0" stroke="#e94560" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <g transform="translate(400, 450)">
+    <rect x="-60" y="-40" width="120" height="80" rx="10" fill="#0f3460" stroke="#e94560" stroke-width="2"/>
+    <text x="0" y="-10" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">FOMO</text>
+    <text x="0" y="10" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Fear of Missing</text>
+    <text x="0" y="25" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Out</text>
+    <line x1="0" y1="-40" x2="0" y2="-100" stroke="#e94560" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- Impact section -->
+  <g transform="translate(100, 520)">
+    <text x="0" y="0" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Dampak:</text>
+    <text x="70" y="0" fill="#fff" font-family="Inter, sans-serif" font-size="12">Demokrasi • Pendidikan • Mental Health</text>
+  </g>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="100" r="3" fill="#e94560" opacity="0.5"/>
+  <circle cx="700" cy="150" r="4" fill="#e94560" opacity="0.3"/>
+  <circle cx="150" cy="500" r="5" fill="#e94560" opacity="0.4"/>
+  <circle cx="650" cy="480" r="3" fill="#e94560" opacity="0.5"/>
+</svg>
