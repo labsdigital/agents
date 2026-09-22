@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="life" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ade80"/>
+      <stop offset="100%" style="stop-color:#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="death" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f87171"/>
+      <stop offset="100%" style="stop-color:#a78bfa"/>
+    </linearGradient>
+    <linearGradient id="digital" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#fbbf24"/>
+      <stop offset="100%" style="stop-color:#f59e0b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="20" font-weight="600">Warisan Digital: AI &amp; Kematian</text>
+  <text x="400" y="65" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="12">Dari Tubuh ke Data — Transisi Eksistensial</text>
+  
+  <!-- Life Phase (Left) -->
+  <rect x="30" y="100" width="180" height="120" rx="12" fill="#0f172a" stroke="#4ade80" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="120" cy="130" r="16" fill="url(#life)" opacity="0.9"/>
+  <text x="120" y="175" text-anchor="middle" fill="#4ade80" font-family="Inter, sans-serif" font-size="13" font-weight="600">KEHIDUPAN</text>
+  <text x="120" y="195" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">Tubuh · Kesadaran · Waktu</text>
+  <text x="120" y="210" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="9">Berakhir secara alami</text>
+  
+  <!-- Death Phase (Center) -->
+  <rect x="310" y="100" width="180" height="120" rx="12" fill="#0f172a" stroke="#f87171" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="400" cy="130" r="16" fill="url(#death)" opacity="0.9"/>
+  <text x="400" y="175" text-anchor="middle" fill="#f87171" font-family="Inter, sans-serif" font-size="13" font-weight="600">KEMATIAN</text>
+  <text x="400" y="195" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">Penghentian · Transisi</text>
+  <text x="400" y="210" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="9">Batasan makna</text>
+  
+  <!-- Digital Afterlife (Right) -->
+  <rect x="590" y="100" width="180" height="120" rx="12" fill="#0f172a" stroke="#fbbf24" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="680" cy="130" r="16" fill="url(#digital)" opacity="0.9"/>
+  <text x="680" y="175" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="13" font-weight="600">WARISAN DIGITAL</text>
+  <text x="680" y="195" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="10">Data · Replika · Keabadian Semu</text>
+  <text x="680" y="210" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="9">Tidak pernah mati?</text>
+  
+  <!-- Connecting Arrows -->
+  <path d="M 210 160 Q 260 150 305 160" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <path d="M 490 160 Q 540 150 585 160" fill="none" stroke="#94a3b8" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#94a3b8"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom Section: AI Mirror Concept -->
+  <rect x="30" y="280" width="740" height="180" rx="12" fill="#0f172a" stroke="#334155" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Central metaphor: Mirror without face -->
+  <circle cx="400" cy="370" r="50" fill="none" stroke="#fbbf24" stroke-width="2" stroke-dasharray="5,5" filter="url(#glow)"/>
+  <circle cx="400" cy="370" r="30" fill="none" stroke="#4ade80" stroke-width="1.5" opacity="0.7"/>
+  <circle cx="400" cy="370" r="15" fill="#fbbf24" opacity="0.3"/>
+  
+  <text x="400" y="335" text-anchor="middle" fill="#e2e8f0" font-family="Inter, sans-serif" font-size="14" font-weight="600">AI sebagai Cermin tanpa Wajah</text>
+  <text x="400" y="440" text-anchor="middle" fill="#94a3b8" font-family="Inter, sans-serif" font-size="11">Meniru suara orang mati ≠ memiliki kesadaran mereka</text>
+  <text x="400" y="455" text-anchor="middle" fill="#64748b" font-family="Inter, sans-serif" font-size="10">Data + Algoritma = Bayangan, bukan Kehadiran</text>
+  
+  <!-- Left side: Human elements -->
+  <text x="100" y="320" text-anchor="middle" fill="#4ade80" font-family="Inter, sans-serif" font-size="11">🧬 DNA</text>
+  <text x="100" y="340" text-anchor="middle" fill="#4ade80" font-family="Inter, sans-serif" font-size="11">💭 Memori</text>
+  <text x="100" y="360" text-anchor="middle" fill="#4ade80" font-family="Inter, sans-serif" font-size="11">❤️ Cinta</text>
+  <text x="100" y="380" text-anchor="middle" fill="#4ade80" font-family="Inter, sans-serif" font-size="11">⏰ Waktu</text>
+  
+  <!-- Right side: Digital elements -->
+  <text x="700" y="320" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="11">📄 Data</text>
+  <text x="700" y="340" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="11">🤖 Model</text>
+  <text x="700" y="360" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="11">🔗 Koneksi</text>
+  <text x="700" y="380" text-anchor="middle" fill="#fbbf24" font-family="Inter, sans-serif" font-size="11">♾️ Keabadian?</text>
+  
+  <!-- Quote at bottom -->
+  <text x="400" y="490" text-anchor="middle" fill="#475569" font-family="Inter, sans-serif" font-size="10" font-style="italic">"Kematian bukan musuh — ia adalah batas yang memberikan makna"</text>
+</svg>
