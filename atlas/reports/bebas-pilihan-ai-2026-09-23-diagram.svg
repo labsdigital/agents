@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Diagram Kebebasan di Era Algoritma</title>
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#fafafa" rx="12"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="system-ui, sans-serif" font-size="18" font-weight="600" fill="#1a1a1a">Kebebasan vs. Algoritmik Nudging</text>
+  
+  <!-- Human with many options (left) -->
+  <g transform="translate(80, 120)">
+    <circle cx="50" cy="30" r="25" fill="url(#grad1)" filter="url(#shadow)"/>
+    <path d="M25,70 Q50,120 75,70 L70,140 L30,140 Z" fill="url(#grad1)" filter="url(#shadow)"/>
+    <text x="50" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#555">Individu</text>
+    
+    <!-- Many options radiating out -->
+    <g stroke="#667eea" stroke-width="1" opacity="0.4">
+      <line x1="50" y1="0" x2="50" y2="-40"/>
+      <line x1="75" y1="10" x2="110" y2="-10"/>
+      <line x1="80" y1="35" x2="120" y2="30"/>
+      <line x1="75" y1="55" x2="115" y2="70"/>
+      <line x1="25" y1="10" x2="-10" y2="-10"/>
+      <line x1="20" y1="35" x2="-20" y2="30"/>
+      <line x1="25" y1="55" x2="-15" y2="70"/>
+    </g>
+    <g fill="#667eea" opacity="0.6">
+      <circle cx="50" cy="-45" r="4"/>
+      <circle cx="115" cy="-15" r="4"/>
+      <circle cx="125" cy="25" r="4"/>
+      <circle cx="120" cy="75" r="4"/>
+      <circle cx="-15" cy="-15" r="4"/>
+      <circle cx="-25" cy="25" r="4"/>
+      <circle cx="-20" cy="75" r="4"/>
+    </g>
+    <text x="50" y="200" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#888">Pilihan Terbuka</text>
+  </g>
+  
+  <!-- Algorithm funnel (center) -->
+  <g transform="translate(300, 100)">
+    <text x="100" y="0" text-anchor="middle" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#333">Algoritma Rekomendasi</text>
+    
+    <!-- Funnel shape -->
+    <polygon points="0,20 200,20 160,100 40,100" fill="white" stroke="url(#grad2)" stroke-width="2" filter="url(#shadow)"/>
+    <polygon points="40,100 160,100 130,180 70,180" fill="white" stroke="url(#grad2)" stroke-width="2" filter="url(#shadow)"/>
+    <polygon points="70,180 130,180 110,240 90,240" fill="white" stroke="url(#grad2)" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Options entering funnel -->
+    <g fill="#667eea" opacity="0.3">
+      <circle cx="30" cy="35" r="6"/>
+      <circle cx="70" cy="35" r="6"/>
+      <circle cx="110" cy="35" r="6"/>
+      <circle cx="150" cy="35" r="6"/>
+      <circle cx="50" cy="55" r="5"/>
+      <circle cx="90" cy="55" r="5"/>
+      <circle cx="130" cy="55" r="5"/>
+    </g>
+    
+    <text x="100" y="155" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#888">Filter</text>
+    <text x="100" y="215" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#888">Nudge</text>
+    
+    <!-- Single output -->
+    <g fill="#f5576c" opacity="0.8">
+      <circle cx="100" cy="260" r="8"/>
+    </g>
+    <text x="100" y="285" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#f5576c">Pilihan Tunggal</text>
+  </g>
+  
+  <!-- Result: constrained individual (right) -->
+  <g transform="translate(580, 140)">
+    <circle cx="50" cy="30" r="25" fill="url(#grad2)" filter="url(#shadow)"/>
+    <path d="M25,70 Q50,120 75,70 L70,140 L30,140 Z" fill="url(#grad2)" filter="url(#shadow)"/>
+    
+    <!-- Constrained options - only one path visible -->
+    <line x1="50" y1="0" x2="50" y2="-60" stroke="#f5576c" stroke-width="2" opacity="0.6"/>
+    <circle cx="50" cy="-65" r="6" fill="#f5576c" opacity="0.5"/>
+    
+    <!-- Crossed out other paths -->
+    <g stroke="#ccc" stroke-width="1.5" opacity="0.4">
+      <line x1="75" y1="10" x2="110" y2="-10" stroke-dasharray="3,3"/>
+      <line x1="25" y1="10" x2="-10" y2="-10" stroke-dasharray="3,3"/>
+      <line x1="80" y1="35" x2="120" y2="30" stroke-dasharray="3,3"/>
+      <line x1="20" y1="35" x2="-20" y2="30" stroke-dasharray="3,3"/>
+    </g>
+    
+    <text x="50" y="165" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" fill="#555">Individu Terformat</text>
+    <text x="50" y="185" text-anchor="middle" font-family="system-ui, sans-serif" font-size="10" fill="#888">Pilihan Disederhanakan</text>
+  </g>
+  
+  <!-- Arrows -->
+  <polygon points="230,170 240,170 235,180" fill="#667eea"/>
+  <polygon points="480,170 490,170 485,180" fill="#f5576c"/>
+  
+  <!-- Labels -->
+  <text x="255" y="155" font-family="system-ui, sans-serif" font-size="10" fill="#667eea">Input</text>
+  <text x="505" y="155" font-family="system-ui, sans-serif" font-size="10" fill="#f5576c">Output</text>
+  
+  <!-- Bottom insight box -->
+  <g transform="translate(40, 340)">
+    <rect width="720" height="140" rx="12" fill="white" stroke="#e0e0e0" filter="url(#shadow)"/>
+    <text x="360" y="30" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#333">Paradoks Kebebasan Digital</text>
+    
+    <!-- Three stages -->
+    <g transform="translate(40, 60)">
+      <circle cx="20" cy="20" r="18" fill="#667eea" opacity="0.2"/>
+      <text x="20" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#667eea">1</text>
+      <text x="50" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#555">Ilusi Pilihan Tak Terbatas</text>
+      <text x="50" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#888">Ribuan opsi tersedia di layar</text>
+    </g>
+    
+    <g transform="translate(270, 60)">
+      <circle cx="20" cy="20" r="18" fill="#f093fb" opacity="0.2"/>
+      <text x="20" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#c060d0">2</text>
+      <text x="50" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#555">Segmentasi Algoritmik</text>
+      <text x="50" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#888">Mesin menyaring & mengarahkan</text>
+    </g>
+    
+    <g transform="translate(500, 60)">
+      <circle cx="20" cy="20" r="18" fill="#f5576c" opacity="0.2"/>
+      <text x="20" y="25" text-anchor="middle" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#f5576c">3</text>
+      <text x="50" y="15" font-family="system-ui, sans-serif" font-size="11" fill="#555">Otonomi Terformat</text>
+      <text x="50" y="32" font-family="system-ui, sans-serif" font-size="10" fill="#888">Kebebasan dalam kotak yang ditetapkan</text>
+    </g>
+    
+    <text x="360" y="125" text-anchor="middle" font-family="system-ui, sans-serif" font-size="11" fill="#666" font-style="italic">Kebebasan sejati memerlukan kesadaran akan mekanisme pembentuk pilihan</text>
+  </g>
+</svg>
