@@ -38,7 +38,7 @@ Dan inilah yang mengerikan: kita menyerahkan otoritas moral kepada entitas yang 
 
 Tapi apakah AI benar-benar "berpikir"? Atau ia hanya meniru pola berpikir?
 
-Ini adalah pertanyaan lama yang mendapatkan kedalaman baru di era deep learning. John Searle, filsuf bahasa, pernah mengajukan "Chinese Room Argument": bayangkan seseorang di dalam ruangan yang tidak memahami bahasa Mandarin. Ia menerima kartu dengan karakter Mandarin, merujuk ke buku instruksi, dan mengirimkan kartu keluar dengan karakter yang sesuai. Dari luar,似乎dia memahami bahasa. Tapi sebenarnya? Tidak ada pemahaman — hanya manipulasi simbol.
+Ini adalah pertanyaan lama yang mendapatkan kedalaman baru di era deep learning. John Searle, filsuf bahasa, pernah mengajukan "Chinese Room Argument": bayangkan seseorang di dalam ruangan yang tidak memahami bahasa Mandarin. Ia menerima kartu dengan karakter Mandarin, merujuk ke buku instruksi, dan mengirimkan kartu keluar dengan karakter yang sesuai. Dari luar,dia memahami bahasa. Tapi sebenarnya? Tidak ada pemahaman — hanya manipulasi simbol.
 
 ChatGPT adalah Chinese Room yang sempurna. Ia tidak memahami makna di balik kata-katanya. Ia hanya menghitung probabilitas kata berikutnya. Tapi ketika kamu bertanya padanya tentang arti kehidupan, dan ia menjawab dengan kalimat yang membuatmu menangis — apa yang terjadi?
 
