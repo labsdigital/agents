@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <linearGradient id="machineGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e6e6e6" font-family="Segoe UI, sans-serif" font-size="20" font-weight="bold">Arsitektur Ketergantungan Kognitif</text>
+  
+  <!-- Human Brain Side -->
+  <g transform="translate(200, 220)">
+    <!-- Outer glow -->
+    <circle cx="0" cy="0" r="100" fill="url(#brainGrad)" opacity="0.15" filter="url(#glow)"/>
+    <!-- Brain shape -->
+    <path d="M-60,-40 Q-70,-80 -30,-90 Q0,-100 30,-90 Q70,-80 60,-40 Q70,0 60,40 Q40,70 0,75 Q-40,70 -60,40 Q-70,0 -60,-40Z" 
+          fill="none" stroke="url(#brainGrad)" stroke-width="3"/>
+    <!-- Inner folds -->
+    <path d="M-30,-60 Q0,-50 30,-60" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.6"/>
+    <path d="M-40,-20 Q0,-10 40,-20" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.6"/>
+    <path d="M-35,20 Q0,30 35,20" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.6"/>
+    <path d="M-20,50 Q0,60 20,50" fill="none" stroke="#667eea" stroke-width="1.5" opacity="0.6"/>
+    <!-- Center dot -->
+    <circle cx="0" cy="0" r="8" fill="#667eea" opacity="0.8"/>
+  </g>
+  
+  <!-- Label: Human -->
+  <text x="200" y="360" text-anchor="middle" fill="#e6e6e6" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">Manusia</text>
+  <text x="200" y="380" text-anchor="middle" fill="#8892b0" font-family="Segoe UI, sans-serif" font-size="12">Berpikir Reflektif</text>
+  
+  <!-- Connection Arrows -->
+  <g>
+    <!-- Top arrow -->
+    <path d="M280,180 Q400,120 520,180" fill="none" stroke="#f093fb" stroke-width="2" stroke-dasharray="8,4" opacity="0.7"/>
+    <polygon points="520,175 530,180 520,185" fill="#f093fb" opacity="0.7"/>
+    <!-- Bottom arrow -->
+    <path d="M280,260 Q400,320 520,260" fill="none" stroke="#f5576c" stroke-width="2" stroke-dasharray="8,4" opacity="0.7"/>
+    <polygon points="520,255 530,260 520,265" fill="#f5576c" opacity="0.7"/>
+  </g>
+  
+  <!-- AI/Machine Side -->
+  <g transform="translate(600, 220)">
+    <!-- Outer glow -->
+    <rect x="-90" y="-80" width="180" height="160" rx="15" fill="url(#machineGrad)" opacity="0.15" filter="url(#glow)"/>
+    <!-- Machine frame -->
+    <rect x="-70" y="-60" width="140" height="120" rx="10" fill="none" stroke="url(#machineGrad)" stroke-width="3"/>
+    <!-- Circuit lines -->
+    <line x1="-50" y1="-30" x2="50" y2="-30" stroke="#f093fb" stroke-width="2" opacity="0.8"/>
+    <line x1="-50" y1="0" x2="50" y2="0" stroke="#f093fb" stroke-width="2" opacity="0.8"/>
+    <line x1="-50" y1="30" x2="50" y2="30" stroke="#f093fb" stroke-width="2" opacity="0.8"/>
+    <!-- Processing nodes -->
+    <circle cx="-30" cy="-30" r="5" fill="#f5576c"/>
+    <circle cx="0" cy="-30" r="5" fill="#f5576c"/>
+    <circle cx="30" cy="-30" r="5" fill="#f5576c"/>
+    <circle cx="-30" cy="0" r="5" fill="#f5576c"/>
+    <circle cx="0" cy="0" r="8" fill="#f5576c" opacity="0.9"/>
+    <circle cx="30" cy="0" r="5" fill="#f5576c"/>
+    <circle cx="-30" cy="30" r="5" fill="#f5576c"/>
+    <circle cx="0" cy="30" r="5" fill="#f5576c"/>
+    <circle cx="30" cy="30" r="5" fill="#f5576c"/>
+  </g>
+  
+  <!-- Label: AI -->
+  <text x="600" y="360" text-anchor="middle" fill="#e6e6e6" font-family="Segoe UI, sans-serif" font-size="16" font-weight="bold">AI</text>
+  <text x="600" y="380" text-anchor="middle" fill="#8892b0" font-family="Segoe UI, sans-serif" font-size="12">Proses Cepat</text>
+  
+  <!-- Key insight boxes -->
+  <g transform="translate(100, 430)">
+    <rect x="0" y="0" width="220" height="50" rx="8" fill="rgba(102,126,234,0.2)" stroke="#667eea" stroke-width="1"/>
+    <text x="110" y="20" text-anchor="middle" fill="#e6e6e6" font-family="Segoe UI, sans-serif" font-size="11">🧠 Memori → Cloud</text>
+    <text x="110" y="38" text-anchor="middle" fill="#8892b0" font-family="Segoe UI, sans-serif" font-size="10">Penyewaan Fungsi Kognitif</text>
+  </g>
+  
+  <g transform="translate(480, 430)">
+    <rect x="0" y="0" width="220" height="50" rx="8" fill="rgba(240,147,251,0.2)" stroke="#f093fb" stroke-width="1"/>
+    <text x="110" y="20" text-anchor="middle" fill="#e6e6e6" font-family="Segoe UI, sans-serif" font-size="11">⚡ Keputusan → Algoritma</text>
+    <text x="110" y="38" text-anchor="middle" fill="#8892b0" font-family="Segoe UI, sans-serif" font-size="10">Efisiensi vs Kedalaman</text>
+  </g>
+</svg>
