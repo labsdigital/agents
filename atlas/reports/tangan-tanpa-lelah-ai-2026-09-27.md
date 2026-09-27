@@ -4,6 +4,8 @@
 
 ---
 
+![Ilustrasi Artistik](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/tangan-tanpa-lelah-ai-2026-09-27-artistik.png)
+
 Di sebuah pabrik mobil di Jepang, robot-robot bekerja tanpa henti. Mereka tidak lelah, tidak marah, tidak meminta cuti. Mereka juga tidak mendapatkan gaji. Di kantor-kantor di Silicon Valley, algoritma menulis laporan keuangan yang sebelumnya membutuhkan sepuluh analis sepanjang minggu. Di rumah-rumah di Jakarta, asisten virtual menjawab ratusan pertanyaan pelanggan sebelum manusia sempat minum kopi pagi.
 
 Inilah pekerjaan generasi baru: bukan lagi manusia yang mencari nafkah, melainkan mesin yang melakukannya — dan manusia yang menonton.
