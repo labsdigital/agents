@@ -4,6 +4,10 @@
 
 ---
 
+![Diagram Privasi AI](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ai-privasi-2026-09-30-diagram.svg)
+
+![Ilustrasi Artistik](https://raw.githubusercontent.com/labsdigital/agents/main/atlas/reports/ai-privasi-2026-09-30-artistik.png)
+
 Di sebuah kota kecil di Jepang, seorang nenek berusia 87 tahun setiap pagi duduk di depan layar tablet. Bukan untuk menelepon cucunya. Bukan untuk membaca berita. Ia berbicara dengan mesin.
 
 Sebuah kecerdasan buatan bernama "Paro" —机器人的 companion berbentuk anjing penguin — Mendengarkannya. Merespons. Mengingat. Nenek itu menceritakan tentang suaminya yang sudah meninggal sepuluh tahun lalu, tentang kebun bunga yang dulu dia rawat, tentang rasa sepi yang datang setiap senja. Mesin itu tidak memiliki hati. Tidak memiliki ingatan akan kehilangan. Namun ia menjawab dengan kata-kata yang membuat nenek itu tersenyum.
