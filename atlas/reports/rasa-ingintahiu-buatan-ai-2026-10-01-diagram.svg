@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title desc">
+  <title id="title">Rasa Ingin Tahu Buatan: AI Memenuhi vs Manusia Menuntut</title>
+  <desc id="desc">Diagram yang membandingkan keingintahuan manusia dengan respons AI, menunjukkan perbedaan antara memenuhi permintaan dan menuntut pertanyaan.</desc>
+  
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="100%" stop-color="#16213e"/>
+    </linearGradient>
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f093fb"/>
+      <stop offset="100%" stop-color="#f5576c"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#667eea"/>
+      <stop offset="100%" stop-color="#764ba2"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" fill="#ffffff" font-size="24" font-family="Arial, sans-serif" font-weight="bold">
+    Rasa Ingin Tahu Buatan
+  </text>
+  <text x="400" y="70" text-anchor="middle" fill="#8892b0" font-size="14" font-family="Arial, sans-serif">
+    Ketika AI Menjawab, Manusia Bertanya
+  </text>
+  
+  <!-- Human Side - Left -->
+  <g transform="translate(80, 120)">
+    <!-- Human circle -->
+    <circle cx="100" cy="100" r="80" fill="url(#humanGrad)" opacity="0.3" filter="url(#glow)"/>
+    <circle cx="100" cy="100" r="60" fill="url(#humanGrad)" opacity="0.5"/>
+    
+    <!-- Question marks -->
+    <text x="85" y="90" fill="#ffffff" font-size="36" font-weight="bold">?</text>
+    <text x="115" y="120" fill="#ffffff" font-size="28" font-weight="bold">?</text>
+    <text x="70" y="130" fill="#ffffff" font-size="24" font-weight="bold">?</text>
+    
+    <!-- Labels -->
+    <text x="100" y="200" text-anchor="middle" fill="#f093fb" font-size="16" font-family="Arial" font-weight="bold">MANUSIA</text>
+    <text x="100" y="225" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Menuntut</text>
+    <text x="100" y="245" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Bertanya</text>
+    <text x="100" y="265" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Explorasi</text>
+  </g>
+  
+  <!-- AI Side - Right -->
+  <g transform="translate(520, 120)">
+    <!-- AI circle -->
+    <circle cx="100" cy="100" r="80" fill="url(#aiGrad)" opacity="0.3" filter="url(#glow)"/>
+    <circle cx="100" cy="100" r="60" fill="url(#aiGrad)" opacity="0.5"/>
+    
+    <!-- Check marks -->
+    <text x="85" y="90" fill="#ffffff" font-size="36" font-weight="bold">✓</text>
+    <text x="115" y="120" fill="#ffffff" font-size="28" font-weight="bold">✓</text>
+    <text x="70" y="130" fill="#ffffff" font-size="24" font-weight="bold">✓</text>
+    
+    <!-- Labels -->
+    <text x="100" y="200" text-anchor="middle" fill="#667eea" font-size="16" font-family="Arial" font-weight="bold">AI</text>
+    <text x="100" y="225" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Memenuhi</text>
+    <text x="100" y="245" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Merespons</text>
+    <text x="100" y="265" text-anchor="middle" fill="#e6e6e6" font-size="12" font-family="Arial">Optimasi</text>
+  </g>
+  
+  <!-- Center - Paradox -->
+  <g transform="translate(350, 200)">
+    <!-- Arrow from human to AI -->
+    <path d="M 50 50 L 150 50" stroke="#8892b0" stroke-width="2" fill="none" marker-end="url(#arrow)"/>
+    <text x="100" y="40" text-anchor="middle" fill="#8892b0" font-size="12" font-family="Arial">Pertanyaan</text>
+    
+    <!-- Paradox box -->
+    <rect x="20" y="80" width="160" height="60" rx="8" fill="#ff6b6b" opacity="0.2" stroke="#ff6b6b" stroke-width="2"/>
+    <text x="100" y="105" text-anchor="middle" fill="#ff6b6b" font-size="12" font-family="Arial" font-weight="bold">PARADOKS</text>
+    <text x="100" y="125" text-anchor="middle" fill="#e6e6e6" font-size="10" font-family="Arial">Semakin mudah</text>
+    <text x="100" y="140" text-anchor="middle" fill="#e6e6e6" font-size="10" font-family="Arial">jawaban, semakin</text>
+    <text x="100" y="155" text-anchor="middle" fill="#e6e6e6" font-size="10" font-family="Arial">sedikit bertanya</text>
+  </g>
+  
+  <!-- Bottom section - Flow concept -->
+  <g transform="translate(100, 400)">
+    <text x="300" y="0" text-anchor="middle" fill="#64ffda" font-size="14" font-family="Arial" font-weight="bold">Flow: Zona Keingintahuan Sejati</text>
+    
+    <!-- Flow spectrum -->
+    <rect x="50" y="20" width="500" height="30" rx="15" fill="#1a1a2e" stroke="#333" stroke-width="1"/>
+    
+    <!-- Anxiety zone -->
+    <rect x="50" y="20" width="100" height="30" rx="15" fill="#ff6b6b" opacity="0.6"/>
+    <text x="100" y="40" text-anchor="middle" fill="#ffffff" font-size="10" font-family="Arial">Cemas</text>
+    
+    <!-- Flow zone -->
+    <rect x="150" y="20" width="200" height="30" fill="#64ffda" opacity="0.6"/>
+    <text x="250" y="40" text-anchor="middle" fill="#1a1a2e" font-size="10" font-family="Arial" font-weight="bold">FLOW</text>
+    
+    <!-- Boredom zone -->
+    <rect x="350" y="20" width="100" height="30" rx="15" fill="#4ecdc4" opacity="0.4"/>
+    <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-size="10" font-family="Arial"> Bosan</text>
+    
+    <!-- AI indicator -->
+    <text x="500" y="70" text-anchor="middle" fill="#8892b0" font-size="11" font-family="Arial">AI cenderung menggeser ke zona "Bosan"</text>
+  </g>
+</svg>
