@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="human" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="machine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f3460"/>
+      <stop offset="100%" style="stop-color:#1a5f7a"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#eee" font-family="Inter, sans-serif" font-size="24" font-weight="bold">Empati Buatan: Manusia vs Mesin</text>
+  
+  <!-- Human side -->
+  <circle cx="200" cy="280" r="100" fill="url(#human)" opacity="0.8" filter="url(#glow)"/>
+  <text x="200" y="275" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="bold">Manusia</text>
+  <text x="200" y="300" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">✅ Merasa</text>
+  <text x="200" y="320" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">✅ Kerentanan</text>
+  <text x="200" y="340" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">✅ Proses</text>
+  
+  <!-- Machine side -->
+  <circle cx="600" cy="280" r="100" fill="url(#machine)" opacity="0.8" filter="url(#glow)"/>
+  <text x="600" y="275" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="18" font-weight="bold">Mesin</text>
+  <text x="600" y="300" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">⚡ Simulasi</text>
+  <text x="600" y="320" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">⚡ Prediktif</text>
+  <text x="600" y="340" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14">⚡ Produk</text>
+  
+  <!-- Connection arrow -->
+  <path d="M 300 280 Q 400 250 500 280" fill="none" stroke="#ffd700" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="240" text-anchor="middle" fill="#ffd700" font-family="Inter, sans-serif" font-size="12">Tumpang Tindih?</text>
+  
+  <!-- Key insight box -->
+  <rect x="150" y="430" width="500" height="100" rx="10" fill="#0f3460" opacity="0.6" stroke="#e94560" stroke-width="2"/>
+  <text x="400" y="460" text-anchor="middle" fill="#eee" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Perbedaan Mendasar</text>
+  <text x="400" y="485" text-anchor="middle" fill="#ccc" font-family="Inter, sans-serif" font-size="12">Mesin: Empati sebagai OUTPUT (prediksi respons)</text>
+  <text x="400" y="505" text-anchor="middle" fill="#ccc" font-family="Inter, sans-serif" font-size="12">Manusia: Empati sebagai PROCESS (kehadiran bersama)</text>
+  
+  <!-- Bottom quote -->
+  <text x="400" y="560" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="11" font-style="italic">"Empati bukan produk. Empati adalah proses."</text>
+</svg>
