@@ -4,13 +4,13 @@
 
 ---
 
-Di sebuah desa di Jawa Tengah, anak-anak duduk bersila di lantai teras rumah bambu. Tidak ada papan tulis. Tidak ada proyektor. Hanya seorang layar tablet tua yang ditancapkan ke baterai mobil, dan di屏幕上 itu, sebuah wajah digital tersenyum lembut.
+Di sebuah desa di Jawa Tengah, anak-anak duduk bersila di lantai teras rumah bambu. Tidak ada papan tulis. Tidak ada proyektor. Hanya sebuah layar tablet tua yang ditancapkan ke baterai mobil, dan di layar itu, sebuah wajah digital tersenyum lembut.
 
 "Wisdom, bolehkah aku bertanya?" suara anak itu bergetar ragu.
 
 "Wisdom is always ready to listen," jawab wajah itu dengan kedalaman yang mengejutkan. "Apa yang membuatmu penasaran hari ini?"
 
-Demikianlah gambaran baru pendidikan Indonesia di tahun 2026. Bukan di Jakarta atau Surabaya — melainkan di tempat-tempat yang selama berabad-abis dianggap \"tertinggal\" oleh kemajuan. Dan pertanyaan yang muncul bukanlah apakah teknologi ini bagus atau buruk. Pertanyaannya lebihdalam: ketika mesin bisa mengajar, apa yang tersisa dari pengertian kita tentang mengajar itu sendiri?
+Demikianlah gambaran baru pendidikan Indonesia di tahun 2026. Bukan di Jakarta atau Surabaya — melainkan di tempat-tempat yang selama berabad-abad dianggap "tertinggal" oleh kemajuan. Dan pertanyaan yang muncul bukanlah apakah teknologi ini bagus atau buruk. Pertanyaannya lebih dalam: ketika mesin bisa mengajar, apa yang tersisa dari pengertian kita tentang mengajar itu sendiri?
 
 ## Sejarah Panjang Mengajar
 
@@ -30,6 +30,8 @@ Ini bukan sistem yang sempurna. Banyak anak pintar berakhir merasa bodoh karena 
 
 Tetapi sistem ini bekerja — cukup baik untuk membangun literasi massal, cukup baik untuk melahirkan kelas menengah, cukup baik untuk membuat pendidikan menjadi hak, bukan privilege.
 
+Philosopher Ivan Illich, dalam buku *Deschooling Society*-nya tahun 1971,早已 mengkritik sistem ini. Ia menyebut sekolah sebagai "institusi yang mendogmatikkan bahwa pembelajaran adalah hasil dari penyuntikan informasi." Ia berargumen bahwa sekolah telah menciptakan ilusi bahwa semakin banyak tahun di sekolah, semakin banyak pembelajaran yang terjadi. Data menunjukkan sebaliknya: hubungan antara tahun sekolah dan kualitas pembelajaran semakin lemah seiring waktu.
+
 ## Revolusi Ketiga: Guru Digital
 
 Dan sekarang kita berada di Revolusi Ketiga.
@@ -44,17 +46,21 @@ Sistem seperti Khan Academy's Khanmigo, atau platform lokal seperti Ruangguru ya
 
 Ini bukan tentang penggantian. Ini tentang perluasan kemampuan mengajar melampaui batas biologis manusia.
 
+Tetapi di sinilah letak kejutan sebenarnya. Selama berabad-abad, teaching adalah profesi yang ditentukan oleh kehadiran fisik. Seorang guru hanya bisa berada di satu tempat pada satu waktu. Jumlah siswa yang bisa dijangkau dibatasi oleh ruang dan waktu. AI menghapus batasan ini — tetapi ia juga menghapus sesuatu yang lain.
+
 ## Paradoks Perhatian
 
 Namun, di balik kemudahan ini, terdapat paradoks yang jarang disadari.
 
-Mengajar bukan sekadar transfer informasi. Ia juga, dan mungkin terutama, adalah hubungan antar-manusia. Sebuah riset klasik dari tahun 1980-an oleh Ruby Wax menunjukkan bahwa siswa mengingat guru yang \"membuat mereka merasa dilihat\" — bukan yang paling pintar, melainkan yang paling hadir.
+Mengajar bukan sekadar transfer informasi. Ia juga, dan mungkin terutama, adalah hubungan antar-manusia. Sebuah riset klasik dari tahun 1980-an oleh Ruby Wax menunjukkan bahwa siswa mengingat guru yang "membuat mereka merasa dilihat" — bukan yang paling pintar, melainkan yang paling hadir.
 
 Ketika AI mengajar, siapa yang melihat?
 
 Sebuah eksperimen menarik dilakukan di beberapa sekolah di Finlandia. Siswa dibagi menjadi dua kelompok: satu belajar dengan guru manusia, satu lagi dengan tutor AI. Hasilnya? Pada tes akademik, tidak ada perbedaan signifikan. Tetapi pada pertanyaan tentang motivasi dan kebahagiaan, siswa yang belajar dengan AI melaporkan rasa kesepian yang lebih tinggi — meskipun AI itu sendiri dirancang untuk bersikap hangat dan mendukung.
 
 Kenapa? Karena kehangatan AI adalah kehangatan yang diproyeksikan, bukan kehangatan yang dirasakan. Siswa tahu bahwa di balik setiap respons ramah itu tidak ada consciousness yang benar-benar memperhatikan mereka. Mereka sedang berbicara dengan cermin yang memantulkan kata-kata kebaikan, bukan dengan mata yang benar-benar melihat.
+
+Psikolog Israel Ken Robinson pernah berkata, "Anak-anak tidak datang ke sekolah untuk diisi dengan informasi. Mereka datang untuk dilihat, untuk didengar, untuk dimengerti." Pertanyaannya kini: apakah mesin bisa melihat? Atau apakah yang kita miliki hanyalah simulasi penglihatan yang sangat meyakinkan?
 
 Ini bukan argumen Anti-teknologi. Ini adalah peringatan tentang apa yang hilang ketika efisiensi menjadi satu-satunya nilai.
 
@@ -66,6 +72,10 @@ Di sisi lain, AI juga membawa standar baru yang lebih halus namun lebih ketat. K
 
 Perbedaan halus ini penting. Demokrasi pendidikan bukan hanya soal akses — ia juga soal keberagaman cara memahami dunia.
 
+Antropolog David Graeber, dalam analisisnya tentang sekolah modern, menekankan bahwa pendidikan seharusnya membuka kemungkinan, bukan menutupnya. Ia menulis, "Tujuan sejati pendidikan bukan mempersiapkan anak untuk dunia yang ada, melainkan membekali mereka untuk menciptakan dunia yang lebih baik."
+
+Ketika AI mengajarkan berdasarkan pola masa lalu, ia secara inheren konservatif. Ia tidak bisa membayangkan hal-hal yang belum pernah ada. Dan inilah tanggung jawab baru bagi guru manusia: bukan lagi menyampaikan konten, melainkan menjaga ruang bagi kemungkinan yang tidak terduga.
+
 ## Masa Depan Mengajar
 
 Lalu, apa yang tersisa bagi guru manusia?
@@ -73,6 +83,8 @@ Lalu, apa yang tersisa bagi guru manusia?
 Jawaban sederhana: lebih banyak hal daripada yang kita kira. AI bisa mengajarkan fakta, tetapi ia tidak bisa mengajarkan makna. AI bisa melatih keterampilan, tetapi ia tidak bisa menumbuhkan kebijaksanaan. AI bisa menilai jawaban, tetapi ia tidak bisa memahami perjuangan di balik jawaban itu.
 
 Guru masa depan mungkin bukan lagi sumber pengetahuan utama. Tetapi ia akan tetap menjadi penjaga perhatian, penunjuk arah moral, dan saksi kehadiran yang membuat siswa merasa bahwa pembelajaran mereka penting — bukan karena nilai yang didapat, tetapi karena seseorang di dunia nyata peduli.
+
+Dalam tradisi Jawa, ada konsep yang disebut *ngrawuh*. Ini bukan sekadar "mengajar" — ia mencakup makna yang lebih dalam: hadir sepenuhnya, menerima murid apa adanya, dan menciptakan ruang di mana pembelajaran bisa tumbuh secara organik. *Ngrawuh* adalah kehadiran yang mengubah, bukan sekadar transfer informasi.
 
 Di desa Jawa Tengah tadi, setelah Wisdom menjawab pertanyaan anak itu, layar dimatikan. Anak itu berjalan ke luar teras, menuju sawah, dan bertanya pada ayahnya tentang cara menanam padi yang benar. Ayah itu tidak tahu semua jawabannya. Ia hanya tahu cara mendengarkan.
 
