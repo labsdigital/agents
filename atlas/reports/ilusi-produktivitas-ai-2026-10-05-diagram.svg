@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7931e"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="24" font-weight="bold">ILUSI PRODUKTIVITAS DI ERA MESIN CERDAS</text>
+  
+  <!-- Timeline -->
+  <line x1="100" y1="250" x2="700" y2="250" stroke="#ff6b35" stroke-width="3"/>
+  
+  <!-- Industrial Revolution -->
+  <circle cx="150" cy="250" r="25" fill="#ff6b35"/>
+  <text x="150" y="200" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Revolusi Industri</text>
+  <text x="150" y="290" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Mesin uap</text>
+  <text x="150" y="305" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">mengganti tenaga</text>
+  
+  <!-- AI Revolution -->
+  <circle cx="400" cy="250" r="30" fill="url(#orange)"/>
+  <text x="400" y="195" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Revolusi AI</text>
+  <text x="400" y="290" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Mesin menggantikan</text>
+  <text x="400" y="305" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">pikiran manusia</text>
+  
+  <!-- Future -->
+  <circle cx="650" cy="250" r="25" fill="#4a5568"/>
+  <text x="650" y="195" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Masa Depan</text>
+  <text x="650" y="290" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">Nilai manusia</text>
+  <text x="650" y="305" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="12">di luar produktivitas</text>
+  
+  <!-- Key Insight Box -->
+  <rect x="150" y="360" width="500" height="80" rx="10" fill="#2d3748" stroke="#ff6b35" stroke-width="2"/>
+  <text x="400" y="390" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="14" font-weight="bold">Paradoks AI</text>
+  <text x="400" y="415" text-anchor="middle" fill="#cbd5e0" font-family="Inter, sans-serif" font-size="12">Semakin cerdas mesin → semakin manusia bertanya:</text>
+  <text x="400" y="435" text-anchor="middle" fill="#ff6b35" font-family="Inter, sans-serif" font-size="13" font-weight="bold">"Untuk apa aku bekerja?"</text>
+  
+  <!-- Bottom note -->
+  <text x="400" y="480" text-anchor="middle" fill="#718096" font-family="Inter, sans-serif" font-size="11">Produktivitas bukan ukuran nilai manusia</text>
+</svg>
