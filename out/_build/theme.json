@@ -1,0 +1,48 @@
+{
+ "label": "Edukasi — Teal & Amber",
+ "mood": "Hangat, tepercaya, cocok untuk modul pelatihan guru, bahan ajar, panduan pendidikan",
+ "colors": {
+  "primary": "#0F4C5C",
+  "primary2": "#1D7586",
+  "primaryLight": "#E3F1F3",
+  "primaryDark": "#0A2F3A",
+  "accent": "#F2A541",
+  "accentDark": "#A65A12",
+  "accentLight": "#FFF3DF",
+  "success": "#2C784B",
+  "successLight": "#E6F4EC",
+  "danger": "#C2394B",
+  "dangerLight": "#FBE9EC",
+  "info": "#2B6CB0",
+  "infoLight": "#EAF2FB",
+  "violet": "#5B4B8A",
+  "violetLight": "#EFECF6",
+  "neutral": "#37474F",
+  "neutralLight": "#ECEFF1",
+  "ink": "#1B2A33",
+  "muted": "#55646B",
+  "line": "#D5E0E4",
+  "zebra": "#F6FAFB",
+  "codeBg": "#F4F8F9",
+  "codeHead": "#12343B",
+  "series": [
+   "#0F4C5C",
+   "#1F7A8C",
+   "#2E7D4F",
+   "#A86315",
+   "#5B4B8A"
+  ],
+  "paper": "#FFFFFF"
+ },
+ "fonts": {
+  "heading": "Poppins",
+  "body": "Lora",
+  "mono": "JetBrains Mono"
+ },
+ "type": {
+  "base": 10.2,
+  "leading": 1.56,
+  "headingWeight": 700
+ },
+ "name": "edukasi"
+}

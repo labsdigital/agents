@@ -1,0 +1,42 @@
+# Konfigurasi buku — Pembelajaran dan Asesmen
+title: Pembelajaran dan Asesmen
+subtitle: Memahami Variabel Belajar dan Strategi Penilaian yang Efektif
+edition: Edisi 2026
+author: Tim Atlas
+institution: Labs Digital
+lang: id
+theme: edukasi
+page_size: A4
+part_label: Modul
+footer_text: Pembelajaran dan Asesmen
+toc: true
+toc_after: Tentang Buku Ini
+cover:
+  motif: book
+  tagline: Panduan komprehensif untuk pendidik modern.
+  title_lines:
+    - Pembelajaran
+    - dan
+    - {text: Asesmen, style: accent}
+  highlights:
+    - {mark: V, label: Variabel}
+    - {mark: A, label: Asesmen}
+    - {mark: P, label: Praktis}
+  chips: [3 Variabel, 3 Asesmen, Modul Lengkap]
+back_cover:
+  quote: '"Asesmen bukan akhir dari belajar, melainkan bagian dari proses belajar itu sendiri." — Bloom'
+  blurb: Buku ini membahas tiga variabel pembelajaran (hasil belajar, kondisi, metode) dan tiga jenis asesmen (awal, formatif, sumatif) dengan pendekatan praktis untuk pendidik di berbagai konteks.
+  bullets: [Pemahaman mendalam tentang variabel pembelajaran, Panduan asesmen yang terstruktur, Template siap pakai, Contoh lintas konteks]
+chapters:
+  - chapters/00-pengantar.md
+  - chapters/01-variabel-hasil-belajar.md
+  - chapters/02-variabel-kondisi.md
+  - chapters/03-variabel-metode.md
+  - chapters/04-asesmen-awal.md
+  - chapters/05-asesmen-formatif.md
+  - chapters/06-asesmen-sumatif.md
+  - chapters/07-integrasi.md
+  - chapters/08-kesimpulan.md
+output:
+  name: Pembelajaran-dan-Asesmen
+  formats: [pdf, docx]
