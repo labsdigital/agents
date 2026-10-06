@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Ekonomi Perhatian: AI dan Perebutan Ruang Pikir</title>
+  <desc>Diagram menunjukkan bagaimana AI bersaing untuk mendapatkan perhatian manusia di era digital</desc>
+  
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0c27f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8b86d;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="600" fill="#ffffff">Mata Uang Perhatian: Perebutan Ruang Pikir</text>
+  
+  <!-- Human head silhouette (center) -->
+  <ellipse cx="400" cy="250" rx="120" ry="140" fill="none" stroke="#4a5568" stroke-width="2"/>
+  
+  <!-- Attention coins flowing IN -->
+  <g filter="url(#glow)">
+    <circle cx="200" cy="150" r="25" fill="url(#goldGrad)" opacity="0.9"/>
+    <text x="200" y="155" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a2e">$</text>
+    <path d="M 220 150 Q 280 180 320 220" fill="none" stroke="#f0c27f" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGold)"/>
+    
+    <circle cx="600" cy="150" r="25" fill="url(#goldGrad)" opacity="0.9"/>
+    <text x="600" y="155" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a2e">$</text>
+    <path d="M 580 150 Q 520 180 480 220" fill="none" stroke="#f0c27f" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGold)"/>
+    
+    <circle cx="150" cy="350" r="25" fill="url(#goldGrad)" opacity="0.9"/>
+    <text x="150" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a2e">$</text>
+    <path d="M 180 330 Q 250 300 320 280" fill="none" stroke="#f0c27f" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGold)"/>
+    
+    <circle cx="650" cy="350" r="25" fill="url(#goldGrad)" opacity="0.9"/>
+    <text x="650" y="355" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#1a1a2e">$</text>
+    <path d="M 620 330 Q 550 300 480 280" fill="none" stroke="#f0c27f" stroke-width="2" stroke-dasharray="5,3" marker-end="url(#arrowGold)"/>
+  </g>
+  
+  <!-- AI agents pulling attention -->
+  <g>
+    <!-- Top left AI -->
+    <rect x="80" y="80" width="100" height="60" rx="8" fill="#2d3748" stroke="#667eea" stroke-width="2"/>
+    <text x="130" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a0aec0">AI Agent</text>
+    <text x="130" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#667eea">Recommender</text>
+    <path d="M 180 110 L 250 140" fill="none" stroke="#667eea" stroke-width="1.5" stroke-dasharray="4,2"/>
+    
+    <!-- Top right AI -->
+    <rect x="620" y="80" width="100" height="60" rx="8" fill="#2d3748" stroke="#667eea" stroke-width="2"/>
+    <text x="670" y="105" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a0aec0">AI Agent</text>
+    <text x="670" y="125" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#667eea">Chatbot</text>
+    <path d="M 620 110 L 550 140" fill="none" stroke="#667eea" stroke-width="1.5" stroke-dasharray="4,2"/>
+    
+    <!-- Bottom left AI -->
+    <rect x="80" y="360" width="100" height="60" rx="8" fill="#2d3748" stroke="#667eea" stroke-width="2"/>
+    <text x="130" y="385" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a0aec0">AI Agent</text>
+    <text x="130" y="405" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#667eea">Notifier</text>
+    <path d="M 180 390 L 250 360" fill="none" stroke="#667eea" stroke-width="1.5" stroke-dasharray="4,2"/>
+    
+    <!-- Bottom right AI -->
+    <rect x="620" y="360" width="100" height="60" rx="8" fill="#2d3748" stroke="#667eea" stroke-width="2"/>
+    <text x="670" y="385" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#a0aec0">AI Agent</text>
+    <text x="670" y="405" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#667eea">Content Gen</text>
+    <path d="M 620 390 L 550 360" fill="none" stroke="#667eea" stroke-width="1.5" stroke-dasharray="4,2"/>
+  </g>
+  
+  <!-- Center: Human brain/attention -->
+  <circle cx="400" cy="250" r="60" fill="none" stroke="#f0c27f" stroke-width="3" opacity="0.6"/>
+  <circle cx="400" cy="250" r="40" fill="none" stroke="#f0c27f" stroke-width="2" opacity="0.4"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#f0c27f">PERHATIAN</text>
+  <text x="400" y="262" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#a0aec0">Attention</text>
+  
+  <!-- Labels -->
+  <text x="400" y="460" text-anchor="middle" font-family="Inter, sans-serif" font-size="13" fill="#8892b0">Setiap AI bersaing untuk menarik perhatian Anda →</text>
+  <text x="400" y="480" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#667eea">Perhatian = Mata Uang Baru di Era Digital</text>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowGold" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#f0c27f"/>
+    </marker>
+  </defs>
+</svg>
