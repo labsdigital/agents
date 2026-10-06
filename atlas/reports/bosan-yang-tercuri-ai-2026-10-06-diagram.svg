@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" role="img" aria-labelledby="title">
+  <title id="title">Bosan yang Tercuri: Diagram Perbandingan Era Sebelumnya AI dan Era AI</title>
+  <desc>Diagram perbandingan antara era sebelum AI (dengan ruang kosong untuk berpikir) dan era AI (di mana setiap celah diisi oleh mesin)</desc>
+  
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5f0e8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e8e0d0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e8f4f8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d0e8f0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="600" fill="#1a1a2e">Bosan yang Tercuri: Dari Ruang Kosong ke Kebisingan Permanen</text>
+  
+  <!-- Left Panel: Sebelum AI -->
+  <rect x="30" y="70" width="350" height="400" rx="12" fill="url(#bg1)" filter="url(#shadow)"/>
+  <rect x="30" y="70" width="350" height="50" rx="12" fill="#8b7355"/>
+  <rect x="30" y="105" width="350" height="15" fill="#8b7355"/>
+  <text x="205" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#fff">Sebelum AI</text>
+  
+  <!-- Timeline before AI -->
+  <line x1="80" y1="150" x2="80" y2="430" stroke="#a08060" stroke-width="3" stroke-dasharray="8,4"/>
+  
+  <!-- Events before AI -->
+  <circle cx="80" cy="170" r="8" fill="#8b7355"/>
+  <text x="100" y="175" font-family="Inter, sans-serif" font-size="13" fill="#4a4a4a">Menunggu hujan</text>
+  
+  <circle cx="80" cy="220" r="8" fill="#8b7355"/>
+  <text x="100" y="225" font-family="Inter, sans-serif" font-size="13" fill="#4a4a4a">Perjalanan tanpa hiburan</text>
+  
+  <circle cx="80" cy="270" r="8" fill="#8b7355"/>
+  <text x="100" y="275" font-family="Inter, sans-serif" font-size="13" fill="#4a4a4a">Diam sebelum tidur</text>
+  
+  <circle cx="80" cy="320" r="8" fill="#8b7355"/>
+  <text x="100" y="325" font-family="Inter, sans-serif" font-size="13" fill="#4a4a4a">Antrean tanpa distraction</text>
+  
+  <circle cx="80" cy="370" r="8" fill="#8b7355"/>
+  <text x="100" y="375" font-family="Inter, sans-serif" font-size="13" fill="#4a4a4a">Waktu luang tanpa agenda</text>
+  
+  <!-- Default Mode Network highlight -->
+  <rect x="200" y="155" width="150" height="200" rx="8" fill="#fff" stroke="#a08060" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="275" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#8b7355">Default Mode Network Aktif</text>
+  <text x="275" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Refleksi diri</text>
+  <text x="275" y="215" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Imajinasi</text>
+  <text x="275" y="235" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Pemecahan masalah</text>
+  <text x="275" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Introspeksi</text>
+  <text x="275" y="275" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Kreativitas</text>
+  
+  <!-- Right Panel: Era AI -->
+  <rect x="420" y="70" width="350" height="400" rx="12" fill="url(#bg2)" filter="url(#shadow)"/>
+  <rect x="420" y="70" width="350" height="50" rx="12" fill="#4a7c9b"/>
+  <rect x="420" y="105" width="350" height="15" fill="#4a7c9b"/>
+  <text x="595" y="102" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" font-weight="600" fill="#fff">Era AI</text>
+  
+  <!-- Timeline during AI -->
+  <line x1="470" y1="150" x2="470" y2="430" stroke="#5a8fa8" stroke-width="3"/>
+  
+  <!-- Events during AI -->
+  <rect x="490" y="155" width="140" height="28" rx="4" fill="#fff" stroke="#5a8fa8" stroke-width="1"/>
+  <text x="560" y="173" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#333">AI menjawab instan</text>
+  
+  <rect x="490" y="205" width="140" height="28" rx="4" fill="#fff" stroke="#5a8fa8" stroke-width="1"/>
+  <text x="560" y="223" font-family="Inter, sans-serif" font-size="11" fill="#333">Scroll tanpa henti</text>
+  
+  <rect x="490" y="255" width="140" height="28" rx="4" fill="#fff" stroke="#5a8fa8" stroke-width="1"/>
+  <text x="560" y="273" font-family="Inter, sans-serif" font-size="11" fill="#333">Podcast otomatis</text>
+  
+  <rect x="490" y="305" width="140" height="28" rx="4" fill="#fff" stroke="#5a8fa8" stroke-width="1"/>
+  <text x="560" y="323" font-family="Inter, sans-serif" font-size="11" fill="#333">Rekomendasi konten</text>
+  
+  <rect x="490" y="355" width="140" height="28" rx="4" fill="#fff" stroke="#5a8fa8" stroke-width="1"/>
+  <text x="560" y="373" font-family="Inter, sans-serif" font-size="11" fill="#333">Chatbot menghibur</text>
+  
+  <!-- DMN suppressed -->
+  <rect x="640" y="155" width="120" height="200" rx="8" fill="#fff" stroke="#c0392b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <text x="700" y="175" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#c0392b">DMN Terhambat</text>
+  <text x="700" y="195" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Refleksi terhenti</text>
+  <text x="700" y="215" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Imajinasi kering</text>
+  <text x="700" y="235" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Kreativitas turun</text>
+  <text x="700" y="255" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Diri hilang</text>
+  <text x="700" y="275" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#666">• Kebisingan total</text>
+  
+  <!-- Arrow connecting both -->
+  <path d="M 380 270 Q 400 250 420 270" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Bottom note -->
+  <text x="400" y="485" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Setiap celah kosong yang diisi AI adalah ruang kehilangan yang tak terlihat</text>
+</svg>
