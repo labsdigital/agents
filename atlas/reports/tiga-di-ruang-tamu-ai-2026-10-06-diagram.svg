@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-labelledby="title desc">
+  <title id="title">Tiga di Ruang Tamu — AI sebagai Tamu Ketiga</title>
+  <desc id="desc">Diagram konseptual yang menggambarkan AI sebagai pihak ketiga dalam hubungan manusia, ditampilkan sebagai tiga titik yang saling terhubung dengan garis berbeda.</desc>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0f172a"/>
+  
+  <!-- Connection lines -->
+  <line x1="150" y1="200" x2="450" y2="200" stroke="#475569" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="150" y1="200" x2="300" y2="100" stroke="#475569" stroke-width="2" stroke-dasharray="8,4"/>
+  <line x1="450" y1="200" x2="300" y2="100" stroke="#475569" stroke-width="2" stroke-dasharray="8,4"/>
+  
+  <!-- Human circles -->
+  <circle cx="150" cy="200" r="45" fill="#1e293b" stroke="#f97316" stroke-width="3"/>
+  <circle cx="450" cy="200" r="45" fill="#1e293b" stroke="#f97316" stroke-width="3"/>
+  
+  <!-- AI circle -->
+  <circle cx="300" cy="100" r="40" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+  
+  <!-- Human icons (simplified) -->
+  <circle cx="150" cy="185" r="12" fill="#f97316" opacity="0.8"/>
+  <path d="M135 215 Q150 200 165 215 L165 230 L135 230 Z" fill="#f97316" opacity="0.8"/>
+  
+  <circle cx="450" cy="185" r="12" fill="#f97316" opacity="0.8"/>
+  <path d="M435 215 Q450 200 465 215 L465 230 L435 230 Z" fill="#f97316" opacity="0.8"/>
+  
+  <!-- AI icon (circuit-like) -->
+  <rect x="288" y="88" r="8" fill="#3b82f6" opacity="0.8"/>
+  <line x1="280" y1="100" x2="320" y2="100" stroke="#3b82f6" stroke-width="2" opacity="0.8"/>
+  <line x1="300" y1="80" x2="300" y2="120" stroke="#3b82f6" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Labels -->
+  <text x="150" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8">Manusia</text>
+  <text x="450" y="270" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8">Manusia</text>
+  <text x="300" y="70" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#94a3b8">AI</text>
+  
+  <!-- Title -->
+  <text x="300" y="350" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#f97316" font-weight="bold">Tiga di Ruang Tamu</text>
+  <text x="300" y="375" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#64748b">AI sebagai tamu ketiga dalam hubungan</text>
+</svg>
