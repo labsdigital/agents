@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e"/>
+      <stop offset="100%" style="stop-color:#16213e"/>
+    </linearGradient>
+    <linearGradient id="eyeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e94560"/>
+      <stop offset="100%" style="stop-color:#ff6b6b"/>
+    </linearGradient>
+    <linearGradient id="dataGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f3460"/>
+      <stop offset="100%" style="stop-color:#1a5276"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="24" font-weight="bold">Mata Tanpa Kelopak</text>
+  <text x="400" y="75" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="14">Era Pengawasan Algoritmik</text>
+  
+  <!-- Central eye graphic -->
+  <ellipse cx="400" cy="220" rx="180" ry="100" fill="#0d1b2a" stroke="#e94560" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="400" cy="220" r="50" fill="url(#eyeGrad)"/>
+  <circle cx="400" cy="220" r="20" fill="#1a1a2e"/>
+  
+  <!-- Data streams flowing into eye -->
+  <path d="M 100 180 Q 250 200 350 210" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 100 220 Q 250 220 350 220" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 100 260 Q 250 240 350 230" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 700 180 Q 550 200 450 210" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 700 220 Q 550 220 450 220" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  <path d="M 700 260 Q 550 240 450 230" stroke="#1a5276" stroke-width="2" fill="none" stroke-dasharray="5,5"/>
+  
+  <!-- Data sources -->
+  <rect x="40" y="160" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="90" y="178" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">GPS</text>
+  <text x="90" y="193" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Lokasi</text>
+  
+  <rect x="40" y="210" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="90" y="228" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Kamera</text>
+  <text x="90" y="243" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Wajah</text>
+  
+  <rect x="40" y="260" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="90" y="278" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Transaksi</text>
+  <text x="90" y="293" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Keuangan</text>
+  
+  <rect x="660" y="160" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="710" y="228" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Media</text>
+  <text x="710" y="243" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Sosial</text>
+  
+  <rect x="660" y="210" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="710" y="278" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Pesan</text>
+  <text x="710" y="293" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Chat</text>
+  
+  <rect x="660" y="260" width="100" height="40" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="710" y="278" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Smart</text>
+  <text x="710" y="293" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Glasses</text>
+  
+  <!-- Bottom section: Key stats -->
+  <text x="400" y="360" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="13">Fakta Kunci 2026:</text>
+  
+  <!-- Stats boxes -->
+  <rect x="80" y="380" width="180" height="70" rx="6" fill="#0d1b2a" stroke="#e94560" stroke-width="1"/>
+  <text x="170" y="405" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="20" font-weight="bold">$300K</text>
+  <text x="170" y="425" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Penyelesaian Flock Camera</text>
+  <text x="170" y="440" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">13 yurisdiksi batalkan kontrak</text>
+  
+  <rect x="310" y="380" width="180" height="70" rx="6" fill="#0d1b2a" stroke="#7e57c2" stroke-width="1"/>
+  <text x="400" y="405" text-anchor="middle" fill="#7e57c2" font-family="Inter, sans-serif" font-size="20" font-weight="bold">830→2300</text>
+  <text x="400" y="425" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Menara Pengawasan DHS</text>
+  <text x="400" y="440" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Target 2034, +180% pertumbuhan</text>
+  
+  <rect x="540" y="380" width="180" height="70" rx="6" fill="#0d1b2a" stroke="#1a5276" stroke-width="1"/>
+  <text x="630" y="405" text-anchor="middle" fill="#1a5276" font-family="Inter, sans-serif" font-size="20" font-weight="bold">€403M</text>
+  <text x="630" y="425" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Denda Google Lokasi</text>
+  <text x="630" y="440" text-anchor="middle" fill="#a0a0a0" font-family="Inter, sans-serif" font-size="9">Irish DPC, proses 6 tahun</text>
+  
+  <!-- Annotation -->
+  <text x="400" y="480" text-anchor="middle" fill="#e94560" font-family="Inter, sans-serif" font-size="11" font-style="italic">Pengawasan algoritmik bukan tentang kemampuan melihat — tapi tentang apa yang kita izinkan untuk dilihat</text>
+</svg>
