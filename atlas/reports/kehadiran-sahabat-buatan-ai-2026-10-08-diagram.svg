@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f0f23"/>
+      <stop offset="100%" style="stop-color:#1a1a3e"/>
+    </linearGradient>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f093fb"/>
+      <stop offset="100%" style="stop-color:#f5576c"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#fa709a"/>
+      <stop offset="100%" style="stop-color:#fee140"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Central Human Figure -->
+  <circle cx="400" cy="200" r="35" fill="url(#blueGrad)" filter="url(#glow)" opacity="0.9"/>
+  <rect x="385" y="240" width="30" height="80" rx="8" fill="url(#blueGrad)" opacity="0.85"/>
+  <line x1="400" y1="320" x2="400" y2="400" stroke="url(#blueGrad)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="400" y1="350" x2="350" y2="390" stroke="url(#blueGrad)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  <line x1="400" y1="350" x2="450" y2="390" stroke="url(#blueGrad)" stroke-width="4" stroke-linecap="round" opacity="0.85"/>
+  
+  <!-- AI Companion Circles (surrounding human) -->
+  <circle cx="180" cy="140" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="620" cy="140" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="150" cy="320" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="650" cy="320" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="250" cy="420" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  <circle cx="550" cy="420" r="28" fill="url(#orangeGrad)" filter="url(#glow)" opacity="0.9"/>
+  
+  <!-- Connection Lines from Human to AI -->
+  <line x1="400" y1="200" x2="180" y2="140" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="200" x2="620" y2="140" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="200" x2="150" y2="320" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="200" x2="650" y2="320" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="200" x2="250" y2="420" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  <line x1="400" y1="200" x2="550" y2="420" stroke="url(#goldGrad)" stroke-width="1.5" opacity="0.6" stroke-dasharray="5,5"/>
+  
+  <!-- Real Relationship (fading) -->
+  <circle cx="400" cy="60" r="25" fill="#4facfe" opacity="0.3"/>
+  <text x="400" y="42" text-anchor="middle" fill="#4facfe" font-size="11" font-family="Inter, sans-serif" opacity="0.5">REAL</text>
+  <line x1="400" y1="165" x2="400" y2="85" stroke="#4facfe" stroke-width="1" opacity="0.25" stroke-dasharray="3,6"/>
+  
+  <!-- Labels -->
+  <text x="180" y="185" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  <text x="620" y="185" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  <text x="150" y="365" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  <text x="650" y="365" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  <text x="250" y="465" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  <text x="550" y="465" text-anchor="middle" fill="#f5576c" font-size="10" font-family="Inter, sans-serif" font-weight="600">AI</text>
+  
+  <!-- Title -->
+  <text x="400" y="490" text-anchor="middle" fill="#e6e6e6" font-size="14" font-family="Inter, sans-serif" font-weight="600">RIBUAN SAHABAT BUATAN — SATU MANUSIA SENDIRI</text>
+</svg>
