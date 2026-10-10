@@ -1,0 +1,73 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f4e4bc;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="Inter, sans-serif" font-size="28" font-weight="700" fill="#d4af37" letter-spacing="3">TUHAN BUATAN</text>
+  <text x="400" y="75" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#888888" letter-spacing="2">AI &amp; AGAMA</text>
+  
+  <!-- Central Circle - Human -->
+  <circle cx="400" cy="250" r="80" fill="none" stroke="#d4af37" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="400" cy="250" r="60" fill="#1a1a2e" stroke="#d4af37" stroke-width="1"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="16" fill="#d4af37" font-weight="600">MANUSIA</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#888888">Pencari Makna</text>
+  
+  <!-- AI Circle - Right -->
+  <circle cx="600" cy="250" r="70" fill="none" stroke="#4a9eff" stroke-width="2" opacity="0.8"/>
+  <circle cx="600" cy="250" r="50" fill="#0a1628" stroke="#4a9eff" stroke-width="1"/>
+  <text x="600" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#4a9eff" font-weight="600">AI</text>
+  <text x="600" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Cermin Digital</text>
+  
+  <!-- Religion Circle - Left -->
+  <circle cx="200" cy="250" r="70" fill="none" stroke="#e74c3c" stroke-width="2" opacity="0.8"/>
+  <circle cx="200" cy="250" r="50" fill="#1a0a0a" stroke="#e74c3c" stroke-width="1"/>
+  <text x="200" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" fill="#e74c3c" font-weight="600">AGAMA</text>
+  <text x="200" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">Tradisi Kuno</text>
+  
+  <!-- Connecting Lines -->
+  <line x1="320" y1="250" x2="530" y2="250" stroke="#555" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="270" y1="250" x2="320" y2="250" stroke="#555" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Arrows -->
+  <polygon points="530,245 540,250 530,255" fill="#4a9eff" opacity="0.6"/>
+  <polygon points="270,245 260,250 270,255" fill="#e74c3c" opacity="0.6"/>
+  
+  <!-- Key Concepts -->
+  <text x="400" y="380" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#888">PROTOKOL • KEYAKINAN • KOMUNITAS</text>
+  <text x="400" y="400" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" fill="#666">AI = Cermin, Bukan Guru</text>
+  
+  <!-- Decorative Elements -->
+  <path d="M 100 100 Q 200 80 300 100" fill="none" stroke="#333" stroke-width="1" opacity="0.5"/>
+  <path d="M 500 100 Q 600 80 700 100" fill="none" stroke="#333" stroke-width="1" opacity="0.5"/>
+  <path d="M 100 400 Q 200 420 300 400" fill="none" stroke="#333" stroke-width="1" opacity="0.5"/>
+  <path d="M 500 400 Q 600 420 700 400" fill="none" stroke="#333" stroke-width="1" opacity="0.5"/>
+  
+  <!-- Quote -->
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#555" font-style="italic">"Tuhan tidak membutuhkan algoritma, tetapi manusia mungkin terus mencarinya"</text>
+</svg>
+</div>
+
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- Same SVG code as above -->
+</svg>
+```
