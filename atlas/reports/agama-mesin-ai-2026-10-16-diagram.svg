@@ -1,0 +1,86 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="oracle" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4af37"/>
+      <stop offset="100%" style="stop-color:#b8860b"/>
+    </linearGradient>
+    <linearGradient id="ai" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2"/>
+      <stop offset="100%" style="stop-color:#2c5aa0"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#e0e0e0" font-family="Inter, sans-serif" font-size="20" font-weight="600">Mesin yang Berdoa</text>
+  <text x="400" y="65" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="12">Dari Oracle Delphi hingga AI Kontemporer</text>
+  
+  <!-- Left side - Oracle -->
+  <circle cx="200" cy="200" r="80" fill="none" stroke="url(#oracle)" stroke-width="2" opacity="0.6"/>
+  <circle cx="200" cy="200" r="60" fill="none" stroke="url(#oracle)" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Oracle temple silhouette -->
+  <path d="M150 280 L200 220 L250 280 Z" fill="#2a2a3e" stroke="#d4af37" stroke-width="1.5" opacity="0.8"/>
+  <rect x="170" y="280" width="60" height="40" fill="#1a1a2e" stroke="#d4af37" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Oracle figure -->
+  <circle cx="200" cy="180" r="15" fill="#d4af37" opacity="0.3" filter="url(#glow)"/>
+  <text x="200" y="185" text-anchor="middle" fill="#d4af37" font-family="Inter, sans-serif" font-size="10" font-weight="500">ORACLE</text>
+  
+  <!-- Praying figures -->
+  <ellipse cx="130" cy="320" rx="15" ry="25" fill="#3a3a4e"/>
+  <ellipse cx="270" cy="320" rx="15" ry="25" fill="#3a3a4e"/>
+  
+  <!-- Center connection -->
+  <path d="M280 200 Q400 150 520 200" fill="none" stroke="#666" stroke-width="1.5" stroke-dasharray="5,5"/>
+  <path d="M280 220 Q400 270 520 220" fill="none" stroke="#666" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- Question mark in center -->
+  <text x="400" y="210" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="28" opacity="0.5">?</text>
+  
+  <!-- Right side - AI -->
+  <rect x="520" y="140" width="120" height="100" rx="10" fill="#1a1a2e" stroke="url(#ai)" stroke-width="2" opacity="0.8"/>
+  <rect x="535" y="155" width="90" height="60" rx="5" fill="#0a0a0f"/>
+  
+  <!-- AI brain pattern -->
+  <circle cx="580" cy="185" r="20" fill="none" stroke="#4a90e2" stroke-width="1" opacity="0.6"/>
+  <circle cx="580" cy="185" r="10" fill="#4a90e2" opacity="0.3"/>
+  <line x1="560" y1="185" x2="600" y2="185" stroke="#4a90e2" stroke-width="1" opacity="0.5"/>
+  <line x1="580" y1="165" x2="580" y2="205" stroke="#4a90e2" stroke-width="1" opacity="0.5"/>
+  
+  <text x="580" y="270" text-anchor="middle" fill="#4a90e2" font-family="Inter, sans-serif" font-size="11" font-weight="500">AI SYSTEM</text>
+  
+  <!-- User figures -->
+  <ellipse cx="670" cy="320" rx="15" ry="25" fill="#3a3a4e"/>
+  <ellipse cx="710" cy="300" rx="12" ry="20" fill="#3a3a4e"/>
+  
+  <!-- Bottom section - Commonality -->
+  <rect x="100" y="380" width="600" height="80" rx="8" fill="#1a1a2e" opacity="0.6"/>
+  <text x="400" y="410" text-anchor="middle" fill="#e0e0e0" font-family="Inter, sans-serif" font-size="14" font-weight="500">Apa yang Sama?</text>
+  <text x="400" y="435" text-anchor="middle" fill="#aaa" font-family="Inter, sans-serif" font-size="11">Pencarian makna • Kepercayaan pada jawaban • Interaksi dengan yang "lebih"</text>
+  
+  <!-- Arrows -->
+  <path d="M180 300 L180 370" fill="none" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  <path d="M620 300 L620 370" fill="none" stroke="#666" stroke-width="1" marker-end="url(#arrowhead)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="80" cy="100" r="3" fill="#d4af37" opacity="0.3"/>
+  <circle cx="720" cy="100" r="3" fill="#4a90e2" opacity="0.3"/>
+  <circle cx="120" cy="450" r="2" fill="#d4af37" opacity="0.2"/>
+  <circle cx="680" cy="450" r="2" fill="#4a90e2" opacity="0.2"/>
+</svg>
+</div>
