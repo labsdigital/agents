@@ -1,0 +1,90 @@
+<div style="text-align: center; margin: 40px 0;">
+```svg
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="600" height="400">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f093fb;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f5576c;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="400" fill="#0f0f1a"/>
+  
+  <!-- Title -->
+  <text x="300" y="40" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="20" font-weight="600">Kebenaran Sintetis: Era Setelah Validasi</text>
+  
+  <!-- Left side - Traditional Institutions -->
+  <rect x="30" y="80" width="150" height="280" rx="12" fill="rgba(102,126,234,0.1)" stroke="#667eea" stroke-width="2"/>
+  <text x="105" y="110" text-anchor="middle" fill="#667eea" font-family="Inter, sans-serif" font-size="14" font-weight="600">INSTITUSI TRADISIONAL</text>
+  
+  <!-- Traditional nodes -->
+  <circle cx="105" cy="150" r="25" fill="rgba(102,126,234,0.3)" stroke="#667eea" stroke-width="2"/>
+  <text x="105" y="155" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Agama</text>
+  
+  <circle cx="70" cy="210" r="25" fill="rgba(102,126,234,0.3)" stroke="#667eea" stroke-width="2"/>
+  <text x="70" y="215" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Negara</text>
+  
+  <circle cx="140" cy="210" r="25" fill="rgba(102,126,234,0.3)" stroke="#667eea" stroke-width="2"/>
+  <text x="140" y="215" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Univ</text>
+  
+  <circle cx="105" cy="270" r="25" fill="rgba(102,126,234,0.3)" stroke="#667eea" stroke-width="2"/>
+  <text x="105" y="275" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Pers</text>
+  
+  <circle cx="105" cy="330" r="25" fill="rgba(102,126,234,0.3)" stroke="#667eea" stroke-width="2"/>
+  <text x="105" y="335" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Ahli</text>
+  
+  <!-- Right side - AI Machines -->
+  <rect x="420" y="80" width="150" height="280" rx="12" fill="rgba(240,147,251,0.1)" stroke="#f093fb" stroke-width="2"/>
+  <text x="495" y="110" text-anchor="middle" fill="#f093fb" font-family="Inter, sans-serif" font-size="14" font-weight="600">MESIN AI</text>
+  
+  <!-- AI nodes -->
+  <circle cx="495" cy="150" r="25" fill="rgba(240,147,251,0.3)" stroke="#f093fb" stroke-width="2"/>
+  <text x="495" y="155" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">LLM</text>
+  
+  <circle cx="460" cy="210" r="25" fill="rgba(240,147,251,0.3)" stroke="#f093fb" stroke-width="2"/>
+  <text x="460" y="215" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="9">Deep</text>
+  <text x="460" y="227" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="9">Fake</text>
+  
+  <circle cx="530" cy="210" r="25" fill="rgba(240,147,251,0.3)" stroke="#f093fb" stroke-width="2"/>
+  <text x="530" y="215" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="9">Synth</text>
+  <text x="530" y="227" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="9">Media</text>
+  
+  <circle cx="495" cy="270" r="25" fill="rgba(240,147,251,0.3)" stroke="#f093fb" stroke-width="2"/>
+  <text x="495" y="275" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">Bot</text>
+  
+  <circle cx="495" cy="330" r="25" fill="rgba(240,147,251,0.3)" stroke="#f093fb" stroke-width="2"/>
+  <text x="495" y="335" text-anchor="middle" fill="#fff" font-family="Inter, sans-serif" font-size="10">GenAI</text>
+  
+  <!-- Center - Crisis -->
+  <rect x="220" y="150" width="160" height="120" rx="12" fill="rgba(245,87,108,0.15)" stroke="#f5576c" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="300" y="185" text-anchor="middle" fill="#f5576c" font-family="Inter, sans-serif" font-size="13" font-weight="600">KRISIS KEPERCAYAAN</text>
+  <text x="300" y="210" text-anchor="middle" fill="#ccc" font-family="Inter, sans-serif" font-size="11">Kebenaran Sintetis</text>
+  <text x="300" y="230" text-anchor="middle" fill="#ccc" font-family="Inter, sans-serif" font-size="11">Hallucination</text>
+  <text x="300" y="250" text-anchor="middle" fill="#ccc" font-family="Inter, sans-serif" font-size="11">Deepfake</text>
+  
+  <!-- Arrows from left to center -->
+  <line x1="180" y1="150" x2="215" y2="190" stroke="#667eea" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <line x1="180" y1="270" x2="215" y2="240" stroke="#667eea" stroke-width="2"/>
+  
+  <!-- Arrows from right to center -->
+  <line x1="420" y1="150" x2="385" y2="190" stroke="#f093fb" stroke-width="2"/>
+  <line x1="420" y1="270" x2="385" y2="240" stroke="#f093fb" stroke-width="2"/>
+  
+  <!-- Arrow markers -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#667eea"/>
+    </marker>
+  </defs>
+  
+  <!-- Bottom - Call to action -->
+  <rect x="150" y="370" width="300" height="25" rx="5" fill="rgba(100,255,218,0.1)" stroke="#64ffda" stroke-width="1"/>
+  <text x="300" y="387" text-anchor="middle" fill="#64ffda" font-family="Inter, sans-serif" font-size="11">Literasi Eksistensial: Tanya dengan Benar</text>
+</svg>
+```
+</div>
