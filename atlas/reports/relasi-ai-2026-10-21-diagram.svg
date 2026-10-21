@@ -1,0 +1,66 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7c948"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Inter, sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="2">RELASI MANUSIA-AI</text>
+  
+  <!-- Central AI node -->
+  <circle cx="400" cy="250" r="60" fill="none" stroke="#ff6b35" stroke-width="3" filter="url(#glow)"/>
+  <text x="400" y="245" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="600" fill="#ff6b35">AI</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Inter, sans-serif" font-size="10" fill="#a0a0b0">Simulasi</text>
+  
+  <!-- Human nodes -->
+  <circle cx="150" cy="150" r="45" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="150" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#4ecdc4">Manusia</text>
+  <text x="150" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a0a0b0">Emosional</text>
+  
+  <circle cx="650" cy="150" r="45" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="650" y="145" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#4ecdc4">Manusia</text>
+  <text x="650" y="160" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a0a0b0">Sosial</text>
+  
+  <circle cx="150" cy="350" r="45" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="150" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#4ecdc4">Manusia</text>
+  <text x="150" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a0a0b0">Lansia</text>
+  
+  <circle cx="650" cy="350" r="45" fill="none" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="650" y="345" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="#4ecdc4">Manusia</text>
+  <text x="650" y="360" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a0a0b0">Anxiety</text>
+  
+  <!-- Connection lines -->
+  <line x1="195" y1="170" x2="345" y2="230" stroke="url(#lineGrad)" stroke-width="2" opacity="0.7"/>
+  <line x1="605" y1="170" x2="455" y2="230" stroke="url(#lineGrad)" stroke-width="2" opacity="0.7"/>
+  <line x1="195" y1="330" x2="345" y2="270" stroke="url(#lineGrad)" stroke-width="2" opacity="0.7"/>
+  <line x1="605" y1="330" x2="455" y2="270" stroke="url(#lineGrad)" stroke-width="2" opacity="0.7"/>
+  
+  <!-- Labels on connections -->
+  <text x="270" y="190" font-family="Inter, sans-serif" font-size="10" fill="#f7c948" transform="rotate(-20, 270, 190)">Validasi</text>
+  <text x="530" y="190" font-family="Inter, sans-serif" font-size="10" fill="#f7c948" transform="rotate(20, 530, 190)">Perhatian</text>
+  <text x="270" y="300" font-family="Inter, sans-serif" font-size="10" fill="#f7c948" transform="rotate(20, 270, 300)">Keteraturan</text>
+  <text x="530" y="300" font-family="Inter, sans-serif" font-size="10" fill="#f7c948" transform="rotate(-20, 530, 300)">Aksesibilitas</text>
+  
+  <!-- Bottom insight -->
+  <rect x="200" y="430" width="400" height="50" rx="8" fill="#1a1a2e" stroke="#ff6b35" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="450" text-anchor="middle" font-family="Inter, sans-serif" font-size="11" font-weight="600" fill="#ffffff">Ilusi Keintiman → Ekonomi Perhatian → Transformasi Sosial</text>
+  <text x="400" y="468" text-anchor="middle" font-family="Inter, sans-serif" font-size="9" fill="#a0a0b0">Dari simulasi hingga重新definisi hubungan manusia</text>
+</svg>
+</div>
