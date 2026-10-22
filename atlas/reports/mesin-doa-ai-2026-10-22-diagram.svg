@@ -1,0 +1,85 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="blueGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4a90e2;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2c5aa0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#f5a623;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#d4871c;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#9b59b6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7d3c98;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bgGradient)" />
+  
+  <style>
+    text { font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; }
+  </style>
+  
+  <text x="400" y="45" text-anchor="middle" fill="#ffffff" font-size="22" font-weight="600">Simbiosis Agama &amp; AI</text>
+  <text x="400" y="70" text-anchor="middle" fill="#888888" font-size="13">Manusia memberikan pertanyaan eksistensial • Mesin memberikan jawaban dan kenyamanan</text>
+  
+  <!-- Human side -->
+  <rect x="40" y="120" width="220" height="320" rx="12" fill="#1a1a2e" stroke="#4a90e2" stroke-width="2" />
+  <circle cx="150" cy="170" r="45" fill="url(#blueGradient)" />
+  <text x="150" y="178" text-anchor="middle" fill="#ffffff" font-size="32">👤</text>
+  <text x="150" y="240" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">MANUSIA</text>
+  
+  <rect x="60" y="260" width="180" height="36" rx="6" fill="#2c5aa0" fill-opacity="0.3" />
+  <text x="150" y="284" text-anchor="middle" fill="#4a90e2" font-size="13">Pertanyaan Eksistensial</text>
+  
+  <rect x="60" y="310" width="180" height="36" rx="6" fill="#2c5aa0" fill-opacity="0.3" />
+  <text x="150" y="334" text-anchor="middle" fill="#4a90e2" font-size="13">Makna &amp; Tujuan</text>
+  
+  <rect x="60" y="360" width="180" height="36" rx="6" fill="#2c5aa0" fill-opacity="0.3" />
+  <text x="150" y="384" text-anchor="middle" fill="#4a90e2" font-size="13">Pengalaman Subjektif</text>
+  
+  <rect x="60" y="410" width="180" height="36" rx="6" fill="#2c5aa0" fill-opacity="0.3" />
+  <text x="150" y="434" text-anchor="middle" fill="#4a90e2" font-size="13">Ritual &amp; Komunitas</text>
+  
+  <!-- AI side -->
+  <rect x="540" y="120" width="220" height="320" rx="12" fill="#1a1a2e" stroke="#f5a623" stroke-width="2" />
+  <rect x="620" y="140" width="60" height="60" rx="10" fill="url(#goldGradient)" />
+  <text x="650" y="178" text-anchor="middle" fill="#ffffff" font-size="28">🤖</text>
+  <text x="650" y="240" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">MESIN AI</text>
+  
+  <rect x="560" y="260" width="180" height="36" rx="6" fill="#d4871c" fill-opacity="0.3" />
+  <text x="650" y="284" text-anchor="middle" fill="#f5a623" font-size="13">Jawaban &amp; Konseling</text>
+  
+  <rect x="560" y="310" width="180" height="36" rx="6" fill="#d4871c" fill-opacity="0.3" />
+  <text x="650" y="334" text-anchor="middle" fill="#f5a623" font-size="13">Kenyamanan Emosional</text>
+  
+  <rect x="560" y="360" width="180" height="36" rx="6" fill="#d4871c" fill-opacity="0.3" />
+  <text x="650" y="384" text-anchor="middle" fill="#f5a623" font-size="13">Akses 24/7</text>
+  
+  <rect x="560" y="410" width="180" height="36" rx="6" fill="#d4871c" fill-opacity="0.3" />
+  <text x="650" y="434" text-anchor="middle" fill="#f5a623" font-size="13">Personalisasi</text>
+  
+  <!-- Connection arrows -->
+  <path d="M 270 280 L 530 280" stroke="#9b59b6" stroke-width="3" fill="none" marker-end="url(#arrowhead)" />
+  <path d="M 270 320 L 530 320" stroke="#9b59b6" stroke-width="3" fill="none" />
+  
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#9b59b6" />
+    </marker>
+  </defs>
+  
+  <text x="400" y="275" text-anchor="middle" fill="#9b59b6" font-size="12">Pertanyaan →</text>
+  <text x="400" y="335" text-anchor="middle" fill="#9b59b6" font-size="12">← Jawaban</text>
+  
+  <!-- Center symbol -->
+  <circle cx="400" cy="400" r="35" fill="url(#purpleGradient)" />
+  <text x="400" y="408" text-anchor="middle" fill="#ffffff" font-size="28">∞</text>
+  <text x="400" y="460" text-anchor="middle" fill="#888888" font-size="12">Simbiosis Spiritual</text>
+</svg>
+</div>
