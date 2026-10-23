@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="arc1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7c948"/>
+    </linearGradient>
+    <linearGradient id="arc2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#44a08d"/>
+    </linearGradient>
+    <linearGradient id="arc3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#9b59b6"/>
+      <stop offset="100%" style="stop-color:#6c5ce7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" font-weight="700" fill="#ffffff" letter-spacing="1">TANGAN YANG TIDAK LAGI PERLU MENULIS</text>
+  <text x="400" y="65" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="13" fill="#888899" letter-spacing="0.5">AI &amp; Masa Depan Pendidikan</text>
+  
+  <!-- Central Brain -->
+  <ellipse cx="400" cy="220" rx="60" ry="50" fill="#1e1e3f" stroke="#ff6b35" stroke-width="2" filter="url(#glow)"/>
+  <text x="400" y="225" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#ff6b35" font-weight="600">OTAK</text>
+  <text x="400" y="242" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Gesekan → Pemahaman</text>
+  
+  <!-- Left: Traditional Learning -->
+  <path d="M 200 220 Q 150 220 150 180 L 150 120" fill="none" stroke="url(#arc1)" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="150" cy="100" r="45" fill="#1e1e3f" stroke="#ff6b35" stroke-width="2"/>
+  <text x="150" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#ff6b35" font-weight="600">TRADISI</text>
+  <text x="150" y="112" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Menghafal</text>
+  <text x="150" y="125" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Menulis</text>
+  <text x="150" y="138" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Menghitung</text>
+  
+  <!-- Right: AI Assistant -->
+  <path d="M 600 220 Q 650 220 650 180 L 650 120" fill="none" stroke="url(#arc2)" stroke-width="3" stroke-dasharray="5,5"/>
+  <circle cx="650" cy="100" r="45" fill="#1e1e3f" stroke="#4ecdc4" stroke-width="2"/>
+  <text x="650" y="95" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#4ecdc4" font-weight="600">AI</text>
+  <text x="650" y="112" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Jawaban Instan</text>
+  <text x="650" y="125" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Tanpa Gesekan</text>
+  <text x="650" y="138" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Efisien</text>
+  
+  <!-- Bottom: New Skills -->
+  <path d="M 350 270 Q 350 340 250 380" fill="none" stroke="url(#arc3)" stroke-width="3"/>
+  <path d="M 450 270 Q 450 340 550 380" fill="none" stroke="url(#arc3)" stroke-width="3"/>
+  
+  <circle cx="200" cy="410" r="50" fill="#1e1e3f" stroke="#9b59b6" stroke-width="2"/>
+  <text x="200" y="405" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#9b59b6" font-weight="600">Berpikir</text>
+  <text x="200" y="422" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Kritis</text>
+  <text x="200" y="435" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Mempertanyakan</text>
+  
+  <circle cx="600" cy="410" r="50" fill="#1e1e3f" stroke="#9b59b6" stroke-width="2"/>
+  <text x="600" y="405" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="11" fill="#9b59b6" font-weight="600">Bijaksana</text>
+  <text x="600" y="422" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Menilai</text>
+  <text x="600" y="435" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="9" fill="#888899">Menghubungkan</text>
+  
+  <!-- Arrow indicators -->
+  <polygon points="175,195 165,205 185,205" fill="#ff6b35"/>
+  <polygon points="625,195 615,205 635,205" fill="#4ecdc4"/>
+  <polygon points="345,295 350,315 355,295" fill="#9b59b6"/>
+  <polygon points="455,295 450,315 445,295" fill="#9b59b6"/>
+  
+  <!-- Key insight -->
+  <rect x="250" y="470" width="300" height="24" rx="4" fill="#1e1e3f" stroke="#ff6b35" stroke-width="1" opacity="0.8"/>
+  <text x="400" y="486" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="10" fill="#f7c948" font-weight="500">AI mudah menjawab — manusia perlu bertanya</text>
+</svg>
