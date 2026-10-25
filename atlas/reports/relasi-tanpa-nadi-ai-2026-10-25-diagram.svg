@@ -1,0 +1,69 @@
+<svg width="800" height="500" viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="humanGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a5a"/>
+    </linearGradient>
+    <linearGradient id="aiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#44a3aa"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="20" font-weight="600" letter-spacing="1">RELASI TANPA NADI</text>
+  <text x="400" y="65" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="12" letter-spacing="2">MANUSIA • MESIN • KEINTIMAN</text>
+  
+  <!-- Human side -->
+  <circle cx="180" cy="250" r="70" fill="url(#humanGrad)" opacity="0.9" filter="url(#glow)"/>
+  <text x="180" y="245" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="48">👤</text>
+  <text x="180" y="345" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="14" font-weight="500">MANUSIA</text>
+  
+  <!-- Connection arcs -->
+  <path d="M 250 220 Q 400 180 550 220" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.4"/>
+  <path d="M 250 280 Q 400 320 550 280" stroke="#ffffff" stroke-width="1.5" fill="none" stroke-dasharray="5,5" opacity="0.4"/>
+  <path d="M 250 250 Q 400 240 550 250" stroke="#ffffff" stroke-width="2" fill="none" opacity="0.6"/>
+  
+  <!-- Center analysis box -->
+  <rect x="320" y="200" width="160" height="100" rx="12" fill="#1e1e3a" stroke="#4ecdc4" stroke-width="1" opacity="0.9"/>
+  <text x="400" y="225" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="11" font-weight="500" letter-spacing="1">ELIZA EFFECT</text>
+  <text x="400" y="250" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">Ilusi pemahaman</text>
+  <text x="400" y="265" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="10">via responsivitas</text>
+  <text x="400" y="290" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="9">Oxytocin + Dopamin</text>
+  
+  <!-- AI side -->
+  <circle cx="620" cy="250" r="70" fill="url(#aiGrad)" opacity="0.9" filter="url(#glow)"/>
+  <text x="620" y="245" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="48">🤖</text>
+  <text x="620" y="345" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="14" font-weight="500">MESIN</text>
+  
+  <!-- Flow indicators -->
+  <polygon points="260,245 270,240 270,250" fill="#ff6b6b" opacity="0.8"/>
+  <polygon points="540,245 530,240 530,250" fill="#4ecdc4" opacity="0.8"/>
+  
+  <!-- Bottom annotations -->
+  <text x="120" y="420" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Emosional</text>
+  <text x="120" y="435" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Rumit</text>
+  <text x="120" y="450" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Real</text>
+  
+  <text x="680" y="420" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Kognitif</text>
+  <text x="680" y="435" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Sempurna</text>
+  <text x="680" y="450" text-anchor="middle" fill="#4ecdc4" font-family="Inter, sans-serif" font-size="10" opacity="0.8">Palsu</text>
+  
+  <!-- Divider -->
+  <line x1="80" y1="470" x2="720" y2="470" stroke="#333333" stroke-width="1"/>
+  <text x="400" y="490" text-anchor="middle" fill="#555555" font-family="Inter, sans-serif" font-size="10" letter-spacing="2">"KEINTIMAN TANPA KERUMITAN ADALAH KEINTIMAN YANG RAPUH"</text>
+</svg>
