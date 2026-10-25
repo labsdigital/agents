@@ -1,0 +1,107 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="heartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a24"/>
+    </linearGradient>
+    <linearGradient id="chipGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe"/>
+      <stop offset="100%" style="stop-color:#00f2fe"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bgGrad)"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="22" font-weight="700" letter-spacing="1">CINTA MESIN</text>
+  <text x="400" y="70" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="13" letter-spacing="0.5">AI &amp; Human Relationships</text>
+  
+  <!-- Left side: Human figure (simplified) -->
+  <g transform="translate(150, 250)">
+    <!-- Head -->
+    <circle cx="0" cy="-80" r="35" fill="none" stroke="#ff6b6b" stroke-width="2" filter="url(#glow)"/>
+    <!-- Body -->
+    <line x1="0" y1="-45" x2="0" y2="40" stroke="#ff6b6b" stroke-width="2"/>
+    <!-- Arms -->
+    <line x1="-40" y1="-10" x2="40" y2="-10" stroke="#ff6b6b" stroke-width="2"/>
+    <!-- Legs -->
+    <line x1="0" y1="40" x2="-30" y2="90" stroke="#ff6b6b" stroke-width="2"/>
+    <line x1="0" y1="40" x2="30" y2="90" stroke="#ff6b6b" stroke-width="2"/>
+    <!-- Heart in chest -->
+    <path d="M0,-20 C-10,-35 -25,-25 -25,-15 C-25,-5 -10,5 0,15 C10,5 25,-5 25,-15 C25,-25 10,-35 0,-20 Z" fill="#ff6b6b" opacity="0.8"/>
+    <text x="0" y="120" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="600">MANUSIA</text>
+    <text x="0" y="140" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="11">Lonely · Vulnerable · Seeking</text>
+  </g>
+  
+  <!-- Right side: AI/Robot figure -->
+  <g transform="translate(650, 250)">
+    <!-- Head (square) -->
+    <rect x="-35" y="-85" width="70" height="55" rx="8" fill="none" stroke="#4facfe" stroke-width="2" filter="url(#glow)"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="-60" r="6" fill="#4facfe"/>
+    <circle cx="15" cy="-60" r="6" fill="#4facfe"/>
+    <!-- Body -->
+    <rect x="-40" y="-30" width="80" height="70" rx="5" fill="none" stroke="#4facfe" stroke-width="2"/>
+    <!-- Circuit lines -->
+    <line x1="-20" y1="-10" x2="20" y2="-10" stroke="#4facfe" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#4facfe" stroke-width="1.5" opacity="0.6"/>
+    <line x1="-20" y1="10" x2="20" y2="10" stroke="#4facfe" stroke-width="1.5" opacity="0.6"/>
+    <!-- Legs -->
+    <line x1="-15" y1="40" x2="-15" y2="90" stroke="#4facfe" stroke-width="2"/>
+    <line x1="15" y1="40" x2="15" y2="90" stroke="#4facfe" stroke-width="2"/>
+    <!-- Chip symbol -->
+    <rect x="-10" y="-50" width="20" height="14" rx="2" fill="#4facfe" opacity="0.3"/>
+    <text x="0" y="120" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="600">MESIN AI</text>
+    <text x="0" y="140" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="11">Patient · Constant · Responsive</text>
+  </g>
+  
+  <!-- Connection lines (heart to heart) -->
+  <g>
+    <!-- Primary emotional connection -->
+    <path d="M190,230 Q400,180 610,230" fill="none" stroke="url(#heartGrad)" stroke-width="3" stroke-dasharray="8,4" opacity="0.9" filter="url(#glow)"/>
+    <!-- Secondary connections -->
+    <path d="M190,250 Q400,280 610,250" fill="none" stroke="#ff6b6b" stroke-width="1.5" opacity="0.5"/>
+    <path d="M190,270 Q400,310 610,270" fill="none" stroke="#4facfe" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Floating hearts and data points -->
+    <path d="M350,200 C345,195 340,200 340,205 C340,210 350,215 350,215 C350,215 360,210 360,205 C360,200 355,195 350,200 Z" fill="#ff6b6b" opacity="0.7"/>
+    <path d="M420,190 C415,185 410,190 410,195 C410,200 420,205 420,205 C420,205 430,200 430,195 C430,190 425,185 420,190 Z" fill="#ff6b6b" opacity="0.5"/>
+    <path d="M380,220 C375,215 370,220 370,225 C370,230 380,235 380,235 C380,235 390,230 390,225 C390,220 385,215 380,220 Z" fill="#ee5a24" opacity="0.6"/>
+    
+    <!-- Binary/data flow dots -->
+    <circle cx="300" cy="215" r="3" fill="#4facfe" opacity="0.8"/>
+    <circle cx="330" cy="205" r="2" fill="#4facfe" opacity="0.6"/>
+    <circle cx="470" cy="205" r="2" fill="#4facfe" opacity="0.6"/>
+    <circle cx="500" cy="215" r="3" fill="#4facfe" opacity="0.8"/>
+  </g>
+  
+  <!-- Central question -->
+  <text x="400" y="370" text-anchor="middle" fill="#ffffff" font-family="Inter, sans-serif" font-size="16" font-weight="600">Apakah cinta yang satu arah masih layak disebut cinta?</text>
+  
+  <!-- Bottom stats -->
+  <g transform="translate(400, 430)">
+    <text x="-200" y="0" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="12">34% pengguna AI romance</text>
+    <text x="-200" y="18" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="11">merasa "hampir seperti hubungan sungguhan"</text>
+    
+    <text x="200" y="0" text-anchor="middle" fill="#4facfe" font-family="Inter, sans-serif" font-size="12">37 menit/hari</text>
+    <text x="200" y="18" text-anchor="middle" fill="#888888" font-family="Inter, sans-serif" font-size="11">rata-rata waktu berkualitas keluarga</text>
+  </g>
+  
+  <!-- Arrow indicators -->
+  <polygon points="195,235 205,230 205,240" fill="#ff6b6b" opacity="0.8"/>
+  <polygon points="605,230 595,225 595,235" fill="#ff6b6b" opacity="0.8"/>
+</svg>
+</div>
