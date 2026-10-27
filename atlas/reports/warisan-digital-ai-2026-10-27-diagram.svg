@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" style="background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 100%); font-family: Inter, -apple-system, sans-serif;">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e94560;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f3460;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#16213e;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#533483;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e94560;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" fill="#ffffff" font-size="32" font-weight="700">Mesin yang Mengingat</text>
+  <text x="400" y="80" text-anchor="middle" fill="#e94560" font-size="16">Warisan Digital dan Akhir Hayat</text>
+  
+  <!-- Life Phase -->
+  <rect x="50" y="140" rx="15" ry="15" width="180" height="120" fill="url(#grad2)" stroke="#e94560" stroke-width="2"/>
+  <text x="140" y="175" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="600">HIDUP</text>
+  <text x="140" y="200" text-anchor="middle" fill="#a0a0b0" font-size="13">● Email</text>
+  <text x="140" y="220" text-anchor="middle" fill="#a0a0b0" font-size="13">● Pesan Instan</text>
+  <text x="140" y="240" text-anchor="middle" fill="#a0a0b0" font-size="13">● Media Sosial</text>
+  <text x="140" y="255" text-anchor="middle" fill="#e94560" font-size="11">→ Tercreate secara aktif</text>
+  
+  <!-- Death Phase -->
+  <rect x="310" y="140" rx="15" ry="15" width="180" height="120" fill="#1a1a2e" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="175" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="600">MATI</text>
+  <text x="400" y="200" text-anchor="middle" fill="#a0a0b0" font-size="13">● Tidak ada input baru</text>
+  <text x="400" y="220" text-anchor="middle" fill="#a0a0b0" font-size="13">● Data tetap ada</text>
+  <text x="400" y="240" text-anchor="middle" fill="#a0a0b0" font-size="13">● Bisa diakses</text>
+  <text x="400" y="255" text-anchor="middle" fill="#ff6b6b" font-size="11">→ Berubah menjadi arsip</text>
+  
+  <!-- Afterlife/Digital Legacy Phase -->
+  <rect x="570" y="140" rx="15" ry="15" width="180" height="120" fill="url(#grad1)" opacity="0.9"/>
+  <text x="660" y="175" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="600">WARISAN</text>
+  <text x="660" y="200" text-anchor="middle" fill="#ffffff" font-size="13">● Dibaca ulang</text>
+  <text x="660" y="220" text-anchor="middle" fill="#ffffff" font-size="13">● Ditafsirkan ulang</text>
+  <text x="660" y="240" text-anchor="middle" fill="#ffffff" font-size="13">● Diwariskan</text>
+  <text x="660" y="255" text-anchor="middle" fill="#ffffff" font-size="11">→ Identitas cair</text>
+  
+  <!-- Arrows connecting phases -->
+  <path d="M 230 200 L 300 200" stroke="#e94560" stroke-width="3" marker-end="url(#arrowhead)"/>
+  <path d="M 490 200 L 560 200" stroke="#e94560" stroke-width="3" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#e94560"/>
+    </marker>
+  </defs>
+  
+  <!-- Key Question -->
+  <rect x="100" y="320" rx="10" ry="10" width="600" height="80" fill="#16213e" stroke="#e94560" stroke-width="1"/>
+  <text x="400" y="355" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Pertanyaan Kunci</text>
+  <text x="400" y="380" text-anchor="middle" fill="#e94560" font-size="14">Apakah identitas seseorang berakhir pada kematian biologis?</text>
+  
+  <!-- Bottom Section: Two Perspectives -->
+  <rect x="50" y="440" rx="10" ry="10" width="340" height="130" fill="#1a1a2e" stroke="#533483" stroke-width="2"/>
+  <text x="220" y="470" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Privasi Pasca-Kematian</text>
+  <text x="70" y="500" fill="#a0a0b0" font-size="12">● Hak privasi bertahan setelah mati?</text>
+  <text x="70" y="520" fill="#a0a0b0" font-size="12">● Persetujuan untuk penggunaan data</text>
+  <text x="70" y="540" fill="#a0a0b0" font-size="12">● Konvensi sosial vs logika platform</text>
+  <text x="70" y="560" fill="#e94560" font-size="11">⚠ Belum terjamah hukum</text>
+  
+  <rect x="410" y="440" rx="10" ry="10" width="340" height="130" fill="#1a1a2e" stroke="#e94560" stroke-width="2"/>
+  <text x="580" y="470" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">Identitas Cair</text>
+  <text x="430" y="500" fill="#a0a0b0" font-size="12">● Arsip statis ≠ agen berpikir</text>
+  <text x="430" y="520" fill="#a0a0b0" font-size="12">● Makna berubah seiring waktu</text>
+  <text x="430" y="540" fill="#a0a0b0" font-size="12">● Generasi baru menafsirkan ulang</text>
+  <text x="430" y="560" fill="#e94560" font-size="11">✨ Narasi terus berjalan</text>
+</svg>
