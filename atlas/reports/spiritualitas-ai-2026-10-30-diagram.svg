@@ -1,0 +1,78 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#d4a017"/>
+      <stop offset="100%" style="stop-color:#f0c040"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4a90d9"/>
+      <stop offset="100%" style="stop-color:#7bb3f5"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#f0c040" font-family="Inter, sans-serif" font-size="20" font-weight="700" letter-spacing="2">MESIN &amp; SPIRITUALITAS</text>
+  
+  <!-- Central circle - Human quest for meaning -->
+  <circle cx="400" cy="250" r="80" fill="none" stroke="url(#gold)" stroke-width="2" filter="url(#glow)"/>
+  <circle cx="400" cy="250" r="60" fill="#1a1a2e" stroke="#d4a017" stroke-width="1.5"/>
+  <text x="400" y="245" text-anchor="middle" fill="#f0c040" font-family="Inter, sans-serif" font-size="13" font-weight="600">MAKNA</text>
+  <text x="400" y="262" text-anchor="middle" fill="#d4a017" font-family="Inter, sans-serif" font-size="10">MANUSIA</text>
+  
+  <!-- Orbit 1: Religious traditions -->
+  <ellipse cx="400" cy="250" rx="200" ry="160" fill="none" stroke="#4a90d9" stroke-width="1" stroke-dasharray="5,5" opacity="0.5"/>
+  
+  <!-- Top node: Religion/Spirituality -->
+  <circle cx="400" cy="90" r="35" fill="#0d1b2a" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="400" y="85" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="10" font-weight="600">AGAMA</text>
+  <text x="400" y="98" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="8">Tradisi</text>
+  <line x1="400" y1="125" x2="400" y2="170" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Left node: Meditation/Mindfulness -->
+  <circle cx="200" cy="250" r="35" fill="#0d1b2a" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="200" y="245" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="9" font-weight="600">MEDITASI</text>
+  <text x="200" y="258" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="8">Pengalaman</text>
+  <line x1="235" y1="250" x2="320" y2="250" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Right node: AI/Technology -->
+  <circle cx="600" cy="250" r="35" fill="#0d1b2a" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="600" y="245" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="9" font-weight="600">AI</text>
+  <text x="600" y="258" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="8">Simulasi</text>
+  <line x1="480" y1="250" x2="565" y2="250" stroke="#e74c3c" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Bottom node: Philosophy -->
+  <circle cx="400" cy="410" r="35" fill="#0d1b2a" stroke="#4a90d9" stroke-width="1.5"/>
+  <text x="400" y="405" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="9" font-weight="600">FILOSOFI</text>
+  <text x="400" y="418" text-anchor="middle" fill="#7bb3f5" font-family="Inter, sans-serif" font-size="8">Rasional</text>
+  <line x1="400" y1="330" x2="400" y2="375" stroke="#4a90d9" stroke-width="1" opacity="0.6"/>
+  
+  <!-- Connection lines between outer nodes -->
+  <line x1="230" y1="120" x2="570" y2="120" stroke="#333" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <line x1="170" y1="250" x2="170" y2="380" stroke="#333" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  <line x1="630" y1="250" x2="630" y2="380" stroke="#333" stroke-width="1" stroke-dasharray="3,3" opacity="0.4"/>
+  
+  <!-- Paradox label -->
+  <rect x="280" y="155" width="240" height="28" rx="4" fill="#1a1a2e" stroke="#e74c3c" stroke-width="1" opacity="0.9"/>
+  <text x="400" y="173" text-anchor="middle" fill="#ff6b6b" font-family="Inter, sans-serif" font-size="10" font-weight="600">⚡ PARADOX: SIMULASI vs PENGALAMAN</text>
+  
+  <!-- Question marks -->
+  <text x="120" y="200" fill="#4a90d9" font-family="Inter, sans-serif" font-size="24" opacity="0.3">?</text>
+  <text x="660" y="200" fill="#e74c3c" font-family="Inter, sans-serif" font-size="24" opacity="0.3">?</text>
+  <text x="120" y="310" fill="#4a90d9" font-family="Inter, sans-serif" font-size="20" opacity="0.2">?</text>
+  <text x="660" y="310" fill="#e74c3c" font-family="Inter, sans-serif" font-size="20" opacity="0.2">?</text>
+  
+  <!-- Bottom text -->
+  <text x="400" y="475" text-anchor="middle" fill="#888" font-family="Inter, sans-serif" font-size="10">Mekanisms pencarian makna manusia vs simulasi makna oleh mesin</text>
+</svg>
+</div>
