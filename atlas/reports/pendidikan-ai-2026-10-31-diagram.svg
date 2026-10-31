@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" style="background:#0d1117;font-family:Inter,sans-serif;">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b2b;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#ff9a56;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#79c0ff;stop-opacity:1"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="800" height="500" fill="#0d1117"/>
+  
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" fill="#f0f6fc" font-size="22" font-weight="700">Pendidikan &amp; Kecerdasan Buatan</text>
+  <text x="400" y="70" text-anchor="middle" fill="#8b949e" font-size="13">Transformasi Sistem Pembelajaran</text>
+  
+  <!-- Left: Traditional -->
+  <rect x="40" y="100" width="220" height="340" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="150" y="135" text-anchor="middle" fill="#ff6b2b" font-size="16" font-weight="700">Trisional</text>
+  
+  <!-- Traditional icon - building -->
+  <rect x="120" y="155" width="60" height="50" rx="4" fill="#21262d" stroke="#30363d"/>
+  <polygon points="150,140 120,155 180,155" fill="#ff6b2b" opacity="0.8"/>
+  <rect x="140" y="170" width="20" height="25" rx="2" fill="#30363d"/>
+  
+  <!-- Traditional elements -->
+  <rect x="70" y="220" width="160" height="8" rx="4" fill="#21262d"/>
+  <rect x="70" y="220" width="160" height="8" rx="4" fill="url(#g1)" opacity="0.6"/>
+  <rect x="70" y="240" width="120" height="8" rx="4" fill="#21262d"/>
+  <rect x="70" y="240" width="120" height="8" rx="4" fill="url(#g1)" opacity="0.4"/>
+  <rect x="70" y="260" width="140" height="8" rx="4" fill="#21262d"/>
+  <rect x="70" y="260" width="90" height="8" rx="4" fill="url(#g1)" opacity="0.3"/>
+  
+  <text x="150" y="300" text-anchor="middle" fill="#8b949e" font-size="11">Massal &amp; Seragam</text>
+  <text x="150" y="320" text-anchor="middle" fill="#8b949e" font-size="11">Guru sebagai Sumber</text>
+  <text x="150" y="340" text-anchor="middle" fill="#8b949e" font-size="11">Ujian Standar</text>
+  <text x="150" y="360" text-anchor="middle" fill="#8b949e" font-size="11">Waktu Tetap</text>
+  
+  <!-- Center: AI -->
+  <rect x="290" y="100" width="220" height="340" rx="12" fill="#161b22" stroke="#ff6b2b" stroke-width="2"/>
+  <text x="400" y="135" text-anchor="middle" fill="#ff6b2b" font-size="16" font-weight="700">AI</text>
+  
+  <!-- AI Brain icon -->
+  <circle cx="400" cy="185" r="35" fill="#21262d" stroke="#ff6b2b" stroke-width="1.5"/>
+  <path d="M385,175 Q400,160 415,175 Q425,190 415,205 Q400,215 385,205 Q375,190 385,175" fill="none" stroke="#ff6b2b" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="390" cy="185" r="4" fill="#ff6b2b" opacity="0.6"/>
+  <circle cx="410" cy="185" r="4" fill="#ff6b2b" opacity="0.6"/>
+  <circle cx="400" cy="198" r="3" fill="#ff6b2b" opacity="0.6"/>
+  
+  <text x="400" y="245" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Personalisasi</text>
+  <text x="400" y="265" text-anchor="middle" fill="#8b949e" font-size="11">Setiap siswa unik</text>
+  <text x="400" y="285" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Akses Instan</text>
+  <text x="400" y="305" text-anchor="middle" fill="#8b949e" font-size="11">Tanpa batas waktu</text>
+  <text x="400" y="325" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Adaptif</text>
+  <text x="400" y="345" text-anchor="middle" fill="#8b949e" font-size="11">Menyesuaikan diri</text>
+  
+  <!-- Arrow right -->
+  <path d="M510,260 L560,260" stroke="#ff6b2b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#ff6b2b"/>
+    </marker>
+  </defs>
+  
+  <!-- Right: Future -->
+  <rect x="540" y="100" width="220" height="340" rx="12" fill="#161b22" stroke="#30363d" stroke-width="1"/>
+  <text x="650" y="135" text-anchor="middle" fill="#58a6ff" font-size="16" font-weight="700">Masa Depan</text>
+  
+  <!-- Future icon - lightbulb -->
+  <ellipse cx="650" cy="180" rx="20" ry="25" fill="#21262d" stroke="#58a6ff" stroke-width="1.5"/>
+  <line x1="640" y1="210" x2="660" y2="210" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="643" y1="218" x2="657" y2="218" stroke="#58a6ff" stroke-width="2" stroke-linecap="round"/>
+  <line x1="650" y1="155" x2="650" y2="145" stroke="#58a6ff" stroke-width="1.5"/>
+  <line x1="640" y1="158" x2="635" y2="148" stroke="#58a6ff" stroke-width="1.5"/>
+  <line x1="660" y1="158" x2="665" y2="148" stroke="#58a6ff" stroke-width="1.5"/>
+  
+  <text x="650" y="245" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Metakognisi</text>
+  <text x="650" y="265" text-anchor="middle" fill="#8b949e" font-size="11">Cara berpikir</text>
+  <text x="650" y="285" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Kritisme</text>
+  <text x="650" y="305" text-anchor="middle" fill="#8b949e" font-size="11">Mengajukan pertanyaan</text>
+  <text x="650" y="325" text-anchor="middle" fill="#f0f6fc" font-size="12" font-weight="600">Kolaborasi</text>
+  <text x="650" y="345" text-anchor="middle" fill="#8b949e" font-size="11">Manusia + AI</text>
+  
+  <!-- Warning at bottom -->
+  <rect x="40" y="455" width="720" height="35" rx="6" fill="#1f1f1f" stroke="#30363d"/>
+  <text x="400" y="477" text-anchor="middle" fill="#8b949e" font-size="11">⚠ Kesenjangan akses berpotensi memperlebar ketimpangan pendidikan</text>
+</svg>
