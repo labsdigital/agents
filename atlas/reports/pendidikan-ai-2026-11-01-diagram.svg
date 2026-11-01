@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117"/>
+      <stop offset="100%" style="stop-color:#161b22"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#f0883e"/>
+      <stop offset="100%" style="stop-color:#db6d28"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="900" height="600" fill="url(#bg)" rx="12"/>
+  
+  <!-- Title -->
+  <text x="450" y="55" text-anchor="middle" fill="#f0883e" font-size="22" font-weight="700" letter-spacing="1">PENDIDIKAN DI ERA AI</text>
+  <text x="450" y="80" text-anchor="middle" fill="#8b949e" font-size="13">Transformasi, Tantangan, dan Pertanyaan Mendasar</text>
+  
+  <!-- Center: AI Tutor -->
+  <rect x="350" y="140" width="200" height="70" rx="10" fill="#1a1f26" stroke="#f0883e" stroke-width="2" filter="url(#glow)"/>
+  <text x="450" y="170" text-anchor="middle" fill="#f0883e" font-size="16" font-weight="600">AI Tutor</text>
+  <text x="450" y="192" text-anchor="middle" fill="#8b949e" font-size="11">Personalisasi & Efisiensi</text>
+  
+  <!-- Left: Traditional -->
+  <rect x="40" y="260" width="180" height="70" rx="10" fill="#1a1f26" stroke="#388bfd" stroke-width="1.5"/>
+  <text x="130" y="290" text-anchor="middle" fill="#388bfd" font-size="14" font-weight="600">Sekolah Tradisional</text>
+  <text x="130" y="312" text-anchor="middle" fill="#8b949e" font-size="11">Massal & Seragam</text>
+  
+  <!-- Right: Human Element -->
+  <rect x="680" y="260" width="180" height="70" rx="10" fill="#1a1f26" stroke="#3fb950" stroke-width="1.5"/>
+  <text x="770" y="290" text-anchor="middle" fill="#3fb950" font-size="14" font-weight="600">Elemen Manusia</text>
+  <text x="770" y="312" text-anchor="middle" fill="#8b949e" font-size="11">Empati & Pertanyaan</text>
+  
+  <!-- Connections -->
+  <line x1="220" y1="295" x2="350" y2="220" stroke="#484f58" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="550" y1="220" x2="680" y2="295" stroke="#484f58" stroke-width="1.5" stroke-dasharray="6,3"/>
+  
+  <!-- Bottom section: Tensions -->
+  <rect x="80" y="380" width="740" height="190" rx="10" fill="#161b22" stroke="#388bfd" stroke-width="1"/>
+  <text x="450" y="410" text-anchor="middle" fill="#c9d1d9" font-size="14" font-weight="600">KETEGANGAN POKOK</text>
+  
+  <!-- Tension items -->
+  <rect x="100" y="430" width="155" height="55" rx="8" fill="#1a1f26" stroke="#f85149" stroke-width="1"/>
+  <text x="177" y="452" text-anchor="middle" fill="#f85149" font-size="11" font-weight="600">Efisiensi vs Tujuan</text>
+  <text x="177" y="472" text-anchor="middle" fill="#8b949e" font-size="9">Mengolah info ≠ membentuk manusia</text>
+  
+  <rect x="280" y="430" width="155" height="55" rx="8" fill="#1a1f26" stroke="#f0883e" stroke-width="1"/>
+  <text x="357" y="452" text-anchor="middle" fill="#f0883e" font-size="11" font-weight="600">Data vs Privasi</text>
+  <text x="357" y="472" text-anchor="middle" fill="#8b949e" font-size="9">Profil siswa = data sensitif</text>
+  
+  <rect x="460" y="430" width="155" height="55" rx="8" fill="#1a1f26" stroke="#a371f7" stroke-width="1"/>
+  <text x="537" y="452" text-anchor="middle" fill="#a371f7" font-size="11" font-weight="600">Bias Algorithmik</text>
+  <text x="537" y="472" text-anchor="middle" fill="#8b949e" font-size="9">Data historis → discriminasi</text>
+  
+  <rect x="640" y="430" width="160" height="55" rx="8" fill="#1a1f26" stroke="#3fb950" stroke-width="1"/>
+  <text x="720" y="452" text-anchor="middle" fill="#3fb950" font-size="11" font-weight="600">Guru vs Mesin</text>
+  <text x="720" y="472" text-anchor="middle" fill="#8b949e" font-size="9">Fasilitator ≠ penyampai</text>
+  
+  <!-- Bottom: Core question -->
+  <text x="450" y="555" text-anchor="middle" fill="#f0883e" font-size="13" font-weight="500">"Jenis guru apa yang ingin kita jadikannya?"</text>
+</svg>
