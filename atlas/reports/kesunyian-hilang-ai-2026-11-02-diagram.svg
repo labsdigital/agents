@@ -1,0 +1,111 @@
+<div style="text-align: center; margin: 40px 0;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="800" height="500">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#f7c948;stop-opacity:0.4"/>
+    </linearGradient>
+    <filter id="blur1">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+  
+  <!-- Central figure: human silhouette in silence -->
+  <g transform="translate(200, 100)">
+    <!-- Head -->
+    <ellipse cx="60" cy="50" rx="35" ry="40" fill="none" stroke="#e8d5b7" stroke-width="2" opacity="0.7"/>
+    <!-- Body -->
+    <path d="M60,90 Q60,180 30,250 M60,90 Q60,180 90,250 M30,250 L90,250" fill="none" stroke="#e8d5b7" stroke-width="2" opacity="0.7"/>
+    <!-- Arms slightly spread -->
+    <line x1="30" y1="150" x2="5" y2="180" stroke="#e8d5b7" stroke-width="1.5" opacity="0.5"/>
+    <line x1="90" y1="150" x2="115" y2="180" stroke="#e8d5b7" stroke-width="1.5" opacity="0.5"/>
+    
+    <!-- Peaceful expression - closed eyes -->
+    <path d="M45,48 Q50,44 55,48" fill="none" stroke="#e8d5b7" stroke-width="1.5" opacity="0.8"/>
+    <path d="M65,48 Q70,44 75,48" fill="none" stroke="#e8d5b7" stroke-width="1.5" opacity="0.8"/>
+  </g>
+  
+  <!-- Sacred silence space around human -->
+  <ellipse cx="200" cy="250" rx="100" ry="160" fill="none" stroke="#ff6b35" stroke-width="1" stroke-dasharray="5,8" opacity="0.4" filter="url(#blur1)"/>
+  <ellipse cx="200" cy="250" rx="130" ry="190" fill="none" stroke="#f7c948" stroke-width="0.5" stroke-dasharray="3,12" opacity="0.25" filter="url(#blur1)"/>
+  
+  <!-- Floating memories/thoughts around the human -->
+  <circle cx="140" cy="120" r="8" fill="#f7c948" opacity="0.3"/>
+  <circle cx="270" cy="140" r="5" fill="#ff6b35" opacity="0.25"/>
+  <circle cx="130" cy="200" r="6" fill="#e8d5b7" opacity="0.2"/>
+  <circle cx="280" cy="260" r="4" fill="#f7c948" opacity="0.3"/>
+  <circle cx="150" cy="340" r="7" fill="#ff6b35" opacity="0.2"/>
+  <circle cx="260" cy="380" r="5" fill="#e8d5b7" opacity="0.25"/>
+  
+  <!-- Rain memory (from essay) -->
+  <g transform="translate(160, 60)" opacity="0.4">
+    <line x1="0" y1="0" x2="-8" y2="20" stroke="#87ceeb" stroke-width="1"/>
+    <line x1="10" y1="5" x2="2" y2="25" stroke="#87ceeb" stroke-width="1"/>
+    <line x1="-5" y1="10" x2="-13" y2="30" stroke="#87ceeb" stroke-width="1"/>
+    <rect x="-15" y="-5" width="35" height="12" rx="6" fill="#666" opacity="0.3"/>
+  </g>
+  
+  <!-- RIGHT SIDE: Digital noise/constant connectivity -->
+  <g transform="translate(520, 100)">
+    <!-- Glowing screen -->
+    <rect x="0" y="0" width="120" height="180" rx="10" fill="#1a1a2e" stroke="#ff6b35" stroke-width="2" opacity="0.8"/>
+    <rect x="8" y="10" width="104" height="140" rx="5" fill="#0a0a0f"/>
+    
+    <!-- Screen content - chat bubbles -->
+    <rect x="15" y="20" width="80" height="25" rx="8" fill="#ff6b35" opacity="0.6"/>
+    <rect x="25" y="55" width="80" height="25" rx="8" fill="#f7c948" opacity="0.5"/>
+    <rect x="15" y="90" width="80" height="25" rx="8" fill="#ff6b35" opacity="0.6"/>
+    <rect x="25" y="125" width="80" height="25" rx="8" fill="#f7c948" opacity="0.5"/>
+    
+    <!-- Pulse lines -->
+    <polyline points="0,200 20,195 40,205 60,195 80,205 100,195 120,200" fill="none" stroke="#ff6b35" stroke-width="1.5" opacity="0.5"/>
+  </g>
+  
+  <!-- Connection line between human and machine - thin, fragile -->
+  <line x1="300" y1="250" x2="520" y2="250" stroke="#ff6b35" stroke-width="1" stroke-dasharray="4,6" opacity="0.3"/>
+  
+  <!-- Arrows showing the pull -->
+  <path d="M350,240 L380,235 M375,230 L385,235 L380,240" fill="none" stroke="#ff6b35" stroke-width="1.5" opacity="0.4"/>
+  <path d="M420,260 L390,265 M395,270 L385,265 L390,260" fill="none" stroke="#f7c948" stroke-width="1.5" opacity="0.3"/>
+  
+  <!-- Labels -->
+  <text x="200" y="440" text-anchor="middle" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="16" font-weight="600" opacity="0.9">Kesunyian</text>
+  <text x="200" y="460" text-anchor="middle" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="12" opacity="0.6">Ruang untuk refletksi &amp; makna</text>
+  
+  <text x="580" y="440" text-anchor="middle" fill="#ff6b35" font-family="Inter, sans-serif" font-size="16" font-weight="600" opacity="0.9">Kebisingan Konstan</text>
+  <text x="580" y="460" text-anchor="middle" fill="#ff6b35" font-family="Inter, sans-serif" font-size="12" opacity="0.6">Mesin mengisi setiap celah</text>
+  
+  <!-- Central metaphor: the empty space IS the value -->
+  <g transform="translate(380, 180)">
+    <circle cx="0" cy="0" r="60" fill="none" stroke="#f7c948" stroke-width="1.5" opacity="0.3" stroke-dasharray="8,4"/>
+    <text x="0" y="-5" text-anchor="middle" fill="#f7c948" font-family="Inter, sans-serif" font-size="22" font-weight="700" opacity="0.7">?</text>
+    <text x="0" y="20" text-anchor="middle" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="10" opacity="0.5">Ruang kosong</text>
+  </g>
+  
+  <!-- Decorative elements: cultural references -->
+  <g transform="translate(60, 380)" opacity="0.3">
+    <!-- Wudu/water drops (Islamic tradition reference) -->
+    <ellipse cx="10" cy="0" rx="4" ry="6" fill="#87ceeb"/>
+    <ellipse cx="25" cy="5" rx="3" ry="5" fill="#87ceeb"/>
+    <ellipse cx="5" cy="12" rx="3" ry="5" fill="#87ceeb"/>
+    <text x="35" y="10" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="10">Wudhu · Jeda</text>
+  </g>
+  
+  <g transform="translate(620, 380)" opacity="0.3">
+    <!-- Greek sige reference -->
+    <text x="0" y="0" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="18" font-style="italic">σιγή</text>
+    <text x="0" y="18" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="10">Siga — Diam</text>
+  </g>
+  
+  <!-- Title area -->
+  <text x="400" y="40" text-anchor="middle" fill="#ff6b35" font-family="Inter, sans-serif" font-size="20" font-weight="700">Kesunyian yang Hilang</text>
+  <text x="400" y="62" text-anchor="middle" fill="#e8d5b7" font-family="Inter, sans-serif" font-size="12" opacity="0.6">Ketika mesin mengisi setiap celah keheningan</text>
+</svg>
+</div>
