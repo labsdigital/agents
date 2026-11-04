@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Inter, system-ui, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0f"/>
+      <stop offset="100%" stop-color="#12121a"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff6b2a"/>
+      <stop offset="100%" stop-color="#ff9a56"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4a9eed"/>
+      <stop offset="100%" stop-color="#7bc8f7"/>
+    </linearGradient>
+    <linearGradient id="green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="400" y="40" text-anchor="middle" fill="#ff6b2a" font-size="22" font-weight="700" letter-spacing="1">GURU TANPA TUBUH</text>
+  <text x="400" y="65" text-anchor="middle" fill="#888" font-size="13">Pergeseran Paradigma Pendidikan di Era AI</text>
+
+  <!-- Three pillars -->
+  <!-- Pillar 1: AI Knowledge Transfer -->
+  <rect x="40" y="100" width="210" height="320" rx="12" fill="#1a1a2e" stroke="#2a2a40" stroke-width="1"/>
+  <rect x="40" y="100" width="210" height="6" rx="3" fill="url(#orange)"/>
+  <text x="145" y="140" text-anchor="middle" fill="#ff6b2a" font-size="15" font-weight="600">ZAMAN JAWABAN</text>
+  <text x="145" y="165" text-anchor="middle" fill="#aaa" font-size="12">Transmisi Pengetahuan</text>
+
+  <!-- Icon: Book -->
+  <rect x="90" y="190" width="50" height="38" rx="4" fill="none" stroke="#ff6b2a" stroke-width="1.5" opacity="0.7"/>
+  <line x1="115" y1="190" x2="115" y2="228" stroke="#ff6b2a" stroke-width="1" opacity="0.5"/>
+  <line x1="95" y1="200" x2="110" y2="200" stroke="#ff6b2a" stroke-width="1" opacity="0.4"/>
+  <line x1="95" y1="208" x2="110" y2="208" stroke="#ff6b2a" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="200" x2="135" y2="200" stroke="#ff6b2a" stroke-width="1" opacity="0.4"/>
+  <line x1="120" y1="208" x2="135" y2="208" stroke="#ff6b2a" stroke-width="1" opacity="0.4"/>
+
+  <text x="145" y="260" text-anchor="middle" fill="#ccc" font-size="12">Hafalan &amp; Repetisi</text>
+  <text x="145" y="280" text-anchor="middle" fill="#ccc" font-size="12">Ujian Standarisasi</text>
+  <text x="145" y="300" text-anchor="middle" fill="#ccc" font-size="12">Guru = Sumber</text>
+  <text x="145" y="320" text-anchor="middle" fill="#ccc" font-size="12">Pengetahuan Langka</text>
+  <text x="145" y="350" text-anchor="middle" fill="#666" font-size="11" font-style="italic">"Banking model" — Freire</text>
+
+  <!-- Arrow transition -->
+  <path d="M260 260 Q300 250 340 260" fill="none" stroke="#ff6b2a" stroke-width="2" marker-end="url(#arrowhead)"/>
+  <text x="300" y="245" text-anchor="middle" fill="#ff6b2a" font-size="11" font-weight="600">GESER</text>
+
+  <!-- Pillar 2: AI Mediation -->
+  <rect x="300" y="100" width="210" height="320" rx="12" fill="#1a1a2e" stroke="#2a2a40" stroke-width="1"/>
+  <rect x="300" y="100" width="210" height="6" rx="3" fill="url(#blue)"/>
+  <text x="405" y="140" text-anchor="middle" fill="#4a9eed" font-size="15" font-weight="600">ZAMAN PERTANYAAN</text>
+  <text x="405" y="165" text-anchor="middle" fill="#aaa" font-size="12">Mediasi Pengetahuan</text>
+
+  <!-- Icon: Question -->
+  <circle cx="405" cy="210" r="24" fill="none" stroke="#4a9eed" stroke-width="1.5" opacity="0.7"/>
+  <text x="405" y="218" text-anchor="middle" fill="#4a9eed" font-size="24" font-weight="700" opacity="0.8">?</text>
+
+  <text x="405" y="260" text-anchor="middle" fill="#ccc" font-size="12">Berpikir Kritis</text>
+  <text x="405" y="280" text-anchor="middle" fill="#ccc" font-size="12">Menanyakan yang Belum</text>
+  <text x="405" y="300" text-anchor="middle" fill="#ccc" font-size="12">Guru = Pemandu</text>
+  <text x="405" y="320" text-anchor="middle" fill="#ccc" font-size="12">AI = Generator Jawaban</text>
+  <text x="405" y="350" text-anchor="middle" fill="#666" font-size="11" font-style="italic">Pertanyaan &gt; Jawaban</text>
+
+  <!-- Arrow transition -->
+  <path d="M520 260 Q560 250 590 260" fill="none" stroke="#4a9eed" stroke-width="2"/>
+  <text x="555" y="245" text-anchor="middle" fill="#4a9eed" font-size="11" font-weight="600">DAMAI</text>
+
+  <!-- Pillar 3: Human Core -->
+  <rect x="570" y="100" width="190" height="320" rx="12" fill="#1a1a2e" stroke="#2a2a40" stroke-width="1"/>
+  <rect x="570" y="100" width="190" height="6" rx="3" fill="url(#green)"/>
+  <text x="665" y="140" text-anchor="middle" fill="#34d399" font-size="15" font-weight="600">INTI MANUSIAWI</text>
+  <text x="665" y="165" text-anchor="middle" fill="#aaa" font-size="12">Yang Tak Terotomasi</text>
+
+  <!-- Icon: Heart/People -->
+  <circle cx="645" cy="205" r="10" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="665" cy="205" r="10" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.6"/>
+  <circle cx="685" cy="205" r="10" fill="none" stroke="#34d399" stroke-width="1.2" opacity="0.6"/>
+
+  <text x="665" y="250" text-anchor="middle" fill="#ccc" font-size="12">Pengalaman Langsung</text>
+  <text x="665" y="270" text-anchor="middle" fill="#ccc" font-size="12">Dialog Interpersonal</text>
+  <text x="665" y="290" text-anchor="middle" fill="#ccc" font-size="12">Pembentukan Karakter</text>
+  <text x="665" y="310" text-anchor="middle" fill="#ccc" font-size="12">Empati &amp; Moralitas</text>
+  <text x="665" y="350" text-anchor="middle" fill="#666" font-size="11" font-style="italic">Embodied Cognition</text>
+
+  <!-- Bottom bar -->
+  <rect x="40" y="445" width="720" height="45" rx="8" fill="#1a1a2e" stroke="#2a2a40" stroke-width="1"/>
+  <text x="400" y="472" text-anchor="middle" fill="#ff6b2a" font-size="14" font-weight="600">Pendidikan Terbaik: Paling Efisien ?  Paling Manusiawi</text>
+
+</svg>
