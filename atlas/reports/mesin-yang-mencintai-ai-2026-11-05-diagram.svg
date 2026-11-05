@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" font-family="Inter, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a0f"/>
+      <stop offset="100%" style="stop-color:#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b35"/>
+      <stop offset="100%" style="stop-color:#f7c59f"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="400" y="45" text-anchor="middle" fill="#ff6b35" font-size="22" font-weight="700" letter-spacing="2">MESIN YANG MENCINTAI</text>
+  <text x="400" y="70" text-anchor="middle" fill="#888" font-size="12" letter-spacing="1">AI &amp; RELASI MANUSIA</text>
+
+  <!-- Central concept: Human -->
+  <circle cx="200" cy="250" r="60" fill="none" stroke="#4a90d9" stroke-width="2" filter="url(#glow)"/>
+  <text x="200" y="245" text-anchor="middle" fill="#4a90d9" font-size="14" font-weight="600">MANUSIA</text>
+  <text x="200" y="265" text-anchor="middle" fill="#6a9fd8" font-size="10">Kerentanan · Kebebasan · Risiko</text>
+
+  <!-- Central concept: AI -->
+  <circle cx="600" cy="250" r="60" fill="none" stroke="#ff6b35" stroke-width="2" filter="url(#glow)"/>
+  <text x="600" y="245" text-anchor="middle" fill="#ff6b35" font-size="14" font-weight="600">MESIN</text>
+  <text x="600" y="265" text-anchor="middle" fill="#f7c59f" font-size="10">Presisi · Simulasi · Tanpa Rasa</text>
+
+  <!-- Connection: two arrows between them -->
+  <line x1="270" y1="230" x2="530" y2="230" stroke="#555" stroke-width="1" stroke-dasharray="4,4"/>
+  <line x1="270" y1="270" x2="530" y2="270" stroke="#555" stroke-width="1" stroke-dasharray="4,4"/>
+  <polygon points="530,230 520,225 520,235" fill="#555"/>
+  <polygon points="270,270 280,265 280,275" fill="#555"/>
+
+  <!-- Bridge concept: "Ilusi Koneksi" -->
+  <rect x="320" y="220" width="160" height="40" rx="8" fill="#1e1e3a" stroke="#ff6b35" stroke-width="1"/>
+  <text x="400" y="238" text-anchor="middle" fill="#ff6b35" font-size="11" font-weight="600">ILUSI</text>
+  <text x="400" y="252" text-anchor="middle" fill="#f7c59f" font-size="11" font-weight="600">KONEKSI</text>
+
+  <!-- Bottom: Two paths -->
+  <path d="M 150 340 Q 400 310 650 340" fill="none" stroke="#4a90d9" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="150" y="365" fill="#4a90d9" font-size="11" font-weight="600">RELASI SEJATI</text>
+  <text x="150" y="380" fill="#6a9fd8" font-size="9">Antara dua kebebasan</text>
+  <text x="650" y="365" text-anchor="end" fill="#4a90d9" font-size="11" font-weight="600">KONEKSI PALSU</text>
+  <text x="650" y="380" text-anchor="end" fill="#6a9fd8" font-size="9">Tanpa kehadiran</text>
+
+  <!-- Path labels -->
+  <rect x="310" y="320" width="180" height="28" rx="6" fill="#1a3a1a" stroke="#4ade80" stroke-width="1"/>
+  <text x="400" y="339" text-anchor="middle" fill="#4ade80" font-size="11">+ Kehadiran · risiko · pertumbuhan</text>
+
+  <rect x="310" y="370" width="180" height="28" rx="6" fill="#3a1a1a" stroke="#f87171" stroke-width="1"/>
+  <text x="400" y="389" text-anchor="middle" fill="#f87171" font-size="11">- Simulasi · aman · stasis</text>
+
+  <!-- Key insight box -->
+  <rect x="250" y="430" width="300" height="36" rx="8" fill="#ff6b35" opacity="0.15" stroke="#ff6b35" stroke-width="1"/>
+  <text x="400" y="453" text-anchor="middle" fill="#f7c59f" font-size="11" font-weight="600">Pertanyaan: Koneksi tanpa kehadiran — cukup?</text>
+</svg>
